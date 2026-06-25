@@ -305,7 +305,7 @@ function flyTo(n){const np=new THREE.Vector3(n.fx,n.fy,n.fz);const cp=Graph.came
 // 卡片
 const cardEl=document.getElementById('card'),cAva=document.getElementById('cAva'),cName=document.getElementById('cName'),cEn=document.getElementById('cEn'),cAge=document.getElementById('cAge'),cInst=document.getElementById('cInst'),cEv=document.getElementById('cEv'),cId=document.getElementById('cId');
 let cardNode=null;const imgCache={};
-async function wikiImg(title){if(title in imgCache)return imgCache[title];try{const r=await fetch('https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=thumbnail&pithumbsize=240&redirects=1&titles='+encodeURIComponent(title)+'&origin=*');const j=await r.json();const pg=Object.values(j.query.pages)[0];const src=pg&&pg.thumbnail?pg.thumbnail.source:null;imgCache[title]=src;return src;}catch(e){imgCache[title]=null;return null;}}
+async function wikiImg(title){if(title in imgCache)return imgCache[title];try{const ac=new AbortController();const to=setTimeout(()=>ac.abort(),3500);const r=await fetch('https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=thumbnail&pithumbsize=240&redirects=1&titles='+encodeURIComponent(title)+'&origin=*',{signal:ac.signal});clearTimeout(to);const j=await r.json();const pg=Object.values(j.query.pages)[0];const src=pg&&pg.thumbnail?pg.thumbnail.source:null;imgCache[title]=src;return src;}catch(e){imgCache[title]=null;return null;}}// 维基头像取不到(如大陆被墙)3.5s 快速回退首字母,不干等
 function eventsOf(id,year){
   const pool=links.filter(l=>(l.person_a===id||l.person_b===id)&&l._yr>0&&l._yr<=year);
   // 联创按机构合并:每个机构只留影响力最高的合伙人(+记同创人数),避免"与A/B/C 共同创立同一家"刷屏、并保证显最知名的那位
