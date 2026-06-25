@@ -4,6 +4,9 @@
 // 时间:底部滑块 + 播放→生长动画(边按 time_start 一条条点亮、从根往下长)。深空发光。
 const fs = require("fs"), path = require("path");
 const DATA = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "hinton-sample.json"), "utf8"));
+// 渲染库自包含内联(去掉 esm.sh/CDN 运行时依赖,大陆友好):three + 3d-force-graph 打成 IIFE 挂 window。
+// 产物由 esbuild 从 scripts/_libs-entry.js 打包,见该文件顶部重建命令。
+const LIBS = fs.readFileSync(path.join(__dirname, "vendor-libs.iife.js"), "utf8").replace(/<\/script/gi, "<\\/script");
 
 const ORG_IDS = new Set(["University of Toronto", "Google", "Vector Institute"]);
 const PEOPLE = DATA.persons.filter(p => !ORG_IDS.has(p.id));
@@ -197,9 +200,9 @@ const html = `<!DOCTYPE html>
 <div class="ov card" id="card"><div class="cx" id="cClose" title="关闭">×</div><div class="ava" id="cAva"></div><div class="cbody"><div class="cn" id="cName"></div><div class="ce" id="cEn"></div><div class="cage" id="cAge"></div><div class="cinst" id="cInst"></div><div class="cev" id="cEv"></div><div class="cid" id="cId"></div></div></div>
 <div class="ov timebar"><div class="play" id="play">▶ 薪火相传</div><input id="time" type="range"><div class="yr" id="yr"></div></div>
 
+<script>${LIBS}</script>
 <script type="module">
-import * as THREE from 'https://esm.sh/three@0.184.0';
-import ForceGraph3D from 'https://esm.sh/3d-force-graph@1.80.0?deps=three@0.184.0';
+const THREE = window.THREE, ForceGraph3D = window.ForceGraph3D;
 const D = ${PAYLOAD};
 const nodes = D.nodes, links = D.links;
 const byId = {}; nodes.forEach(n => { byId[n.id] = n; n.__dim = 1; n.__hover = 1; });
