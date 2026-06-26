@@ -7,6 +7,8 @@ const DATA = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "hint
 // 渲染库自包含内联(去掉 esm.sh/CDN 运行时依赖,大陆友好):three + 3d-force-graph 打成 IIFE 挂 window。
 // 产物由 esbuild 从 scripts/_libs-entry.js 打包,见该文件顶部重建命令。
 const LIBS = fs.readFileSync(path.join(__dirname, "vendor-libs.iife.js"), "utf8").replace(/<\/script/gi, "<\\/script");
+// 离线头像(data:URL):内联进节点,去掉运行时维基 fetch。缺的人回退首字母。见 scripts/fetch-avatars.js
+const AVATARS = (() => { const f = path.join(__dirname, "..", "data", "avatars.json"); return fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, "utf8")) : {}; })();
 
 const ORG_IDS = new Set(["University of Toronto", "Google", "Vector Institute"]);
 const PEOPLE = DATA.persons.filter(p => !ORG_IDS.has(p.id));
@@ -140,6 +142,7 @@ const LANDMARKS = [];
 }
 
 const NODES = PEOPLE.map(p => byId[p.id]);
+NODES.forEach(n => { const a = AVATARS[n.name_en]; if (a) n.__av = a; }); // 挂离线头像
 const N_PEOPLE = NODES.length, N_RELS = links.length;
 const INSTS_USED = [...new Set(NODES.map(n => n.__inst))];
 
@@ -304,8 +307,7 @@ function flyTo(n){const np=new THREE.Vector3(n.fx,n.fy,n.fz);const cp=Graph.came
 
 // 卡片
 const cardEl=document.getElementById('card'),cAva=document.getElementById('cAva'),cName=document.getElementById('cName'),cEn=document.getElementById('cEn'),cAge=document.getElementById('cAge'),cInst=document.getElementById('cInst'),cEv=document.getElementById('cEv'),cId=document.getElementById('cId');
-let cardNode=null;const imgCache={};
-async function wikiImg(title){if(title in imgCache)return imgCache[title];try{const ac=new AbortController();const to=setTimeout(()=>ac.abort(),3500);const r=await fetch('https://en.wikipedia.org/w/api.php?action=query&format=json&prop=pageimages&piprop=thumbnail&pithumbsize=240&redirects=1&titles='+encodeURIComponent(title)+'&origin=*',{signal:ac.signal});clearTimeout(to);const j=await r.json();const pg=Object.values(j.query.pages)[0];const src=pg&&pg.thumbnail?pg.thumbnail.source:null;imgCache[title]=src;return src;}catch(e){imgCache[title]=null;return null;}}// 维基头像取不到(如大陆被墙)3.5s 快速回退首字母,不干等
+let cardNode=null;// 头像已离线内联(node.__av),无运行时网络依赖
 function eventsOf(id,year){
   const pool=links.filter(l=>(l.person_a===id||l.person_b===id)&&l._yr>0&&l._yr<=year);
   // 联创按机构合并:每个机构只留影响力最高的合伙人(+记同创人数),避免"与A/B/C 共同创立同一家"刷屏、并保证显最知名的那位
@@ -326,10 +328,9 @@ function renderCardYear(n){const y=Math.round(curYear);const known=n.birth_year!
 async function showCard(n){cardNode=n;cName.textContent=n.name_cn;cEn.textContent=n.name_en+(n.birth_year?" · "+n.birth_year:"");cId.textContent=n.identity?('现状 · '+n.identity):"";
   const ic=instColor(n.__inst);cInst.textContent=n.__inst;cInst.style.background='rgba(255,255,255,.06)';cInst.style.color=ic;cInst.style.border='1px solid '+ic+'66';
   renderCardYear(n);
-  eventsOf(n.id,curYear).forEach(e=>{const o=byId[e.otherId];if(o)wikiImg(o.name_en);});
-  cAva.style.backgroundImage="";cAva.textContent=n.name_en.slice(0,1);cAva.style.boxShadow='0 0 18px '+ic+'66';cAva.style.borderColor=ic;
-  cardEl.classList.add('show');
-  const src=await wikiImg(n.name_en);if(cardNode===n&&src){cAva.textContent="";cAva.style.backgroundImage="url('"+src+"')";}}
+  if(n.__av){cAva.style.backgroundImage="url('"+n.__av+"')";cAva.textContent="";}else{cAva.style.backgroundImage="";cAva.textContent=n.name_en.slice(0,1);}
+  cAva.style.boxShadow='0 0 18px '+ic+'66';cAva.style.borderColor=ic;
+  cardEl.classList.add('show');}
 function hideCard(){cardNode=null;cardEl.classList.remove('show');}
 cEv.addEventListener('click',e=>{const a=e.target.closest('.lnk');if(!a)return;const id=a.dataset.id;if(byId[id])window.__focus(id);});
 function closeCard(){focusId=null;setHL(null);hideCard();Graph.linkVisibility(linkShown);}
