@@ -8,7 +8,11 @@ It's a map of the people behind AI. Every dot is a person; every line is somethi
 
 I ran a multi-agent pipeline to verify the source of every single relationship: it has to find the exact wording on a real web page, attach a link you can open, and have a second AI re-open that page and check it by eye. Anything without a source doesn't get drawn, no matter how plausible; anything uncertain is left as a dashed line. Every line on this graph can be traced. If you spot a mistake, get in touch.
 
-![hero recording placeholder](docs/html/placeholder-hero.gif)
+<p align="center">
+  <a href="https://ryanyunweiyan.github.io/ai-bloodline/"><img src="docs/media/hero.png" alt="AI Bloodline" width="860"></a>
+</p>
+
+<video src="https://github.com/RyanYunweiYan/ai-bloodline/raw/main/docs/media/demo.mp4" controls muted width="860"></video>
 
 **▶ Live demo: https://ryanyunweiyan.github.io/ai-bloodline/** (best on desktop — drag to orbit, scroll to zoom, click a node for details. There's an EN / 中 toggle in the top-right.)
 

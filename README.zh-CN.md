@@ -8,7 +8,11 @@
 
 我用 AI 跑了一套多 Agent 协作的考证流程，去验证每条关系的真实出处：必须找到一字不差的网页原文，必须带上能点开的链接，必须换个 AI 重新打开网页肉眼复核。查不到出处的，哪怕再合理也一条不画；拿不准的，全标成虚线。我能保证，图里每一条线都有据可查。如果发现写错了，欢迎随时联系我。
 
-![hero 录屏占位](docs/html/placeholder-hero.gif)
+<p align="center">
+  <a href="https://ryanyunweiyan.github.io/ai-bloodline/"><img src="docs/media/hero.png" alt="AI 思想血脉家谱" width="860"></a>
+</p>
+
+<video src="https://github.com/RyanYunweiYan/ai-bloodline/raw/main/docs/media/demo.mp4" controls muted width="860"></video>
 
 **▶ 在线体验：https://ryanyunweiyan.github.io/ai-bloodline/**（建议桌面端访问，支持拖拽环绕、滚轮缩放、点击节点查看详细关系；右上角可切换 中/EN。）
 
