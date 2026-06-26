@@ -101,8 +101,8 @@ for (const p of PEOPLE) { const n = byId[p.id]; n.__entry = earliestEdgeYr[p.id]
 
 PEOPLE.forEach(p => byId[p.id].__seed = SEEDS.has(p.id));
 
-// 祖师度:师承"徒子徒孙"的传递闭包规模 → 驱动"根亮叶暗"(根=后代多→大而亮;叶=没后代→小而暗)。
-// 比 SEEDS(家族列锚点,混了中生代大厂创始人)更贴炸点①"根就那么几个人、大厂核心都是徒子徒孙"。
+// 师承辈分:师承"徒子徒孙"的传递闭包规模 → 驱动"源头亮、后辈暗"(根=后代多→大而亮;叶=没后代→小而暗)。
+// 比 SEEDS(家族列锚点,混了中生代大厂创始人)更贴看点①"根就那么几个人、大厂核心都是徒子徒孙"。
 const descCount = {};
 for (const p of PEOPLE) {
   const set = new Set(); const stack = [...(children[p.id] || [])];
@@ -121,10 +121,10 @@ for (let d = 1920; d <= 2000; d += 20) {
   AXIS.push({ year: d, y: Math.round(YTOP + (YBOT - YTOP) * (idx / Math.max(1, PEOPLE.length - 1))) });
 }
 
-// 师承网参与标记(师承单筛态用:非血脉网节点降为星尘)
+// 师承网参与标记(师承单筛态用:非血脉网节点降为暗背景)
 PEOPLE.forEach(p => { byId[p.id].__lineage = !!(parents[p.id] || children[p.id]); });
 
-// Transformer 作者:LLM 开端枢纽 → 给体量+金晕(祖师度算不到他们,因下游是联创非师承)
+// Transformer 作者:LLM 开端枢纽 → 给体量+金晕(师承辈分算不到他们,因下游是联创非师承)
 const TF_AUTHORS = ["Ashish Vaswani", "Noam Shazeer", "Niki Parmar", "Jakob Uszkoreit", "Llion Jones", "Aidan Gomez", "Lukasz Kaiser", "Illia Polosukhin"];
 const TF_LEAD = new Set(["Ashish Vaswani", "Noam Shazeer"]);
 TF_AUTHORS.forEach(id => { if (byId[id]) byId[id].__tf = TF_LEAD.has(id) ? 1 : 0.6; });
@@ -245,7 +245,7 @@ const INST_COLOR = ${JSON.stringify(INST_COLOR)};
 const instColor = i => INST_COLOR[i] || "#9aa6c0";
 const SIG_W = {strong:2.4, medium:1.2, weak:0.5};      // 线宽
 const SIG_OP = {strong:0.95, medium:0.6, weak:0.16};   // 静止透明度
-const typeBoost = t => t==="师承"?1.55:0.7;             // 师承=血脉骨架:总览态明显加粗领衔,横向人际网压细
+const typeBoost = t => t==="师承"?1.55:0.7;             // 师承=师承主干:总览态明显加粗领衔,横向人际网压细
 const DIM = 0.08;
 
 // 关系图例(可点筛选)
@@ -257,7 +257,7 @@ renderLegend();
 
 const NEI = new Map(); nodes.forEach(n=>NEI.set(n.id,new Set([n.id]))); links.forEach(l=>{NEI.get(l.person_a)?.add(l.person_b);NEI.get(l.person_b)?.add(l.person_a);});
 
-// 半径:祖师度(师承后代规模)是主驱动→根远大于叶(≥3:1);影响力打底压低;Transformer 作者额外抬升做 LLM 开端枢纽
+// 半径:师承辈分(师承后代规模)是主驱动→根远大于叶(≥3:1);影响力打底压低;Transformer 作者额外抬升做 LLM 开端枢纽
 const rootnessOf = n => Math.max(n.__seed?0.3:0, n.__root||0, (n.__tf||0)*0.7);
 const nodeR = n => 3.5 + (n.influence??0.4)*5 + (n.__root||0)*20 + (n.__tf||0)*10 + (n.__seed?2:0);
 let GT=null; function glowTex(){if(GT)return GT;const s=128,c=document.createElement("canvas");c.width=c.height=s;const x=c.getContext("2d");const g=x.createRadialGradient(s/2,s/2,0,s/2,s/2,s/2);g.addColorStop(0,"rgba(255,255,255,1)");g.addColorStop(.16,"rgba(255,255,255,.7)");g.addColorStop(.42,"rgba(255,255,255,.15)");g.addColorStop(1,"rgba(255,255,255,0)");x.fillStyle=g;x.fillRect(0,0,s,s);GT=new THREE.CanvasTexture(c);return GT;}
@@ -268,7 +268,7 @@ function nodeObj(n){const grp=new THREE.Group();const ic=new THREE.Color(instCol
   const rootness=rootnessOf(n);
   // 机构色光环:叶节点压暗(读成"材质柔光"而非"信号线"),根/枢纽稍亮;让金骨架不被彩光淹没
   addGlow(grp,ic,r,Math.max(.035,Math.pow(inf,1.7)*0.22*(0.55+rootness*0.7)),4.4);
-  // 暖金大光晕:祖师度/Transformer 越高越亮越大 → 辉光是稀缺资源,只给根与开端枢纽
+  // 暖金大光晕:师承辈分/Transformer 越高越亮越大 → 辉光是稀缺资源,只给根与开端枢纽
   if(rootness>0.12){addGlow(grp,new THREE.Color("#ffd982"),r,0.2+rootness*0.36,5+rootness*5.5);addGlow(grp,new THREE.Color("#fff1c8"),r,0.16+rootness*0.26,2.6+rootness*2.6);}
   const co=(0.42+inf*0.32)*(0.62+rootness*0.45);const cm=new THREE.MeshBasicMaterial({color:ic,transparent:true,opacity:co,fog:false});cm.userData.baseOpacity=co;grp.add(new THREE.Mesh(new THREE.SphereGeometry(r,22,16),cm));
   // 枢纽清晰亮核(根/种子/Transformer 枢纽)
@@ -328,7 +328,7 @@ function setHL(id){hlId=id;const nei=id?NEI.get(id):null;
   for(const n of nodes){const lit=!id||(nei&&nei.has(n.id));n.__dim=lit?1:DIM;n.__lit=!!lit;n.__hover=(id&&n.id===id)?1.5:1;}
   for(const l of links){const cn=id&&(l.person_a===id||l.person_b===id);l.__op=!id?linkBaseOp(l):(cn?(l.relation_type==="师承"?0.66:0.78):DIM*0.5);}}
 for(const l of links)l.__op=linkBaseOp(l);
-// 师承单筛态:只剩金骨架时,非血脉网节点降为星尘 → "几个根 + 徒子徒孙网"才读得出
+// 师承单筛态:只剩金骨架时,非血脉网节点降为暗背景 → "几个根 + 徒子徒孙网"才读得出
 // 仅看图例可切的 5 类(同门/其他无图例,不计入判断)
 const OTHER_LEGEND_T=["联创","决裂","同事","收购","投资"];
 function applyFilterDim(){const onlyShi=typeOn["师承"]!==false&&OTHER_LEGEND_T.every(t=>typeOn[t]===false);
@@ -373,7 +373,7 @@ function closeCard(){focusId=null;setHL(null);hideCard();Graph.linkVisibility(li
 document.getElementById('cClose').addEventListener('click',e=>{e.stopPropagation();closeCard();});
 window.addEventListener('keydown',e=>{if(e.key==='Escape')closeCard();});
 
-// 时间轴 + 生长动画(炸点)
+// 时间轴 + 生长动画(看点)
 const yrs=nodes.map(n=>n.__entry||n.__era).concat(links.map(l=>l._yr).filter(y=>y>0));
 const YMIN=Math.min(...yrs), YMAX=Math.max(NOW_YEAR, ...yrs);
 const timeEl=document.getElementById('time'),yrEl=document.getElementById('yr'),playEl=document.getElementById('play');
