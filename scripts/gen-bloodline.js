@@ -137,7 +137,7 @@ const LANDMARKS = [];
     const cy = tf.reduce((s, n) => s + n.fy, 0) / tf.length;
     const cz = tf.reduce((s, n) => s + n.fz, 0) / tf.length;
     // 标注抬到全图顶部空白区(脱离节点缠绕→总览可读),用引线拉回簇质心
-    LANDMARKS.push({ t1: "Attention Is All You Need", t2: "2017 · 大语言模型的开端", cx, cy, cz, lx: cx, ly: YTOP + 150, lz: cz });
+    LANDMARKS.push({ t1: "Attention Is All You Need", t2: "2017 · 大语言模型的开端", t2_en: "2017 · the dawn of large language models", cx, cy, cz, lx: cx, ly: YTOP + 150, lz: cz });
   }
 }
 
@@ -196,7 +196,7 @@ const html = `<!DOCTYPE html>
 <div id="loading" class="loading">正在点亮血脉网…</div>
 <div id="graph"></div>
 <div class="ov brand"><div class="nm">AI 思想血脉家谱</div><div class="fo">师承为骨 · 机构上色 · ${N_PEOPLE} 人 · ${N_RELS} 条考证关系 · 按播放看薪火相传</div></div>
-<div class="ov tools"><input id="search" placeholder="搜索人名 / Search…" autocomplete="off"><div class="btn" id="reset">回全景</div><div class="btn" id="cinema">录屏自转</div></div>
+<div class="ov tools"><input id="search" placeholder="搜索人名 / Search…" autocomplete="off"><div class="btn" id="reset">回全景</div><div class="btn" id="cinema">录屏自转</div><div class="btn" id="lang" title="语言 / Language">EN</div></div>
 <div class="ov legend" id="legend"></div>
 <div class="ov genaxis">更早 · <b>世代</b> · 更近</div>
 <div class="ov note">血脉树为骨(越上越早) · 颜色光环=机构 · 节点大小=师承辈分(祖师爷最大) · 暖金大核=血脉之源<br>点节点=聚焦其全部关系(含弱边) · 拖拽环绕 / 滚轮缩放 · 图例点击筛选关系</div>
@@ -210,6 +210,36 @@ const D = ${PAYLOAD};
 const nodes = D.nodes, links = D.links;
 const byId = {}; nodes.forEach(n => { byId[n.id] = n; n.__dim = 1; n.__hover = 1; });
 
+// ── 双语(中/EN):浏览器语言自动判定 + 手动切换,两套文案内置同一文件 ──
+let LANG = localStorage.getItem('bl_lang') || ((navigator.language||'').toLowerCase().indexOf('zh')===0 ? 'zh' : 'en');
+const T = {
+  brand:{zh:"AI 思想血脉家谱",en:"AI Bloodline"},
+  foot:{zh:"师承为骨 · 机构上色 · ${N_PEOPLE} 人 · ${N_RELS} 条考证关系 · 按播放看薪火相传",
+        en:"Mentorship as the spine · halo = institution · ${N_PEOPLE} people · ${N_RELS} sourced ties · press play to watch it grow"},
+  search:{zh:"搜索人名…",en:"Search a name…"},
+  reset:{zh:"回全景",en:"Reset view"},
+  cinema:{zh:"录屏自转",en:"Auto-rotate"},
+  play:{zh:"▶ 薪火相传",en:"▶ Watch it grow"},
+  pause:{zh:"⏸ 暂停",en:"⏸ Pause"},
+  legendH:{zh:"关系 · 点击筛选",en:"Relations · click to filter"},
+  note:{zh:"血脉树为骨(越上越早) · 颜色光环=机构 · 节点大小=师承辈分(祖师爷最大) · 暖金大核=血脉之源<br>点节点=聚焦其全部关系(含弱边) · 拖拽环绕 / 滚轮缩放 · 图例点击筛选关系",
+        en:"Lineage tree (higher = earlier) · halo = institution · size = mentorship seniority (founders largest) · warm-gold cores = the roots<br>Click a node to focus its ties · drag to orbit / scroll to zoom · click the legend to filter"},
+  genaxis:{zh:"更早 · <b>世代</b> · 更近",en:"Earlier · <b>GENERATION</b> · Later"},
+  loading:{zh:"正在点亮血脉网…",en:"Lighting up the network…"},
+  now:{zh:"现状 · ",en:"Now · "}, around:{zh:"这一年前后",en:"Around this year"}, sig:{zh:"含金量 ",en:"significance "},
+  notBorn:{zh:"这一年还未出生",en:"not yet born"},
+  birthUnknown:{zh:y=>"生年待考 · "+y+" 年",en:y=>"birth year unknown · "+y},
+  age:{zh:(a,y)=>a+" 岁 · "+y+" 年",en:(a,y)=>"age "+a+" · "+y},
+};
+const tx=k=>T[k][LANG];
+const REL_LABEL={"师承":{zh:"师承",en:"Mentorship"},"同门":{zh:"同门",en:"Same lab"},"同事":{zh:"同事",en:"Colleague"},"联创":{zh:"联合创始",en:"Co-founded"},"投资":{zh:"投资",en:"Investment"},"收购":{zh:"收购",en:"Acquired"},"决裂":{zh:"决裂",en:"Split"},"其他":{zh:"其他",en:"Other"}};
+const relLabel=t=>(REL_LABEL[t]||{zh:t,en:t})[LANG];
+const INST_EN={"新锐AI":"Emerging AI","其他":"Other"};
+const instName=i=>LANG==='zh'?i:(INST_EN[i]||i);
+const nmOf=n=>LANG==='zh'?(n.name_cn||n.name_en):(n.name_en||n.name_cn);
+const idtOf=n=>LANG==='zh'?(n.identity||""):(n.identity_en||n.identity||"");
+const langSprites=[]; // 语言相关的 3D 文字(如 landmark),切换时按 lang 显隐
+
 const REL_STYLE = {"师承":{c:"#ffce5c",label:"师承"},"同门":{c:"#9db4d8",label:"同门"},"同事":{c:"#5ee6ff",label:"同事"},"联创":{c:"#7cff9d",label:"联合创始"},"投资":{c:"#6a93ff",label:"投资"},"收购":{c:"#a78bff",label:"收购"},"决裂":{c:"#ff6b5e",label:"决裂"},"其他":{c:"#8a99b8",label:"其他"}};
 const INST_COLOR = ${JSON.stringify(INST_COLOR)};
 const instColor = i => INST_COLOR[i] || "#9aa6c0";
@@ -222,7 +252,7 @@ const DIM = 0.08;
 const typeOn = {师承:true,联创:true,决裂:true,同事:true,收购:true,投资:true,其他:true};
 const LEGEND = [["师承","#d9a73f","师承"],["联合创始","#7cff9d","联创"],["决裂","#ff6b5e","决裂"],["同事","#5ee6ff","同事"],["收购","#a78bff","收购"],["投资","#6a93ff","投资"]];
 const legendEl = document.getElementById('legend');
-function renderLegend(){legendEl.innerHTML='<div class="lgh">关系 · 点击筛选</div>'+LEGEND.map(([l,c,t])=>'<div class="row'+(typeOn[t]===false?' off':'')+'" data-t="'+t+'">'+l+' <span class="dot" style="background:'+c+';box-shadow:0 0 6px '+c+'"></span></div>').join('');}
+function renderLegend(){legendEl.innerHTML='<div class="lgh">'+tx('legendH')+'</div>'+LEGEND.map(([l,c,t])=>'<div class="row'+(typeOn[t]===false?' off':'')+'" data-t="'+t+'">'+relLabel(t)+' <span class="dot" style="background:'+c+';box-shadow:0 0 6px '+c+'"></span></div>').join('');}
 renderLegend();
 
 const NEI = new Map(); nodes.forEach(n=>NEI.set(n.id,new Set([n.id]))); links.forEach(l=>{NEI.get(l.person_a)?.add(l.person_b);NEI.get(l.person_b)?.add(l.person_a);});
@@ -243,7 +273,9 @@ function nodeObj(n){const grp=new THREE.Group();const ic=new THREE.Color(instCol
   const co=(0.42+inf*0.32)*(0.62+rootness*0.45);const cm=new THREE.MeshBasicMaterial({color:ic,transparent:true,opacity:co,fog:false});cm.userData.baseOpacity=co;grp.add(new THREE.Mesh(new THREE.SphereGeometry(r,22,16),cm));
   // 枢纽清晰亮核(根/种子/Transformer 枢纽)
   if(rootness>=0.3||inf>=0.85){const warm=n.__seed||(n.__tf||0)>0;const ho=new THREE.MeshBasicMaterial({color:warm?0xffd47a:0xeef4ff,transparent:true,opacity:0.78,fog:false});ho.userData.baseOpacity=0.78;grp.add(new THREE.Mesh(new THREE.SphereGeometry(r*(warm?0.5:0.4),16,12),ho));}
-  const always=rootness>=0.3||inf>=0.92||(n.__tf||0)>0;const lb=label(n.name_cn,(n.__seed||(n.__tf||0)>0)?"#ffe7b0":"#dbe6fb",rootness>=0.4?25:20,always);lb.position.set(0,r+7,0);grp.add(lb);
+  const always=rootness>=0.3||inf>=0.92||(n.__tf||0)>0;const lcol=(n.__seed||(n.__tf||0)>0)?"#ffe7b0":"#dbe6fb";const fpx=rootness>=0.4?25:20;
+  const lz=label(n.name_cn,lcol,fpx,always);lz.material.userData.lang='zh';lz.position.set(0,r+7,0);grp.add(lz);
+  const le=label(n.name_en||n.name_cn,lcol,fpx,always);le.material.userData.lang='en';le.position.set(0,r+7,0);grp.add(le);
   n.__group=grp;return grp;}
 
 const NOW_YEAR=new Date().getFullYear(); // 当前年运行时动态取,不写死,永不过期
@@ -275,14 +307,14 @@ const Graph=ForceGraph3D({controlType:'orbit'})(elem)
   .backgroundColor('#060912').showNavInfo(false)
   .graphData({nodes,links})
   .nodeThreeObject(nodeObj).nodeThreeObjectExtend(false).nodeVisibility(nodeVisFn)
-  .nodeLabel(n=>'<div style="font-family:sans-serif;max-width:240px;padding:6px 9px;background:rgba(8,11,21,.95);border:1px solid #4f7fb5;border-radius:4px;color:#eaf1ff;font-size:12px"><b>'+n.name_cn+'</b> <span style="color:#9fb0d4">'+n.name_en+(n.birth_year?" · "+n.birth_year:"")+'</span><div style="color:#8aa0c8;font-size:10.5px;margin-top:2px">'+n.__inst+'</div></div>')
+  .nodeLabel(n=>'<div style="font-family:sans-serif;max-width:240px;padding:6px 9px;background:rgba(8,11,21,.95);border:1px solid #4f7fb5;border-radius:4px;color:#eaf1ff;font-size:12px"><b>'+nmOf(n)+'</b> <span style="color:#9fb0d4">'+(LANG==="zh"?(n.name_en||""):(n.name_cn||""))+(n.birth_year?" · "+n.birth_year:"")+'</span><div style="color:#8aa0c8;font-size:10.5px;margin-top:2px">'+instName(n.__inst)+'</div></div>')
   .linkColor(l=>REL_STYLE[l.relation_type]?.c||"#8a99b8").linkOpacity(1).linkVisibility(linkShown)
   .linkWidth(l=>{const w=(SIG_W[l.sig]||1)*typeBoost(l.relation_type);return l.relation_type==="师承"?w*(1+Math.max(rootnessOf(byId[l.person_a]||{}),rootnessOf(byId[l.person_b]||{}))*1.1):w;})
   .linkCurvature(l=>l.relation_type==="师承"?0.05:0.32)
   .linkCurveRotation(l=>l.__rot||0)
   .linkDirectionalArrowLength(l=>l.directed?4.5:0).linkDirectionalArrowRelPos(.86).linkDirectionalArrowColor(l=>REL_STYLE[l.relation_type]?.c||"#8a99b8")
   .linkDirectionalParticles(0).linkDirectionalParticleSpeed(0.0062).linkDirectionalParticleWidth(2.4).linkDirectionalParticleColor(()=>"#ffe6a0")
-  .linkLabel(l=>{const s=REL_STYLE[l.relation_type];const v=(l.source&&l.source.verbatim_quote)||(l.verbatim_quote)||"";const src=l.significance?'<div style="color:#7f8ba6;font-size:10.5px">含金量 '+l.significance+'</div>':'';return '<div style="font-family:sans-serif;max-width:330px;padding:9px 12px;background:rgba(8,11,21,.97);border:1px solid '+(s?.c||"#4f7fb5")+';border-radius:5px;color:#eaf1ff;font-size:12px;line-height:1.6"><div style="color:'+(s?.c||"#9db4d8")+';font-weight:600">'+(s?.label||l.relation_type)+(l._yr?' · '+l._yr:'')+'</div><div style="margin:3px 0">'+(l.fact||"")+'</div><div style="color:#9fb0d4;border-left:2px solid '+(s?.c||"#4f7fb5")+';padding-left:7px;margin:4px 0;font-style:italic">“'+((typeof l.source==="object"?l.source.verbatim_quote:l.verbatim_quote)||"").slice(0,200)+'”</div>'+src+'</div>';})
+  .linkLabel(l=>{const s=REL_STYLE[l.relation_type];const src=l.significance?'<div style="color:#7f8ba6;font-size:10.5px">'+tx('sig')+l.significance+'</div>':'';const factTxt=(LANG==="zh"?l.fact:(l.fact_en||l.fact))||"";return '<div style="font-family:sans-serif;max-width:330px;padding:9px 12px;background:rgba(8,11,21,.97);border:1px solid '+(s?.c||"#4f7fb5")+';border-radius:5px;color:#eaf1ff;font-size:12px;line-height:1.6"><div style="color:'+(s?.c||"#9db4d8")+';font-weight:600">'+relLabel(l.relation_type)+(l._yr?' · '+l._yr:'')+'</div><div style="margin:3px 0">'+factTxt+'</div><div style="color:#9fb0d4;border-left:2px solid '+(s?.c||"#4f7fb5")+';padding-left:7px;margin:4px 0;font-style:italic">“'+((typeof l.source==="object"?l.source.verbatim_quote:l.verbatim_quote)||"").slice(0,200)+'”</div>'+src+'</div>';})
   .enableNodeDrag(false).warmupTicks(0).cooldownTicks(0)
   .onNodeHover(n=>{if(!focusId)setHL(n?n.id:null);document.body.style.cursor=n?'pointer':'default';})
   .onNodeClick(n=>{focusId=n.id;setHL(n.id);flyTo(n);showCard(n);Graph.linkVisibility(linkShown);})
@@ -317,16 +349,20 @@ function eventsOf(id,year){
     g.sort((a,b)=>{const oa=a.person_a===id?a.person_b:a.person_a,ob=b.person_a===id?b.person_b:b.person_a;return (byId[ob]?.influence??0)-(byId[oa]?.influence??0);});
     const top=g[0]; top.__coN=g.length; top.__yr=Math.min(...g.map(x=>x._yr)); rest.push(top); }
   const evs=rest.sort((a,b)=>(b.__yr||b._yr)-(a.__yr||a._yr)).slice(0,4);
-  return evs.map(l=>{const other=l.person_a===id?l.person_b:l.person_a;const on=(byId[other]&&byId[other].name_cn)||other;const t=l.relation_type;let pre,post='';
-    const org=l.org?(' '+l.org):'';
-    if(t==='师承'){pre=(l.person_b===id)?'师从 ':'指导 ';}else if(t==='联创'){pre='与 ';post=(l.__coN>1?' 等':'')+' 共同创立'+org;}else if(t==='同事'){pre='与 ';post=' 共事';}else if(t==='投资'){if(l.person_a===id){pre='投资 ';post=l.org?(' · '+l.org):'';}else{pre='获 ';post=' 投资';}}else if(t==='收购'){if(l.person_a===id){pre='收购 ';post=l.org?(' · '+l.org):'';}else{pre='被 ';post=' 收购';}}else if(t==='决裂'){pre='与 ';post=' 决裂';}else{pre=t+' ';}
+  return evs.map(l=>{const other=l.person_a===id?l.person_b:l.person_a;const oo=byId[other];const on=oo?nmOf(oo):other;const t=l.relation_type;let pre,post='';
+    const org=l.org?(' '+l.org):'';const isStu=l.person_b===id, isSrc=l.person_a===id;
+    if(LANG==='zh'){
+      if(t==='师承'){pre=isStu?'师从 ':'指导 ';}else if(t==='联创'){pre='与 ';post=(l.__coN>1?' 等':'')+' 共同创立'+org;}else if(t==='同事'){pre='与 ';post=' 共事';}else if(t==='投资'){if(isSrc){pre='投资 ';post=l.org?(' · '+l.org):'';}else{pre='获 ';post=' 投资';}}else if(t==='收购'){if(isSrc){pre='收购 ';post=l.org?(' · '+l.org):'';}else{pre='被 ';post=' 收购';}}else if(t==='决裂'){pre='与 ';post=' 决裂';}else{pre=t+' ';}
+    }else{
+      if(t==='师承'){pre=isStu?'studied under ':'advised ';}else if(t==='联创'){pre='co-founded'+org+' with ';post=(l.__coN>1?', among others':'');}else if(t==='同事'){pre='colleague of ';}else if(t==='投资'){if(isSrc){pre='invested in ';post=l.org?(' · '+l.org):'';}else{pre='backed by ';}}else if(t==='收购'){if(isSrc){pre='acquired ';post=l.org?(' · '+l.org):'';}else{pre='acquired by ';}}else if(t==='决裂'){pre='split with ';}else{pre=relLabel(t)+' ';}
+    }
     return {yr:(l.__yr||l._yr),pre,otherId:other,otherName:on,post};});}
-function renderCardYear(n){const y=Math.round(curYear);const known=n.birth_year!=null||(n.__era&&n.birth_year!=null);const age=y-(n.birth_year??n.__era);
-  cAge.textContent=(n.birth_year==null)?('生年待考 · '+y+' 年'):(age<0?'这一年还未出生':age+' 岁 · '+y+' 年');
+function renderCardYear(n){const y=Math.round(curYear);const age=y-(n.birth_year??n.__era);
+  cAge.textContent=(n.birth_year==null)?T.birthUnknown[LANG](y):(age<0?tx('notBorn'):T.age[LANG](age,y));
   const evs=eventsOf(n.id,curYear);
-  cEv.innerHTML=evs.length?('<div class="evt">这一年前后</div>'+evs.map(e=>'<div class="evl">· '+e.yr+' · '+e.pre+'<span class="lnk" data-id="'+e.otherId.replace(/"/g,'&quot;')+'">'+e.otherName+'</span>'+e.post+'</div>').join('')):'';}
-async function showCard(n){cardNode=n;cName.textContent=n.name_cn;cEn.textContent=n.name_en+(n.birth_year?" · "+n.birth_year:"");cId.textContent=n.identity?('现状 · '+n.identity):"";
-  const ic=instColor(n.__inst);cInst.textContent=n.__inst;cInst.style.background='rgba(255,255,255,.06)';cInst.style.color=ic;cInst.style.border='1px solid '+ic+'66';
+  cEv.innerHTML=evs.length?('<div class="evt">'+tx('around')+'</div>'+evs.map(e=>'<div class="evl">· '+e.yr+' · '+e.pre+'<span class="lnk" data-id="'+e.otherId.replace(/"/g,'&quot;')+'">'+e.otherName+'</span>'+e.post+'</div>').join('')):'';}
+async function showCard(n){cardNode=n;cName.textContent=nmOf(n);cEn.textContent=(LANG==='zh'?(n.name_en||''):(n.name_cn||n.name_en||''))+(n.birth_year?" · "+n.birth_year:"");cId.textContent=idtOf(n)?(tx('now')+idtOf(n)):"";
+  const ic=instColor(n.__inst);cInst.textContent=instName(n.__inst);cInst.style.background='rgba(255,255,255,.06)';cInst.style.color=ic;cInst.style.border='1px solid '+ic+'66';
   renderCardYear(n);
   if(n.__av){cAva.style.backgroundImage="url('"+n.__av+"')";cAva.textContent="";}else{cAva.style.backgroundImage="";cAva.textContent=n.name_en.slice(0,1);}
   cAva.style.boxShadow='0 0 18px '+ic+'66';cAva.style.borderColor=ic;
@@ -345,8 +381,8 @@ timeEl.min=YMIN;timeEl.max=YMAX;timeEl.value=YMAX;yrEl.textContent=YMAX;
 function setYear(y){curYear=y;yrEl.textContent=Math.round(y);Graph.nodeVisibility(nodeVisFn);Graph.linkVisibility(linkShown);if(cardNode)renderCardYear(cardNode);}
 timeEl.addEventListener('input',e=>{stopPlay();setYear(+e.target.value);});
 let playRAF=0,playT=null;
-function stopPlay(){if(playRAF){cancelAnimationFrame(playRAF);playRAF=0;}playEl.textContent='▶ 薪火相传';playT=null;growing=false;playRank=-1;Graph.linkDirectionalParticles(0);nodes.forEach(n=>{n.__bornT=0;n.__hover=1;});links.forEach(l=>l.__actT=0);curYear=YMAX;timeEl.value=YMAX;yrEl.textContent=YMAX;Graph.nodeVisibility(nodeVisFn);Graph.linkVisibility(linkShown);}
-playEl.addEventListener('click',()=>{if(playRAF){stopPlay();return;}playEl.textContent='⏸ 暂停';playT=null;growing=true;focusId=null;setHL(null);hideCard();const DUR=16000;
+function stopPlay(){if(playRAF){cancelAnimationFrame(playRAF);playRAF=0;}playEl.textContent=tx('play');playT=null;growing=false;playRank=-1;Graph.linkDirectionalParticles(0);nodes.forEach(n=>{n.__bornT=0;n.__hover=1;});links.forEach(l=>l.__actT=0);curYear=YMAX;timeEl.value=YMAX;yrEl.textContent=YMAX;Graph.nodeVisibility(nodeVisFn);Graph.linkVisibility(linkShown);}
+playEl.addEventListener('click',()=>{if(playRAF){stopPlay();return;}playEl.textContent=tx('pause');playT=null;growing=true;focusId=null;setHL(null);hideCard();const DUR=16000;
   nodes.forEach(n=>{n.__bornT=0;if(n.__group)n.__group.scale.setScalar(0.001);});links.forEach(l=>{l.__actT=0;const lo=l.__lineObj;if(lo&&lo.material)lo.material.opacity=0;});
   Graph.linkDirectionalParticles(2); // 薪火:火花顺线从根(导师/早)跑向徒弟
   const applyRank=r=>{playRank=Math.max(0,Math.min(NE-1,r));const y=GROW_SEQ[playRank].__ky;curYear=y;yrEl.textContent=Math.round(y);timeEl.value=y;Graph.nodeVisibility(nodeVisFn);Graph.linkVisibility(linkShown);};
@@ -384,18 +420,22 @@ if(D.landmarks&&D.landmarks.length){const dpr=2;
     // 长引线:簇质心 → 顶部标注(虚线感:细金线)
     const lg=new THREE.BufferGeometry();lg.setAttribute('position',new THREE.BufferAttribute(new Float32Array([lm.cx,lm.cy+12,lm.cz, lm.lx,lm.ly-26,lm.lz]),3));
     const ll=new THREE.Line(lg,new THREE.LineBasicMaterial({color:0xffce5c,transparent:true,opacity:0.5,depthWrite:false,fog:false}));ll.renderOrder=6;ll.frustumCulled=false;scene.add(ll);
-    // 金字大标注(2 行 + 金色下划线,always-on,放顶部空白)
-    const c=document.createElement('canvas'),x=c.getContext('2d');const f1=40,f2=22,padX=26,gap=11,padY=16,rule=10;
-    x.font='700 '+f1+'px "PingFang SC",sans-serif';const w1=x.measureText(lm.t1).width;
-    x.font='500 '+f2+'px "PingFang SC",sans-serif';const w2=x.measureText(lm.t2).width;
-    const W=Math.ceil(Math.max(w1,w2)+padX*2),H=Math.ceil(f1+rule+gap+f2+padY*2);
-    c.width=W*dpr;c.height=H*dpr;x.scale(dpr,dpr);x.textAlign='center';x.textBaseline='top';x.shadowColor='rgba(2,4,9,1)';x.shadowBlur=14;
-    x.font='700 '+f1+'px "PingFang SC",sans-serif';x.fillStyle='#ffeab0';x.fillText(lm.t1,W/2,padY);
-    x.shadowBlur=0;x.strokeStyle='#ffce5c';x.globalAlpha=0.85;x.lineWidth=1.5;x.beginPath();x.moveTo(W/2-w1/2,padY+f1+rule*0.6);x.lineTo(W/2+w1/2,padY+f1+rule*0.6);x.stroke();x.globalAlpha=1;
-    x.shadowColor='rgba(2,4,9,1)';x.shadowBlur=12;x.font='500 '+f2+'px "PingFang SC",sans-serif';x.fillStyle='#e0c896';x.fillText(lm.t2,W/2,padY+f1+rule+gap);
-    const t=new THREE.CanvasTexture(c);t.anisotropy=4;t.minFilter=THREE.LinearFilter;
-    const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:t,transparent:true,depthWrite:false,depthTest:false,fog:false}));
-    sp.renderOrder=8;sp.scale.set(W*.42,H*.42,1);sp.position.set(lm.lx,lm.ly,lm.lz);sp.frustumCulled=false;scene.add(sp);
+    // 金字大标注(2 行 + 金色下划线);中英各一份,按语言显隐(t1 同为英文,只副标题不同)
+    const mkText=(t2)=>{
+      const c=document.createElement('canvas'),x=c.getContext('2d');const f1=40,f2=22,padX=26,gap=11,padY=16,rule=10;
+      x.font='700 '+f1+'px "PingFang SC",sans-serif';const w1=x.measureText(lm.t1).width;
+      x.font='500 '+f2+'px "PingFang SC",sans-serif';const w2=x.measureText(t2).width;
+      const W=Math.ceil(Math.max(w1,w2)+padX*2),H=Math.ceil(f1+rule+gap+f2+padY*2);
+      c.width=W*dpr;c.height=H*dpr;x.scale(dpr,dpr);x.textAlign='center';x.textBaseline='top';x.shadowColor='rgba(2,4,9,1)';x.shadowBlur=14;
+      x.font='700 '+f1+'px "PingFang SC",sans-serif';x.fillStyle='#ffeab0';x.fillText(lm.t1,W/2,padY);
+      x.shadowBlur=0;x.strokeStyle='#ffce5c';x.globalAlpha=0.85;x.lineWidth=1.5;x.beginPath();x.moveTo(W/2-w1/2,padY+f1+rule*0.6);x.lineTo(W/2+w1/2,padY+f1+rule*0.6);x.stroke();x.globalAlpha=1;
+      x.shadowColor='rgba(2,4,9,1)';x.shadowBlur=12;x.font='500 '+f2+'px "PingFang SC",sans-serif';x.fillStyle='#e0c896';x.fillText(t2,W/2,padY+f1+rule+gap);
+      const t=new THREE.CanvasTexture(c);t.anisotropy=4;t.minFilter=THREE.LinearFilter;
+      const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:t,transparent:true,depthWrite:false,depthTest:false,fog:false}));
+      sp.renderOrder=8;sp.scale.set(W*.42,H*.42,1);sp.position.set(lm.lx,lm.ly,lm.lz);sp.frustumCulled=false;return sp;
+    };
+    const spZh=mkText(lm.t2);spZh.material.userData.lang='zh';scene.add(spZh);langSprites.push(spZh);
+    const spEn=mkText(lm.t2_en||lm.t2);spEn.material.userData.lang='en';scene.add(spEn);langSprites.push(spEn);
   }
 }
 
@@ -411,7 +451,7 @@ function loop(){requestAnimationFrame(loop);controls.update();const tnow=perform
     const fd=n.__fdim??1;
     const sc=(n.__hover||1)*bp*(0.62+0.38*fd); // 师承单筛被降噪的节点缩小退场
     g.scale.setScalar(g.scale.x+(sc-g.scale.x)*(growing?0.28:L));
-    g.traverse(o=>{if(!o.material)return;const ud=o.material.userData||{};const base=ud.baseOpacity??1;const tgt=(ud.isLabel?(((ud.alwaysShow||n.__lit)&&fd>0.5)?1:0):base*(n.__dim??1)*fd)*bp;o.material.opacity+=(tgt-o.material.opacity)*(growing?0.28:L);});}
+    g.traverse(o=>{if(!o.material)return;const ud=o.material.userData||{};const base=ud.baseOpacity??1;const tgt=(ud.isLabel?(((ud.alwaysShow||n.__lit)&&fd>0.5&&ud.lang===LANG)?1:0):base*(n.__dim??1)*fd)*bp;o.material.opacity+=(tgt-o.material.opacity)*(growing?0.28:L);});}
   for(const l of links){const lo=l.__lineObj;
     let gp=1; // 生长态:边 draw-on 淡入(配合顺线火花粒子=薪火相传)
     if(growing){ if(linkShown(l)){ if(!l.__actT)l.__actT=tnow; gp=ease3((tnow-l.__actT)/720); } else { l.__actT=0; gp=0; } }
@@ -424,6 +464,27 @@ window.__focus=id=>{const n=byId[id];if(!n)return;focusId=id;setHL(id);flyTo(n);
 window.__dbg={visN:()=>links.filter(linkShown).length,focus:()=>focusId,cardName:()=>cName.textContent,nNodes:nodes.length};
 window.__setYear=y=>{stopPlay();timeEl.value=y;setYear(y);};
 window.__screenOf=id=>{const n=byId[id];if(!n)return null;return Graph.graph2ScreenCoords(n.fx,n.fy,n.fz);};
+
+// ── 语言切换:更新所有静态文案 + 图例 + landmark + 卡片;节点标签由 loop 按 ud.lang 显隐 ──
+function applyLang(){
+  document.documentElement.lang = LANG==='zh'?'zh-CN':'en';
+  document.querySelector('.brand .nm').textContent=tx('brand');
+  document.querySelector('.brand .fo').textContent=tx('foot');
+  const noteEl=document.querySelector('.note');if(noteEl)noteEl.innerHTML=tx('note');
+  const gaEl=document.querySelector('.genaxis');if(gaEl)gaEl.innerHTML=tx('genaxis');
+  document.getElementById('search').placeholder=tx('search');
+  document.getElementById('reset').textContent=tx('reset');
+  document.getElementById('cinema').textContent=tx('cinema');
+  document.getElementById('lang').textContent=LANG==='zh'?'EN':'中';
+  const lo=document.getElementById('loading');if(lo&&lo.style.display!=='none')lo.textContent=tx('loading');
+  playEl.textContent=playRAF?tx('pause'):tx('play');
+  renderLegend();
+  langSprites.forEach(s=>{s.visible=(s.material.userData.lang===LANG);});
+  if(cardNode)showCard(cardNode);
+  try{localStorage.setItem('bl_lang',LANG);}catch(e){}
+}
+document.getElementById('lang').addEventListener('click',()=>{LANG=LANG==='zh'?'en':'zh';applyLang();});
+applyLang();
 setTimeout(()=>{const el=document.getElementById('loading');if(el)el.style.display='none';},900);
 </script></body></html>`;
 

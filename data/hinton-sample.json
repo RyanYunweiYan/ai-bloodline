@@ -7,7 +7,8 @@
    "name_en": "Geoffrey Hinton",
    "birth_year": 1947,
    "identity": "深度学习先驱，多伦多大学教授，Vector Institute 联合创始人，曾任 Google 副总裁与工程研究员，2018 年图灵奖、2024 年诺贝尔物理学奖得主。本研究单元中作为众多弟子的博士/博士后导师。",
-   "influence": 1
+   "influence": 1,
+   "identity_en": "Pioneer of deep learning; professor at the University of Toronto and co-founder of the Vector Institute; former vice president and engineering fellow at Google; recipient of the 2018 Turing Award and the 2024 Nobel Prize in Physics. In this network he serves as the doctoral and postdoctoral advisor to many of the figures shown."
   },
   {
    "id": "Christopher Longuet-Higgins",
@@ -15,7 +16,8 @@
    "name_en": "Christopher Longuet-Higgins",
    "birth_year": 1923,
    "identity": "英国理论化学家与认知科学先驱，皇家学会会员。1947 年在牛津大学获博士学位。后转入爱丁堡大学从事认知科学研究，是 Geoffrey Hinton 的博士导师。",
-   "influence": 0.55
+   "influence": 0.55,
+   "identity_en": "British theoretical chemist and pioneer of cognitive science; Fellow of the Royal Society. He earned his doctorate at the University of Oxford in 1947 and later moved to the University of Edinburgh to study cognitive science. Doctoral advisor to Geoffrey Hinton."
   },
   {
    "id": "Charles Coulson",
@@ -23,7 +25,8 @@
    "name_en": "Charles Coulson",
    "birth_year": 1910,
    "identity": "英国应用数学家与理论化学家，分子轨道理论先驱，皇家学会会员。曾任牛津大学数学教授。是 Christopher Longuet-Higgins 的博士导师。",
-   "influence": 0.4
+   "influence": 0.4,
+   "identity_en": "British applied mathematician and theoretical chemist; pioneer of molecular orbital theory and Fellow of the Royal Society; former professor of mathematics at the University of Oxford. Doctoral advisor to Christopher Longuet-Higgins."
   },
   {
    "id": "Ilya Sutskever",
@@ -31,7 +34,8 @@
    "name_en": "Ilya Sutskever",
    "birth_year": 1986,
    "identity": "机器学习研究者；AlexNet 与 DNNResearch 联合创始人；OpenAI 联合创始人兼前首席科学家；Safe Superintelligence (SSI) 创始人",
-   "influence": 0.95
+   "influence": 0.95,
+   "identity_en": "Machine learning researcher; co-creator of AlexNet and co-founder of DNNResearch; co-founder and former chief scientist of OpenAI; founder of Safe Superintelligence (SSI)."
   },
   {
    "id": "Alex Krizhevsky",
@@ -39,7 +43,8 @@
    "name_en": "Alex Krizhevsky",
    "birth_year": 1986,
    "identity": "AlexNet 主要作者；DNNResearch 联合创始人；后加入 Google Brain 任研究科学家",
-   "influence": 0.8
+   "influence": 0.8,
+   "identity_en": "Principal author of AlexNet; co-founder of DNNResearch; later a research scientist at Google Brain."
   },
   {
    "id": "Ruslan Salakhutdinov",
@@ -47,7 +52,8 @@
    "name_en": "Ruslan Salakhutdinov",
    "birth_year": 1980,
    "identity": "卡内基梅隆大学计算机科学教授，2016-2020 年任 Apple 首任 AI 研究总监。Hinton 的博士生。",
-   "influence": 0.65
+   "influence": 0.65,
+   "identity_en": "Professor of computer science at Carnegie Mellon University; Apple's first director of AI research from 2016 to 2020. A doctoral student of Hinton."
   },
   {
    "id": "Radford Neal",
@@ -55,7 +61,8 @@
    "name_en": "Radford M. Neal",
    "birth_year": 1956,
    "identity": "多伦多大学统计学与计算机科学教授，贝叶斯神经网络与MCMC方法先驱",
-   "influence": 0.7
+   "influence": 0.7,
+   "identity_en": "Professor of statistics and computer science at the University of Toronto; pioneer of Bayesian neural networks and Markov chain Monte Carlo (MCMC) methods."
   },
   {
    "id": "Brendan Frey",
@@ -63,7 +70,8 @@
    "name_en": "Brendan Frey",
    "birth_year": 1968,
    "identity": "Deep Genomics 创始人兼 CEO，Vector Institute 联合创始人，多伦多大学工程与医学教授。Hinton 的博士生（1997 年博士）。",
-   "influence": 0.6
+   "influence": 0.6,
+   "identity_en": "Founder and CEO of Deep Genomics; co-founder of the Vector Institute; professor of engineering and medicine at the University of Toronto. A doctoral student of Hinton (PhD 1997)."
   },
   {
    "id": "Yee Whye Teh",
@@ -71,7 +79,8 @@
    "name_en": "Yee Whye Teh",
    "birth_year": 1978,
    "identity": "牛津大学统计机器学习教授，DeepMind研究科学家，层级狄利克雷过程等贝叶斯非参数方法先驱",
-   "influence": 0.75
+   "influence": 0.75,
+   "identity_en": "Professor of statistical machine learning at the University of Oxford and research scientist at DeepMind; pioneer of Bayesian nonparametric methods such as the hierarchical Dirichlet process."
   },
   {
    "id": "Yann LeCun",
@@ -79,7 +88,8 @@
    "name_en": "Yann LeCun",
    "birth_year": 1960,
    "identity": "Meta首席AI科学家，纽约大学教授，卷积神经网络先驱，图灵奖得主",
-   "influence": 0.95
+   "influence": 0.95,
+   "identity_en": "Chief AI scientist at Meta and professor at New York University; pioneer of convolutional neural networks and Turing Award laureate."
   },
   {
    "id": "Graham Taylor",
@@ -87,7 +97,8 @@
    "name_en": "Graham Taylor",
    "birth_year": null,
    "identity": "圭尔夫大学工程学院教授，Vector Institute研究员，机器学习研究者",
-   "influence": 0.55
+   "influence": 0.55,
+   "identity_en": "Professor of engineering at the University of Guelph and faculty member at the Vector Institute; machine learning researcher."
   },
   {
    "id": "Vinod Nair",
@@ -95,7 +106,8 @@
    "name_en": "Vinod Nair",
    "birth_year": null,
    "identity": "DeepMind研究科学家，ReLU激活函数论文共同作者",
-   "influence": 0.55
+   "influence": 0.55,
+   "identity_en": "Research scientist at DeepMind; co-author of the paper introducing the ReLU activation function."
   },
   {
    "id": "Navdeep Jaitly",
@@ -103,7 +115,8 @@
    "name_en": "Navdeep Jaitly",
    "birth_year": null,
    "identity": "Google Brain 研究科学家（后任职 Apple/Google DeepMind），深度学习语音识别先驱。Hinton 在多伦多大学的博士生。",
-   "influence": 0.45
+   "influence": 0.45,
+   "identity_en": "Research scientist at Google Brain (later at Apple and Google DeepMind); pioneer of deep learning speech recognition. A doctoral student of Hinton at the University of Toronto."
   },
   {
    "id": "George Dahl",
@@ -111,7 +124,8 @@
    "name_en": "George Dahl",
    "birth_year": null,
    "identity": "Google Brain（Google 大脑团队）研究科学家，深度声学模型用于语音识别的早期开创者之一。Hinton 在多伦多大学机器学习组的博士生。",
-   "influence": 0.45
+   "influence": 0.45,
+   "identity_en": "Research scientist at Google Brain; one of the early pioneers of deep acoustic models for speech recognition. A doctoral student in Hinton's machine learning group at the University of Toronto."
   },
   {
    "id": "Nitish Srivastava",
@@ -119,7 +133,8 @@
    "name_en": "Nitish Srivastava",
    "birth_year": null,
    "identity": "Apple机器学习研究者，Dropout正则化方法共同作者",
-   "influence": 0.55
+   "influence": 0.55,
+   "identity_en": "Machine learning researcher at Apple; co-author of the Dropout regularization method."
   },
   {
    "id": "Sam Altman",
@@ -127,7 +142,8 @@
    "name_en": "Sam Altman",
    "birth_year": 1985,
    "identity": "OpenAI 联合创始人兼 CEO",
-   "influence": 0.95
+   "influence": 0.95,
+   "identity_en": "Co-founder and CEO of OpenAI."
   },
   {
    "id": "Greg Brockman",
@@ -135,7 +151,8 @@
    "name_en": "Greg Brockman",
    "birth_year": 1987,
    "identity": "OpenAI 联合创始人兼总裁",
-   "influence": 0.8
+   "influence": 0.8,
+   "identity_en": "Co-founder and president of OpenAI."
   },
   {
    "id": "Daniel Gross",
@@ -143,7 +160,8 @@
    "name_en": "Daniel Gross",
    "birth_year": 1991,
    "identity": "投资人、企业家；Safe Superintelligence (SSI) 联合创始人（曾负责苹果 AI 与搜索）",
-   "influence": 0.6
+   "influence": 0.6,
+   "identity_en": "Investor and entrepreneur; co-founder of Safe Superintelligence (SSI) and former head of AI and search at Apple."
   },
   {
    "id": "Daniel Levy",
@@ -151,7 +169,8 @@
    "name_en": "Daniel Levy",
    "birth_year": null,
    "identity": "AI 研究者；前 OpenAI 成员；Safe Superintelligence (SSI) 联合创始人",
-   "influence": 0.5
+   "influence": 0.5,
+   "identity_en": "AI researcher; former member of OpenAI; co-founder of Safe Superintelligence (SSI)."
   },
   {
    "id": "Richard Zemel",
@@ -159,7 +178,8 @@
    "name_en": "Richard Zemel",
    "birth_year": 1963,
    "identity": "哥伦比亚大学计算机科学教授，Vector Institute 联合创始人/研究主任，Amazon Scholar。Hinton 的博士生（1994 年博士）。",
-   "influence": 0.55
+   "influence": 0.55,
+   "identity_en": "Professor of computer science at Columbia University; co-founder and director of research at the Vector Institute; Amazon Scholar. A doctoral student of Hinton (PhD 1994)."
   },
   {
    "id": "Alex Graves",
@@ -167,7 +187,8 @@
    "name_en": "Alex Graves",
    "birth_year": null,
    "identity": "Google DeepMind 研究科学家，RNN/LSTM、CTC、Neural Turing Machine 等工作的核心贡献者。博士后期间在多伦多大学随 Hinton 工作。",
-   "influence": 0.5
+   "influence": 0.5,
+   "identity_en": "Research scientist at Google DeepMind; a key contributor to work on RNNs and LSTMs, CTC, and the Neural Turing Machine. He worked with Hinton at the University of Toronto during his postdoctoral years."
   },
   {
    "id": "Volodymyr Mnih",
@@ -175,7 +196,8 @@
    "name_en": "Volodymyr Mnih",
    "birth_year": null,
    "identity": "Google DeepMind 研究科学家，DQN（深度强化学习）等工作的核心作者。Hinton 在多伦多大学的博士生。",
-   "influence": 0.5
+   "influence": 0.5,
+   "identity_en": "Research scientist at Google DeepMind; lead author of the work on DQN (deep reinforcement learning). A doctoral student of Hinton at the University of Toronto."
   },
   {
    "id": "Raquel Urtasun",
@@ -183,7 +205,8 @@
    "name_en": "Raquel Urtasun",
    "birth_year": 1976,
    "identity": "自动驾驶公司 Waabi 创始人兼 CEO，前 Uber ATG 首席科学家，多伦多大学计算机科学教授，Vector Institute 联合创始人。（非 Hinton 弟子，系 Vector 联合创始人。）",
-   "influence": 0.55
+   "influence": 0.55,
+   "identity_en": "Founder and CEO of the autonomous-driving company Waabi; former chief scientist at Uber ATG; professor of computer science at the University of Toronto and co-founder of the Vector Institute. (Not a student of Hinton, but a Vector co-founder.)"
   },
   {
    "id": "Jeff Dean",
@@ -191,7 +214,8 @@
    "name_en": "Jeff Dean",
    "birth_year": 1968,
    "identity": "Google 资深研究员，Google Brain 联合创建者，Google DeepMind 首席科学家",
-   "influence": 0.9
+   "influence": 0.9,
+   "identity_en": "Senior fellow at Google; co-founder of Google Brain; chief scientist of Google DeepMind."
   },
   {
    "id": "Oriol Vinyals",
@@ -199,7 +223,8 @@
    "name_en": "Oriol Vinyals",
    "birth_year": 1983,
    "identity": "Google DeepMind 研究科学家与研究副总裁",
-   "influence": 0.8
+   "influence": 0.8,
+   "identity_en": "Research scientist and vice president of research at Google DeepMind."
   },
   {
    "id": "University of Toronto",
@@ -232,7 +257,8 @@
    "birth_year": 1987,
    "identity": "GAN 之父，曾任 Apple 机器学习总监，现为 Google DeepMind 研究科学家",
    "influence": 0.85,
-   "org_hint": "DeepMind"
+   "org_hint": "DeepMind",
+   "identity_en": "Father of generative adversarial networks (GANs); former director of machine learning at Apple; currently a research scientist at Google DeepMind."
   },
   {
    "id": "Aaron Courville",
@@ -241,7 +267,8 @@
    "birth_year": null,
    "identity": "蒙特利尔大学正教授、Mila 创始成员，《深度学习》教科书合著者",
    "influence": 0.75,
-   "org_hint": "MILA"
+   "org_hint": "MILA",
+   "identity_en": "Full professor at the University of Montreal and a founding member of Mila; co-author of the textbook Deep Learning."
   },
   {
    "id": "Hugo Larochelle",
@@ -250,7 +277,8 @@
    "birth_year": null,
    "identity": "深度学习研究者，曾创立并领导 Google Brain 蒙特利尔团队，后任 Google DeepMind 首席科学家",
    "influence": 0.7,
-   "org_hint": "Google"
+   "org_hint": "Google",
+   "identity_en": "Deep learning researcher; he founded and led the Google Brain team in Montreal and later served as a chief scientist at Google DeepMind."
   },
   {
    "id": "Kyunghyun Cho",
@@ -259,7 +287,8 @@
    "birth_year": null,
    "identity": "纽约大学计算机与数据科学教授，GRU 与注意力机制神经机器翻译共同作者",
    "influence": 0.7,
-   "org_hint": "NYU"
+   "org_hint": "NYU",
+   "identity_en": "Professor of computer science and data science at New York University; co-author of the work on the GRU and on attention-based neural machine translation."
   },
   {
    "id": "Samy Bengio",
@@ -268,7 +297,8 @@
    "birth_year": 1965,
    "identity": "Apple 人工智能与机器学习研究高级总监，前 Google 机器学习负责人",
    "influence": 0.75,
-   "org_hint": "Apple"
+   "org_hint": "Apple",
+   "identity_en": "Senior director of AI and machine learning research at Apple; former head of machine learning at Google."
   },
   {
    "id": "Andrew Ng",
@@ -277,7 +307,8 @@
    "birth_year": 1976,
    "identity": "斯坦福教授、DeepLearning.AI 创始人、原 Google Brain 与百度首席科学家",
    "influence": 0.9,
-   "org_hint": "Stanford"
+   "org_hint": "Stanford",
+   "identity_en": "Professor at Stanford University; founder of DeepLearning.AI; co-founder of Google Brain and former chief scientist at Baidu."
   },
   {
    "id": "Yoshua Bengio",
@@ -286,7 +317,8 @@
    "birth_year": 1964,
    "identity": "蒙特利尔大学教授、Mila 创始人、2018 图灵奖得主；2025 年创立 AI 安全非营利机构 LawZero。",
    "influence": 0.95,
-   "org_hint": "MILA"
+   "org_hint": "MILA",
+   "identity_en": "Professor at the University of Montreal; founder of Mila; 2018 Turing Award laureate. In 2025 he founded the AI-safety nonprofit LawZero."
   },
   {
    "id": "Jean Pouget-Abadie",
@@ -295,7 +327,8 @@
    "birth_year": null,
    "identity": "GAN 论文共同作者，现 Google 研究科学家",
    "influence": 0.45,
-   "org_hint": "Google"
+   "org_hint": "Google",
+   "identity_en": "Co-author of the GAN paper; currently a research scientist at Google."
   },
   {
    "id": "Mehdi Mirza",
@@ -304,7 +337,8 @@
    "birth_year": null,
    "identity": "GAN 论文共同作者、条件 GAN 作者，曾任 DeepMind 研究员",
    "influence": 0.45,
-   "org_hint": "DeepMind"
+   "org_hint": "DeepMind",
+   "identity_en": "Co-author of the GAN paper and author of conditional GANs; former researcher at DeepMind."
   },
   {
    "id": "David Warde-Farley",
@@ -313,7 +347,8 @@
    "birth_year": null,
    "identity": "GAN 论文共同作者，DeepMind 研究科学家",
    "influence": 0.45,
-   "org_hint": "DeepMind"
+   "org_hint": "DeepMind",
+   "identity_en": "Co-author of the GAN paper; research scientist at DeepMind."
   },
   {
    "id": "Sherjil Ozair",
@@ -322,7 +357,8 @@
    "birth_year": null,
    "identity": "GAN 论文共同作者，AI 创业者，曾任 DeepMind 研究员",
    "influence": 0.45,
-   "org_hint": "DeepMind"
+   "org_hint": "DeepMind",
+   "identity_en": "Co-author of the GAN paper; AI entrepreneur and former researcher at DeepMind."
   },
   {
    "id": "Fei-Fei Li",
@@ -331,7 +367,8 @@
    "birth_year": 1976,
    "identity": "斯坦福大学红杉讲席教授、以人为本AI研究院联合主任、World Labs联合创始人兼CEO，ImageNet发起者",
    "influence": 0.95,
-   "org_hint": "Stanford"
+   "org_hint": "Stanford",
+   "identity_en": "Sequoia Professor at Stanford University; co-director of the Stanford Institute for Human-Centered AI; co-founder and CEO of World Labs; creator of ImageNet."
   },
   {
    "id": "Pietro Perona",
@@ -340,7 +377,8 @@
    "birth_year": 1961,
    "identity": "加州理工学院计算与神经系统教授，计算机视觉学者，李飞飞博士导师",
    "influence": 0.75,
-   "org_hint": "Caltech"
+   "org_hint": "Caltech",
+   "identity_en": "Professor of computation and neural systems at the California Institute of Technology; computer vision scholar and doctoral advisor to Fei-Fei Li."
   },
   {
    "id": "Christof Koch",
@@ -349,7 +387,8 @@
    "birth_year": 1956,
    "identity": "神经科学家，前艾伦脑科学研究所首席科学家，曾任加州理工学院教授",
    "influence": 0.7,
-   "org_hint": "Caltech"
+   "org_hint": "Caltech",
+   "identity_en": "Neuroscientist; former chief scientist at the Allen Institute for Brain Science and former professor at the California Institute of Technology."
   },
   {
    "id": "Andrej Karpathy",
@@ -358,7 +397,8 @@
    "birth_year": 1986,
    "identity": "AI研究者、Eureka Labs创始人，前特斯拉AI总监、OpenAI创始成员",
    "influence": 0.85,
-   "org_hint": "OpenAI"
+   "org_hint": "OpenAI",
+   "identity_en": "AI researcher and founder of Eureka Labs; former director of AI at Tesla and a founding member of OpenAI."
   },
   {
    "id": "Justin Johnson",
@@ -367,7 +407,8 @@
    "birth_year": null,
    "identity": "World Labs联合创始人，前密歇根大学计算机科学助理教授，计算机视觉学者",
    "influence": 0.7,
-   "org_hint": "Stanford"
+   "org_hint": "Stanford",
+   "identity_en": "Co-founder of World Labs; former assistant professor of computer science at the University of Michigan; computer vision scholar."
   },
   {
    "id": "Olga Russakovsky",
@@ -376,7 +417,8 @@
    "birth_year": null,
    "identity": "普林斯顿大学计算机科学副教授，ImageNet核心贡献者，AI4ALL联合创始人",
    "influence": 0.7,
-   "org_hint": "Stanford"
+   "org_hint": "Stanford",
+   "identity_en": "Associate professor of computer science at Princeton University; core contributor to ImageNet and co-founder of AI4ALL."
   },
   {
    "id": "Timnit Gebru",
@@ -385,7 +427,8 @@
    "birth_year": 1982,
    "identity": "分布式AI研究院(DAIR)创始人，AI伦理研究者，前Google AI伦理团队联合负责人",
    "influence": 0.75,
-   "org_hint": "Stanford"
+   "org_hint": "Stanford",
+   "identity_en": "Founder of the Distributed AI Research Institute (DAIR); AI ethics researcher and former co-lead of Google's AI ethics team."
   },
   {
    "id": "Jensen Huang",
@@ -394,7 +437,8 @@
    "birth_year": 1963,
    "identity": "英伟达(NVIDIA)创始人、董事长兼CEO",
    "influence": 0.95,
-   "org_hint": "NVIDIA"
+   "org_hint": "NVIDIA",
+   "identity_en": "Founder, chairman, and CEO of NVIDIA."
   },
   {
    "id": "John Etchemendy",
@@ -403,7 +447,8 @@
    "birth_year": 1952,
    "identity": "斯坦福大学哲学教授，前斯坦福教务长，以人为本AI研究院联合主任",
    "influence": 0.65,
-   "org_hint": "Stanford"
+   "org_hint": "Stanford",
+   "identity_en": "Professor of philosophy at Stanford University, former Stanford provost, and co-director of the Stanford Institute for Human-Centered AI."
   },
   {
    "id": "Michiel van de Panne",
@@ -412,7 +457,8 @@
    "birth_year": null,
    "identity": "英属哥伦比亚大学(UBC)计算机科学教授，研究物理仿真角色动画",
    "influence": 0.55,
-   "org_hint": "University of British Columbia"
+   "org_hint": "University of British Columbia",
+   "identity_en": "Professor of computer science at the University of British Columbia, researching physics-based character animation."
   },
   {
    "id": "Elon Musk",
@@ -421,7 +467,8 @@
    "birth_year": 1971,
    "identity": "特斯拉、SpaceX CEO；2023 年创立 xAI，2026 年 xAI 并入 SpaceX(Grok/X 成为其 AI 部门)；OpenAI 联合创始人之一。",
    "influence": 0.95,
-   "org_hint": "xAI"
+   "org_hint": "xAI",
+   "identity_en": "CEO of Tesla and SpaceX; founded xAI in 2023, which merged into SpaceX in 2026 with Grok/X becoming its AI division; one of the co-founders of OpenAI."
   },
   {
    "id": "Shane Legg",
@@ -430,7 +477,8 @@
    "birth_year": 1973,
    "identity": "DeepMind 联合创始人，现任 Google DeepMind 首席 AGI 科学家",
    "influence": 0.85,
-   "org_hint": "DeepMind"
+   "org_hint": "DeepMind",
+   "identity_en": "Co-founder of DeepMind and chief AGI scientist at Google DeepMind."
   },
   {
    "id": "Mustafa Suleyman",
@@ -439,7 +487,8 @@
    "birth_year": 1984,
    "identity": "DeepMind 联合创始人，后创立 Inflection AI，现任微软 AI 部门 CEO",
    "influence": 0.92,
-   "org_hint": "Microsoft"
+   "org_hint": "Microsoft",
+   "identity_en": "Co-founder of DeepMind who later founded Inflection AI and now serves as CEO of Microsoft AI."
   },
   {
    "id": "Marcus Hutter",
@@ -448,7 +497,8 @@
    "birth_year": 1967,
    "identity": "AIXI 通用人工智能理论提出者，DeepMind 资深研究员、澳大利亚国立大学教授",
    "influence": 0.7,
-   "org_hint": "DeepMind"
+   "org_hint": "DeepMind",
+   "identity_en": "Originator of the AIXI theory of universal artificial intelligence; senior researcher at DeepMind and professor at the Australian National University."
   },
   {
    "id": "Peter Dayan",
@@ -457,7 +507,8 @@
    "birth_year": 1965,
    "identity": "理论神经科学家，Gatsby 计算神经科学研究所前所长，现任马普生物控制论研究所所长",
    "influence": 0.8,
-   "org_hint": "Max Planck"
+   "org_hint": "Max Planck",
+   "identity_en": "Theoretical neuroscientist, former director of the Gatsby Computational Neuroscience Unit, and now director of the Max Planck Institute for Biological Cybernetics."
   },
   {
    "id": "Demis Hassabis",
@@ -466,7 +517,8 @@
    "birth_year": 1976,
    "identity": "Google DeepMind CEO 兼联合创始人，2024 年诺贝尔化学奖得主；其联合创立的 DeepMind 于 2014 年被 Google 收购。",
    "influence": 0.95,
-   "org_hint": "DeepMind"
+   "org_hint": "DeepMind",
+   "identity_en": "CEO and co-founder of Google DeepMind and 2024 Nobel laureate in Chemistry; the DeepMind he co-founded was acquired by Google in 2014."
   },
   {
    "id": "Jurgen Schmidhuber",
@@ -475,7 +527,8 @@
    "birth_year": 1963,
    "identity": "LSTM 之父，IDSIA 科学主任、KAUST 教授",
    "influence": 0.85,
-   "org_hint": "IDSIA"
+   "org_hint": "IDSIA",
+   "identity_en": "Father of the LSTM; scientific director of IDSIA and professor at KAUST."
   },
   {
    "id": "David Silver",
@@ -484,7 +537,8 @@
    "birth_year": 1976,
    "identity": "DeepMind 强化学习负责人，AlphaGo 主要设计者、UCL 教授",
    "influence": 0.8,
-   "org_hint": "DeepMind"
+   "org_hint": "DeepMind",
+   "identity_en": "Head of reinforcement learning at DeepMind, lead designer of AlphaGo, and professor at UCL."
   },
   {
    "id": "Joel Veness",
@@ -493,7 +547,8 @@
    "birth_year": null,
    "identity": "DeepMind 研究科学家，Monte-Carlo AIXI 主要作者",
    "influence": 0.5,
-   "org_hint": "DeepMind"
+   "org_hint": "DeepMind",
+   "identity_en": "Research scientist at DeepMind and lead author of Monte-Carlo AIXI."
   },
   {
    "id": "Jan Leike",
@@ -502,7 +557,8 @@
    "birth_year": 1986,
    "identity": "Anthropic 对齐研究负责人，原 OpenAI 超级对齐团队联合负责人",
    "influence": 0.7,
-   "org_hint": "Anthropic"
+   "org_hint": "Anthropic",
+   "identity_en": "Head of alignment research at Anthropic and former co-lead of OpenAI's Superalignment team."
   },
   {
    "id": "Paul Christiano",
@@ -511,7 +567,8 @@
    "birth_year": null,
    "identity": "美国 AI 安全研究所对齐负责人，RLHF 奠基者、原 OpenAI 研究员",
    "influence": 0.7,
-   "org_hint": "Alignment Research Center"
+   "org_hint": "Alignment Research Center",
+   "identity_en": "Head of alignment at the US AI Safety Institute, a founding figure of RLHF, and former OpenAI researcher."
   },
   {
    "id": "Dario Amodei",
@@ -520,7 +577,8 @@
    "birth_year": 1983,
    "identity": "Anthropic 联合创始人兼 CEO，原 OpenAI 研究副总裁",
    "influence": 0.95,
-   "org_hint": "Anthropic"
+   "org_hint": "Anthropic",
+   "identity_en": "Co-founder and CEO of Anthropic and former vice president of research at OpenAI."
   },
   {
    "id": "Karen Simonyan",
@@ -529,7 +587,8 @@
    "birth_year": null,
    "identity": "VGGNet 作者，前 DeepMind 首席研究科学家，Inflection AI 联合创始人，现任微软 AI 首席科学家",
    "influence": 0.75,
-   "org_hint": "Microsoft"
+   "org_hint": "Microsoft",
+   "identity_en": "Author of VGGNet, former chief research scientist at DeepMind, co-founder of Inflection AI, and now chief scientist of Microsoft AI."
   },
   {
    "id": "Michael I. Jordan",
@@ -538,7 +597,8 @@
    "birth_year": 1956,
    "identity": "加州大学伯克利分校教授,机器学习与统计学泰斗",
    "influence": 0.85,
-   "org_hint": "UC Berkeley"
+   "org_hint": "UC Berkeley",
+   "identity_en": "Professor at the University of California, Berkeley, and a towering figure in machine learning and statistics."
   },
   {
    "id": "Daphne Koller",
@@ -547,7 +607,8 @@
    "birth_year": 1968,
    "identity": "Coursera 联合创始人,insitro 创始人兼 CEO,前斯坦福教授",
    "influence": 0.8,
-   "org_hint": "Stanford"
+   "org_hint": "Stanford",
+   "identity_en": "Co-founder of Coursera, founder and CEO of insitro, and former Stanford professor."
   },
   {
    "id": "Greg Corrado",
@@ -556,7 +617,8 @@
    "birth_year": null,
    "identity": "Google Brain 联合创始人,Google 健康 AI 高级研究主任",
    "influence": 0.65,
-   "org_hint": "Google"
+   "org_hint": "Google",
+   "identity_en": "Co-founder of Google Brain and senior research director of health AI at Google."
   },
   {
    "id": "Pieter Abbeel",
@@ -565,7 +627,8 @@
    "birth_year": 1977,
    "identity": "UC Berkeley 教授,Covariant 联合创始人,机器人学习专家",
    "influence": 0.8,
-   "org_hint": "UC Berkeley"
+   "org_hint": "UC Berkeley",
+   "identity_en": "Professor at UC Berkeley, co-founder of Covariant, and an expert in robot learning."
   },
   {
    "id": "Daniela Amodei",
@@ -574,7 +637,8 @@
    "birth_year": 1987,
    "identity": "Anthropic 联合创始人兼总裁，Dario 的妹妹",
    "influence": 0.85,
-   "org_hint": "Anthropic"
+   "org_hint": "Anthropic",
+   "identity_en": "Co-founder and president of Anthropic, and Dario's sister."
   },
   {
    "id": "Jack Clark",
@@ -583,7 +647,8 @@
    "birth_year": null,
    "identity": "Anthropic 联合创始人、政策负责人，前彭博社科技记者",
    "influence": 0.7,
-   "org_hint": "Anthropic"
+   "org_hint": "Anthropic",
+   "identity_en": "Co-founder and head of policy at Anthropic, and former technology journalist at Bloomberg."
   },
   {
    "id": "John Schulman",
@@ -592,7 +657,8 @@
    "birth_year": null,
    "identity": "OpenAI 联合创始人，PPO 算法发明者，后短暂加入 Anthropic",
    "influence": 0.82,
-   "org_hint": "OpenAI"
+   "org_hint": "OpenAI",
+   "identity_en": "Co-founder of OpenAI and inventor of the PPO algorithm, who later briefly joined Anthropic."
   },
   {
    "id": "Philipp Moritz",
@@ -601,7 +667,8 @@
    "birth_year": null,
    "identity": "Anyscale 联合创始人、Ray 分布式框架核心作者，前 Berkeley 研究者",
    "influence": 0.6,
-   "org_hint": "Anyscale"
+   "org_hint": "Anyscale",
+   "identity_en": "Co-founder of Anyscale and a core author of the Ray distributed framework; formerly a researcher at Berkeley."
   },
   {
    "id": "Prafulla Dhariwal",
@@ -610,7 +677,8 @@
    "birth_year": null,
    "identity": "OpenAI 研究员，DALL-E、GPT 等核心贡献者",
    "influence": 0.6,
-   "org_hint": "OpenAI"
+   "org_hint": "OpenAI",
+   "identity_en": "OpenAI researcher and core contributor to DALL-E and GPT."
   },
   {
    "id": "Alec Radford",
@@ -619,7 +687,8 @@
    "birth_year": null,
    "identity": "前 OpenAI 研究员，GPT 系列与 Whisper 核心作者",
    "influence": 0.75,
-   "org_hint": "OpenAI"
+   "org_hint": "OpenAI",
+   "identity_en": "Former OpenAI researcher and core author of the GPT series and Whisper."
   },
   {
    "id": "Wojciech Zaremba",
@@ -628,7 +697,8 @@
    "birth_year": 1988,
    "identity": "OpenAI 联合创始人，主导机器人与 Codex 研究",
    "influence": 0.75,
-   "org_hint": "OpenAI"
+   "org_hint": "OpenAI",
+   "identity_en": "Co-founder of OpenAI, leading its robotics and Codex research."
   },
   {
    "id": "Rob Fergus",
@@ -637,7 +707,8 @@
    "birth_year": null,
    "identity": "纽约大学计算机科学教授、DeepMind 研究科学家，Zaremba 的博士导师之一",
    "influence": 0.8,
-   "org_hint": "DeepMind"
+   "org_hint": "DeepMind",
+   "identity_en": "Professor of computer science at New York University and research scientist at DeepMind; one of Zaremba's doctoral advisors."
   },
   {
    "id": "Christian Szegedy",
@@ -646,7 +717,8 @@
    "birth_year": null,
    "identity": "深度学习研究者，Inception/GoogLeNet 与对抗样本论文一作，xAI 研究员",
    "influence": 0.7,
-   "org_hint": "xAI"
+   "org_hint": "xAI",
+   "identity_en": "Deep learning researcher, lead author of the Inception/GoogLeNet and adversarial examples papers, and researcher at xAI."
   },
   {
    "id": "Quoc Le",
@@ -655,7 +727,8 @@
    "birth_year": null,
    "identity": "Google Brain 联合创始人，seq2seq / 神经机器翻译 / AutoML 核心作者，吴恩达高徒。",
    "influence": 0.8,
-   "org_hint": "Google"
+   "org_hint": "Google",
+   "identity_en": "Co-founder of Google Brain and a core author of seq2seq, neural machine translation, and AutoML; a distinguished student of Andrew Ng."
   },
   {
    "id": "Jimmy Ba",
@@ -664,7 +737,8 @@
    "birth_year": null,
    "identity": "多伦多大学计算机科学助理教授,Adam 优化器共同作者,xAI 创始团队成员",
    "influence": 0.82,
-   "org_hint": "xAI"
+   "org_hint": "xAI",
+   "identity_en": "Assistant professor of computer science at the University of Toronto, co-author of the Adam optimizer, and a founding member of xAI."
   },
   {
    "id": "Igor Babuschkin",
@@ -673,7 +747,8 @@
    "birth_year": null,
    "identity": "AI 工程师,xAI 联合创始人兼首席工程师,曾任职 Google DeepMind 与 OpenAI",
    "influence": 0.6,
-   "org_hint": "xAI"
+   "org_hint": "xAI",
+   "identity_en": "AI engineer; co-founder and chief engineer of xAI, formerly at Google DeepMind and OpenAI."
   },
   {
    "id": "Mira Murati",
@@ -682,7 +757,8 @@
    "birth_year": 1988,
    "identity": "Thinking Machines Lab 创始人兼 CEO；前 OpenAI CTO",
    "influence": 0.85,
-   "org_hint": "Thinking Machines"
+   "org_hint": "Thinking Machines",
+   "identity_en": "Founder and CEO of Thinking Machines Lab and former CTO of OpenAI."
   },
   {
    "id": "Satya Nadella",
@@ -691,7 +767,8 @@
    "birth_year": 1967,
    "identity": "微软董事长兼CEO；主导微软对 OpenAI 的数十亿美元战略投资",
    "influence": 0.95,
-   "org_hint": "Microsoft"
+   "org_hint": "Microsoft",
+   "identity_en": "Chairman and CEO of Microsoft, who led Microsoft's multibillion-dollar strategic investment in OpenAI."
   },
   {
    "id": "Ashish Vaswani",
@@ -700,7 +777,8 @@
    "birth_year": 1986,
    "identity": "Transformer 奠基论文《Attention Is All You Need》第一作者，前 Google Brain 研究员，Adept AI 与 Essential AI 联合创始人",
    "influence": 0.95,
-   "org_hint": "Essential AI"
+   "org_hint": "Essential AI",
+   "identity_en": "First author of the foundational Transformer paper 'Attention Is All You Need,' former Google Brain researcher, and co-founder of Adept AI and Essential AI."
   },
   {
    "id": "Noam Shazeer",
@@ -709,7 +787,8 @@
    "birth_year": 1975,
    "identity": "Transformer 与 MoE 关键作者，Character.AI 联合创始人，2024 年返回 Google 任 Gemini 联合负责人",
    "influence": 0.92,
-   "org_hint": "Google"
+   "org_hint": "Google",
+   "identity_en": "Key author of the Transformer and MoE work and co-founder of Character.AI, who returned to Google in 2024 as co-lead of Gemini."
   },
   {
    "id": "Niki Parmar",
@@ -718,7 +797,8 @@
    "birth_year": null,
    "identity": "Transformer 论文《Attention Is All You Need》八位合著者之一，原 Google Brain 研究员，先后与 Ashish Vaswani 联合创办 Adept AI 与 Essential AI，现为 Anthropic 技术成员",
    "influence": 0.72,
-   "org_hint": "Essential AI"
+   "org_hint": "Essential AI",
+   "identity_en": "One of the eight co-authors of the Transformer paper 'Attention Is All You Need' and former Google Brain researcher; co-founded Adept AI and then Essential AI with Ashish Vaswani, and is now a member of technical staff at Anthropic."
   },
   {
    "id": "Jakob Uszkoreit",
@@ -727,7 +807,8 @@
    "birth_year": null,
    "identity": "Transformer 论文《Attention Is All You Need》八位作者之一，曾任 Google Brain 高级研究员；2021 年联合创立生物科技公司 Inceptive，用深度学习设计 RNA/mRNA 分子，任 CEO。",
    "influence": 0.72,
-   "org_hint": "Google"
+   "org_hint": "Google",
+   "identity_en": "One of the eight authors of the Transformer paper 'Attention Is All You Need' and former senior researcher at Google Brain; in 2021 co-founded the biotech company Inceptive, which uses deep learning to design RNA/mRNA molecules, where he serves as CEO."
   },
   {
    "id": "Llion Jones",
@@ -736,7 +817,8 @@
    "birth_year": null,
    "identity": "Transformer 论文《Attention Is All You Need》合著者，2023 年与 David Ha 在东京联合创办 Sakana AI 并任 CTO",
    "influence": 0.72,
-   "org_hint": "Sakana AI"
+   "org_hint": "Sakana AI",
+   "identity_en": "Co-author of the Transformer paper 'Attention Is All You Need,' who in 2023 co-founded Sakana AI in Tokyo with David Ha and serves as its CTO."
   },
   {
    "id": "Aidan Gomez",
@@ -745,7 +827,8 @@
    "birth_year": null,
    "identity": "Transformer 论文合著者，Cohere 联合创始人兼 CEO",
    "influence": 0.72,
-   "org_hint": "Cohere"
+   "org_hint": "Cohere",
+   "identity_en": "Co-author of the Transformer paper and co-founder and CEO of Cohere."
   },
   {
    "id": "Lukasz Kaiser",
@@ -754,7 +837,8 @@
    "birth_year": 1981,
    "identity": "Transformer 八位合著者之一，前 Google Brain 研究员，2021 年加入 OpenAI 并参与 o1/o3 推理模型的奠基性工作",
    "influence": 0.82,
-   "org_hint": "OpenAI"
+   "org_hint": "OpenAI",
+   "identity_en": "One of the eight co-authors of the Transformer paper and former Google Brain researcher; joined OpenAI in 2021 and contributed foundational work on the o1/o3 reasoning models."
   },
   {
    "id": "Illia Polosukhin",
@@ -763,7 +847,8 @@
    "birth_year": null,
    "identity": "Transformer 论文《Attention Is All You Need》八位合著者之一，原 Google Brain/Google Research 工程经理，2017 年联合创办区块链项目 NEAR Protocol 并任 CEO",
    "influence": 0.62,
-   "org_hint": "Google"
+   "org_hint": "Google",
+   "identity_en": "One of the eight co-authors of the Transformer paper 'Attention Is All You Need' and former engineering manager at Google Brain/Google Research; in 2017 co-founded the blockchain project NEAR Protocol, where he serves as CEO."
   },
   {
    "id": "David Luan",
@@ -772,7 +857,8 @@
    "birth_year": null,
    "influence": 0.6,
    "org_hint": "Adept",
-   "identity": "Adept AI 联合创始人兼 CEO，前 OpenAI 工程副总裁，现 Amazon AGI 实验室负责人。"
+   "identity": "Adept AI 联合创始人兼 CEO，前 OpenAI 工程副总裁，现 Amazon AGI 实验室负责人。",
+   "identity_en": "Co-founder and CEO of Adept AI, former vice president of engineering at OpenAI, and now head of Amazon's AGI lab."
   },
   {
    "id": "Daniel De Freitas",
@@ -781,7 +867,8 @@
    "birth_year": null,
    "influence": 0.6,
    "org_hint": "Character.AI",
-   "identity": "Character.AI 联合创始人，Google LaMDA/Meena 对话模型核心，2024 年随团队回归 Google。"
+   "identity": "Character.AI 联合创始人，Google LaMDA/Meena 对话模型核心，2024 年随团队回归 Google。",
+   "identity_en": "Co-founder of Character.AI and a core figure behind Google's LaMDA/Meena dialogue models, who returned to Google with his team in 2024."
   },
   {
    "id": "David Ha",
@@ -790,7 +877,8 @@
    "birth_year": null,
    "influence": 0.62,
    "org_hint": "Sakana AI",
-   "identity": "Sakana AI 联合创始人兼 CEO，前 Google Brain 研究员（World Models / 进化算法）。"
+   "identity": "Sakana AI 联合创始人兼 CEO，前 Google Brain 研究员（World Models / 进化算法）。",
+   "identity_en": "Co-founder and CEO of Sakana AI and former Google Brain researcher (World Models / evolutionary algorithms)."
   },
   {
    "id": "Nick Frosst",
@@ -799,7 +887,8 @@
    "birth_year": null,
    "influence": 0.55,
    "org_hint": "Cohere",
-   "identity": "Cohere 联合创始人，Hinton 在 Google Brain 的学生（胶囊网络合作者）。"
+   "identity": "Cohere 联合创始人，Hinton 在 Google Brain 的学生（胶囊网络合作者）。",
+   "identity_en": "Co-founder of Cohere and a student of Hinton's at Google Brain, a collaborator on capsule networks."
   }
  ],
  "relationships": [
@@ -821,7 +910,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:verbatim明写Hinton博士研究由Longuet-Higgins指导,师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Christopher Longuet-Higgins was Geoffrey Hinton's doctoral advisor at the University of Edinburgh (Hinton received his PhD in artificial intelligence in 1978)."
   },
   {
    "person_a": "Charles Coulson",
@@ -841,7 +931,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:Longuet-Higgins博士在Coulson指导下完成,师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Charles Coulson was the doctoral advisor of Christopher Longuet-Higgins at the University of Oxford (PhD in 1947)."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -861,7 +952,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:His doctoral advisor was Geoffrey Hinton,师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton was the doctoral advisor of Ilya Sutskever."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -881,7 +973,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:their PhD advisor Geoffrey Hinton,师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton was the doctoral advisor of Alex Krizhevsky."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -901,7 +994,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:doctoral advisor was Geoffrey Hinton,师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton was the doctoral advisor of Ruslan Salakhutdinov."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -921,7 +1015,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:Ph.D. under the supervision of Geoffrey Hinton,师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton was the doctoral advisor of Radford M. Neal."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -941,7 +1036,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:under the supervision of Geoffrey Hinton(PhD 1997),师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton was the doctoral advisor of Brendan Frey."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -961,7 +1057,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:PhD supervised by Geoffrey Hinton,师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton was the doctoral advisor of Yee Whye Teh."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -981,7 +1078,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:LeCun postdoc supervised by Hinton,师承(博后)上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton was Yann LeCun's postdoctoral advisor (LeCun did his postdoc under Hinton)."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1001,7 +1099,8 @@
    "significance": "strong",
    "significance_reason": "动作边:Hinton博士生名册点名Taylor(2009),导师为名单归属者,断言师承,上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Graham Taylor was Geoffrey Hinton's doctoral student (PhD 2009, co-advised by Sam Roweis)."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1021,7 +1120,8 @@
    "significance": "strong",
    "significance_reason": "动作边:Hinton博士生名册点名Vinod Nair(2010),师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Vinod Nair was Geoffrey Hinton's doctoral student (PhD 2010)."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1041,7 +1141,8 @@
    "significance": "strong",
    "significance_reason": "动作边:Hinton博士生名册点名Navdeep Jaitly(2014),师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Navdeep Jaitly was Geoffrey Hinton's doctoral student (PhD 2014)."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1061,7 +1162,8 @@
    "significance": "strong",
    "significance_reason": "动作边:Hinton博士生名册点名George Dahl(2015),师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "George Dahl was Geoffrey Hinton's doctoral student (PhD 2015)."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1081,7 +1183,8 @@
    "significance": "strong",
    "significance_reason": "动作边:Hinton博士生名册点名Nitish Srivastava(2016),师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Nitish Srivastava was Geoffrey Hinton's doctoral student (PhD 2016, co-advised by Russ Salakhutdinov)."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1102,7 +1205,8 @@
    "significance_reason": "动作边:DNNresearch set up by Hinton and two graduate students,共同创办,联创上限strong",
    "significance_K": 0,
    "significance_exit": "none",
-   "org": "DNNresearch"
+   "org": "DNNresearch",
+   "fact_en": "Geoffrey Hinton co-founded DNNresearch Inc. in 2012 with his graduate students Alex Krizhevsky and Ilya Sutskever."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1123,7 +1227,8 @@
    "significance_reason": "动作边:DNNresearch由Hinton与Krizhevsky共同创立,联创上限strong",
    "significance_K": 0,
    "significance_exit": "none",
-   "org": "DNNresearch"
+   "org": "DNNresearch",
+   "fact_en": "Geoffrey Hinton co-founded DNNresearch Inc. in 2012 with his graduate students Alex Krizhevsky and Ilya Sutskever."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1144,7 +1249,8 @@
    "significance_reason": "动作边:formed DNNResearch and sold to Google,共同创办,联创上限strong",
    "significance_K": 0,
    "significance_exit": "none",
-   "org": "DNNresearch"
+   "org": "DNNresearch",
+   "fact_en": "Geoffrey Hinton, Ilya Sutskever, and Alex Krizhevsky formed DNNResearch and then sold the company (along with the AlexNet source code) to Google."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1164,7 +1270,8 @@
    "significance": "medium",
    "significance_reason": "动作边:both moving to Google并共同开发系统,具体动作,同事上限medium",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "After DNNresearch was acquired by Google, both Alex Krizhevsky and Ilya Sutskever joined Google, becoming colleagues at Google (Google Brain)."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1185,7 +1292,8 @@
    "significance_reason": "名单边K=11,但Sutskever(联创/首席科学家)+Altman(CEO/co-chair)双核心位,出口②救回strong",
    "significance_K": 11,
    "significance_exit": "dual_core",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Ilya Sutskever and Sam Altman were both founding members of OpenAI (established December 2015)."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1206,7 +1314,8 @@
    "significance_reason": "名单边K=11,Sutskever(联创/首席科学家)+Brockman(联创/总裁)均具名核心创始层,出口②成立,strong",
    "significance_K": 11,
    "significance_exit": "dual_core",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Ilya Sutskever and Greg Brockman were both founding members of OpenAI (established December 2015)."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1227,7 +1336,8 @@
    "significance_reason": "动作边:a new company he founded with Daniel Gross,共同创办具体动作,联创上限strong",
    "significance_K": 0,
    "significance_exit": "none",
-   "org": "Safe Superintelligence(SSI)"
+   "org": "Safe Superintelligence(SSI)",
+   "fact_en": "Ilya Sutskever co-founded Safe Superintelligence Inc. (SSI) with Daniel Gross."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1248,7 +1358,8 @@
    "significance_reason": "动作边:founded with Daniel Gross and Daniel Levy,共同创办,联创上限strong",
    "significance_K": 0,
    "significance_exit": "none",
-   "org": "Safe Superintelligence(SSI)"
+   "org": "Safe Superintelligence(SSI)",
+   "fact_en": "Ilya Sutskever co-founded Safe Superintelligence Inc. (SSI) with Daniel Levy."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1268,7 +1379,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:PhD working under the supervision of Geoffrey Hinton,师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton was Volodymyr Mnih's doctoral advisor at the University of Toronto."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1288,7 +1400,8 @@
    "significance": "strong",
    "significance_reason": "师承动作边:postdoc working with Geoffrey Hinton at Toronto,师承(博后)上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Alex Graves worked with Geoffrey Hinton at the University of Toronto during his postdoc."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1308,7 +1421,8 @@
    "significance": "strong",
    "significance_reason": "动作边:Hinton的former PhD students/postdoc名单点名Zemel,导师为名单归属者,师承上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Richard Zemel was one of the former PhD students/postdocs in Geoffrey Hinton's group."
   },
   {
    "person_a": "Brendan Frey",
@@ -1329,7 +1443,8 @@
    "significance_reason": "动作边:Vector established by Frey, Hinton, Urtasun,共同创办,联创上限strong",
    "significance_K": 0,
    "significance_exit": "none",
-   "org": "Vector Institute"
+   "org": "Vector Institute",
+   "fact_en": "Brendan Frey and Geoffrey Hinton co-founded the Vector Institute in 2017."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1350,7 +1465,8 @@
    "significance_reason": "动作边:Vector由Hinton与Urtasun共同创立,联创上限strong",
    "significance_K": 0,
    "significance_exit": "none",
-   "org": "Vector Institute"
+   "org": "Vector Institute",
+   "fact_en": "Geoffrey Hinton and Raquel Urtasun co-founded the Vector Institute in 2017."
   },
   {
    "person_a": "Brendan Frey",
@@ -1371,7 +1487,8 @@
    "significance_reason": "动作边:Vector由Frey与Urtasun共同创立,联创上限strong",
    "significance_K": 0,
    "significance_exit": "none",
-   "org": "Vector Institute"
+   "org": "Vector Institute",
+   "fact_en": "Brendan Frey and Raquel Urtasun co-founded the Vector Institute in 2017."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1391,7 +1508,8 @@
    "significance": "medium",
    "significance_reason": "动作边:人物→机构具体任职(University Professor Emeritus),同事上限medium",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton is University Professor Emeritus at the University of Toronto, where he has long conducted deep learning research."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1411,7 +1529,8 @@
    "significance": "medium",
    "significance_reason": "动作边:人物→机构具体任职(VP,worked for more than a decade),同事上限medium",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton served as a Vice President and Engineering Fellow at Google, joining in 2013 when DNNresearch was acquired, and left in 2023 after more than a decade."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1432,7 +1551,8 @@
    "significance_reason": "动作边:Hinton为Vector三创始人之一(人物→机构联创),联创上限strong",
    "significance_K": 0,
    "significance_exit": "none",
-   "org": "Vector Institute"
+   "org": "Vector Institute",
+   "fact_en": "The Vector Institute was founded in 2017 by Brendan Frey, Geoffrey Hinton, and Raquel Urtasun, with Hinton serving as Chief Scientific Advisor."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1452,7 +1572,8 @@
    "significance": "medium",
    "significance_reason": "动作边:Hinton任Vector首席科学顾问领导研究,领导角色,其他类medium",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton is the Chief Scientific Advisor of the Vector Institute, leading its research."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1472,7 +1593,8 @@
    "significance": "medium",
    "significance_reason": "名单边K=3(Distilling作者Hinton/Vinyals/Dean),K≤3维持同事上限medium",
    "significance_K": 3,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton co-authored \"Distilling the Knowledge in a Neural Network\" with Jeff Dean and Oriol Vinyals; all three worked at Google."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1492,7 +1614,8 @@
    "significance": "medium",
    "significance_reason": "名单边K=3(Distilling),K≤3维持同事上限medium",
    "significance_K": 3,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Geoffrey Hinton co-authored \"Distilling the Knowledge in a Neural Network\" with Oriol Vinyals and Jeff Dean; all three worked at Google."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1512,7 +1635,8 @@
    "significance": "strong",
    "significance_reason": "动作边:Sutskever instrumental in Altman's removal,具体冲突事件,决裂上限strong",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "In the November 2023 OpenAI board's removal of Sam Altman, Ilya Sutskever was instrumental, leading and taking part in the move to oust Altman; days later he reversed course, signed the employees' open letter, and publicly apologized for his participation in the board's action, after which Altman was reinstated."
   },
   {
    "person_a": "Daniel Gross",
@@ -1532,7 +1656,8 @@
    "significance": "medium",
    "significance_reason": "动作边:Gross离职Sutskever接任CEO,具体继任事件,其他类medium",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "In July 2025, SSI co-founder and CEO Daniel Gross left the company to join Meta Superintelligence Labs, and Ilya Sutskever became CEO of SSI."
   },
   {
    "person_a": "Volodymyr Mnih",
@@ -1552,7 +1677,8 @@
    "significance": "medium",
    "significance_reason": "名单边K=7(DQN作者),DQN在landmark清单,出口①只能救回relation_type上限同事=medium(裁断:Round3的strong为录入错,landmark绝不到strong)",
    "significance_K": 7,
-   "significance_exit": "landmark"
+   "significance_exit": "landmark",
+   "fact_en": "Volodymyr Mnih and Alex Graves were colleagues at DeepMind, co-authoring the seminal 2013 deep reinforcement learning paper \"Playing Atari with Deep Reinforcement Learning\" and co-authoring several later papers including A3C and Recurrent Models of Visual Attention."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1572,7 +1698,8 @@
    "significance": "medium",
    "significance_reason": "名单边K=3(Seq2Seq作者Sutskever/Vinyals/Le),K≤3维持同事上限medium",
    "significance_K": 3,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Ilya Sutskever and Oriol Vinyals co-authored \"Sequence to Sequence Learning with Neural Networks\" (2014)."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1592,7 +1719,8 @@
    "significance": "medium",
    "significance_reason": "名单边K=5(Dropout)默认weak,Dropout在landmark清单,出口①救回同事上限medium",
    "significance_K": 5,
-   "significance_exit": "landmark"
+   "significance_exit": "landmark",
+   "fact_en": "Ilya Sutskever and Ruslan Salakhutdinov co-authored the Dropout paper (JMLR 2014)."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1612,7 +1740,8 @@
    "significance": "medium",
    "significance_reason": "名单边K=5(Dropout)默认weak,landmark出口①救回同事上限medium",
    "significance_K": 5,
-   "significance_exit": "landmark"
+   "significance_exit": "landmark",
+   "fact_en": "Ilya Sutskever and Nitish Srivastava co-authored the Dropout paper (JMLR 2014)."
   },
   {
    "person_a": "Nitish Srivastava",
@@ -1632,7 +1761,8 @@
    "significance": "medium",
    "significance_reason": "名单边K=5(Dropout)默认weak,landmark出口①救回同事上限medium",
    "significance_K": 5,
-   "significance_exit": "landmark"
+   "significance_exit": "landmark",
+   "fact_en": "Nitish Srivastava and Ruslan Salakhutdinov co-authored the Dropout paper (JMLR 2014)."
   },
   {
    "person_a": "Nitish Srivastava",
@@ -1652,7 +1782,8 @@
    "significance": "medium",
    "significance_reason": "名单边K=5(Dropout)默认weak,landmark出口①救回同事上限medium",
    "significance_K": 5,
-   "significance_exit": "landmark"
+   "significance_exit": "landmark",
+   "fact_en": "Nitish Srivastava and Alex Krizhevsky co-authored the Dropout paper (JMLR 2014)."
   },
   {
    "person_a": "Alex Krizhevsky",
@@ -1672,7 +1803,8 @@
    "significance": "medium",
    "significance_reason": "名单边K=5(Dropout)默认weak,landmark出口①救回同事上限medium",
    "significance_K": 5,
-   "significance_exit": "landmark"
+   "significance_exit": "landmark",
+   "fact_en": "Alex Krizhevsky and Ruslan Salakhutdinov co-authored the Dropout paper (JMLR 2014)."
   },
   {
    "person_a": "Ilya Sutskever",
@@ -1692,7 +1824,8 @@
    "significance": "weak",
    "significance_reason": "名单边K=4(init&momentum作者),非landmark,Sutskever一作+Dahl中间位非双核心,默认weak",
    "significance_K": 4,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Ilya Sutskever and George Dahl co-authored \"On the importance of initialization and momentum in deep learning\" (ICML 2013)."
   },
   {
    "person_a": "Richard Zemel",
@@ -1712,7 +1845,8 @@
    "significance": "weak",
    "significance_reason": "名单边K=7(Aligning Books),非landmark,Zemel/Salakhutdinov均中间位,默认weak",
    "significance_K": 7,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Richard Zemel and Ruslan Salakhutdinov co-authored \"Aligning Books and Movies\" (2015)."
   },
   {
    "person_a": "Richard Zemel",
@@ -1732,7 +1866,8 @@
    "significance": "weak",
    "significance_reason": "名单边K=7(Aligning Books),非landmark,Zemel/Urtasun均中间位,默认weak",
    "significance_K": 7,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Richard Zemel and Raquel Urtasun co-authored \"Aligning Books and Movies\" (2015)."
   },
   {
    "person_a": "Ruslan Salakhutdinov",
@@ -1752,7 +1887,8 @@
    "significance": "weak",
    "significance_reason": "名单边K=7(Aligning Books),非landmark,Salakhutdinov/Urtasun均中间位,默认weak",
    "significance_K": 7,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Ruslan Salakhutdinov and Raquel Urtasun co-authored \"Aligning Books and Movies\" (2015)."
   },
   {
    "person_a": "Navdeep Jaitly",
@@ -1772,7 +1908,8 @@
    "significance": "weak",
    "significance_reason": "名单边K=6(Neural Transducer),非landmark,Jaitly一作+Vinyals中间位非双核心,默认weak",
    "significance_K": 6,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Navdeep Jaitly and Oriol Vinyals co-authored \"A Neural Transducer\" (2015)."
   },
   {
    "person_a": "Navdeep Jaitly",
@@ -1792,7 +1929,8 @@
    "significance": "weak",
    "significance_reason": "名单边K=6(Neural Transducer),非landmark,Jaitly一作+Sutskever中间位非双核心,默认weak",
    "significance_K": 6,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Navdeep Jaitly and Ilya Sutskever co-authored \"A Neural Transducer\" (2015)."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1813,7 +1951,8 @@
    "significance_reason": "名单边:Hinton仅为Waabi A轮投资名单中AI luminaries之一(K≥4含others+多家VC),verbatim无Hinton↔Urtasun具体互动;另源'investor in Waabi'非同源/非两人协作句,collab出口不成立,K≥4默认weak",
    "significance_K": 4,
    "significance_exit": "none",
-   "org": "Waabi"
+   "org": "Waabi",
+   "fact_en": "Geoffrey Hinton, as a leading AI figure, invested in Waabi, the autonomous-driving company founded by Raquel Urtasun (June 2021 Series A, led by Khosla Ventures). Direction: Hinton = investor, Urtasun (Waabi) = investee."
   },
   {
    "person_a": "Oriol Vinyals",
@@ -1833,7 +1972,8 @@
    "significance": "medium",
    "significance_reason": "动作边:Vinyals与Dean同为Gemini technical lead,具体共同领导角色,同事上限medium",
    "significance_K": 0,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "Oriol Vinyals and Jeff Dean are both technical leads of the Gemini language model."
   },
   {
    "person_a": "George Dahl",
@@ -1853,7 +1993,8 @@
    "significance": "weak",
    "significance_reason": "名单边K=11(shared views声学建模综述作者),非landmark,Dahl/Jaitly均中间位,默认weak",
    "significance_K": 11,
-   "significance_exit": "none"
+   "significance_exit": "none",
+   "fact_en": "George Dahl and Navdeep Jaitly were co-authors of the same survey paper on acoustic modeling for speech recognition."
   },
   {
    "person_a": "Yoshua Bengio",
@@ -1869,7 +2010,8 @@
     "verbatim_quote": "ACM, the Association for Computing Machinery, today named Yoshua Bengio, Geoffrey Hinton, and Yann LeCun recipients of the 2018 ACM A.M. Turing Award"
    },
    "status": "verified",
-   "grader_reason": "页面包含声称的逐字原句（仅标点/措辞无实质差异），证实本吉奥、辛顿、杨立昆三人共同获得 2018 年 ACM 图灵奖。页面进一步明确三人有协作关系（描述他们\"independently and together\"工作，LeCun 曾在 Hinton 指导下做博士后、LeCun 与 Bengio 上世纪 90 年代初共事于 Bell Labs、三人通过 CIFAR 项目合作），支持 Bengio—Hinton 之间「同事/合作者」类型的关系。事实陈述与来源一致，关系成立。"
+   "grader_reason": "页面包含声称的逐字原句（仅标点/措辞无实质差异），证实本吉奥、辛顿、杨立昆三人共同获得 2018 年 ACM 图灵奖。页面进一步明确三人有协作关系（描述他们\"independently and together\"工作，LeCun 曾在 Hinton 指导下做博士后、LeCun 与 Bengio 上世纪 90 年代初共事于 Bell Labs、三人通过 CIFAR 项目合作），支持 Bengio—Hinton 之间「同事/合作者」类型的关系。事实陈述与来源一致，关系成立。",
+   "fact_en": "Yoshua Bengio, together with Geoffrey Hinton and Yann LeCun, received the 2018 ACM Turing Award for their foundational contributions to deep neural networks."
   },
   {
    "person_a": "Yoshua Bengio",
@@ -1885,7 +2027,8 @@
     "verbatim_quote": "ACM, the Association for Computing Machinery, today named Yoshua Bengio, Geoffrey Hinton, and Yann LeCun recipients of the 2018 ACM A.M. Turing Award"
    },
    "status": "verified",
-   "grader_reason": "页面成功打开。声称的逐字原句在页面上确实存在，且与原文完全一致（仅补充了奖项的获奖理由从句）。该句明确将 Yoshua Bengio、Geoffrey Hinton、Yann LeCun 三人并列为 2018 年 ACM 图灵奖的共同获奖者，因此本吉奥与杨立昆作为同一奖项的共同获奖者，支持\"同事/同行\"这一关系类型。事实陈述（三人共同获 2018 图灵奖）与原句一致，关系方向无误。"
+   "grader_reason": "页面成功打开。声称的逐字原句在页面上确实存在，且与原文完全一致（仅补充了奖项的获奖理由从句）。该句明确将 Yoshua Bengio、Geoffrey Hinton、Yann LeCun 三人并列为 2018 年 ACM 图灵奖的共同获奖者，因此本吉奥与杨立昆作为同一奖项的共同获奖者，支持\"同事/同行\"这一关系类型。事实陈述（三人共同获 2018 图灵奖）与原句一致，关系方向无误。",
+   "fact_en": "Yoshua Bengio, together with Yann LeCun and Geoffrey Hinton, received the 2018 ACM Turing Award."
   },
   {
    "person_a": "Yoshua Bengio",
@@ -1901,7 +2044,8 @@
     "verbatim_quote": "and his PhD in machine learning from the Université de Montréal in February 2015, under the supervision of Yoshua Bengio and Aaron Courville."
    },
    "status": "verified",
-   "grader_reason": "页面确实存在声称的逐字原句，内容支持该关系与类型。维基百科原文记载 Ian Goodfellow 于 2015 年 2 月在蒙特利尔大学（Université de Montréal）取得机器学习博士学位，由 Yoshua Bengio 与 Aaron Courville 共同指导（\"under the supervision of Yoshua Bengio and Aaron Courville\"）。这直接证实 Bengio 是 Goodfellow 的博士导师，即\"Bengio —[师承]— Goodfellow\"的师承关系成立，方向正确（Bengio 为导师，Goodfellow 为学生）。事实陈述中\"由本吉奥与库维尔共同指导\"\"2015 年蒙特利尔大学博士毕业\"均与原句一致。"
+   "grader_reason": "页面确实存在声称的逐字原句，内容支持该关系与类型。维基百科原文记载 Ian Goodfellow 于 2015 年 2 月在蒙特利尔大学（Université de Montréal）取得机器学习博士学位，由 Yoshua Bengio 与 Aaron Courville 共同指导（\"under the supervision of Yoshua Bengio and Aaron Courville\"）。这直接证实 Bengio 是 Goodfellow 的博士导师，即\"Bengio —[师承]— Goodfellow\"的师承关系成立，方向正确（Bengio 为导师，Goodfellow 为学生）。事实陈述中\"由本吉奥与库维尔共同指导\"\"2015 年蒙特利尔大学博士毕业\"均与原句一致。",
+   "fact_en": "Ian Goodfellow earned his PhD at the University of Montreal in 2015, co-advised by Yoshua Bengio and Aaron Courville."
   },
   {
    "person_a": "Aaron Courville",
@@ -1917,7 +2061,8 @@
     "verbatim_quote": "and his PhD in machine learning from the Université de Montréal in February 2015, under the supervision of Yoshua Bengio and Aaron Courville."
    },
    "status": "verified",
-   "grader_reason": "维基百科 Ian Goodfellow 页面正文确实存在该原句，明确指出 Goodfellow 于 2015 年 2 月在蒙特利尔大学获得机器学习博士学位，由 Yoshua Bengio 和 Aaron Courville 共同指导；信息框 Doctoral advisor 字段亦列出 Yoshua Bengio、Aaron Courville。这支持 Aaron Courville 作为导师指导 Ian Goodfellow 的师承关系，方向（Courville→Goodfellow，师→徒）与类型（师承/博士导师）均正确。"
+   "grader_reason": "维基百科 Ian Goodfellow 页面正文确实存在该原句，明确指出 Goodfellow 于 2015 年 2 月在蒙特利尔大学获得机器学习博士学位，由 Yoshua Bengio 和 Aaron Courville 共同指导；信息框 Doctoral advisor 字段亦列出 Yoshua Bengio、Aaron Courville。这支持 Aaron Courville 作为导师指导 Ian Goodfellow 的师承关系，方向（Courville→Goodfellow，师→徒）与类型（师承/博士导师）均正确。",
+   "fact_en": "Ian Goodfellow's PhD was co-advised by Yoshua Bengio and Aaron Courville."
   },
   {
    "person_a": "Yoshua Bengio",
@@ -1933,7 +2078,8 @@
     "verbatim_quote": "He approached Bengio, they met and chatted, he gave a talk to his mentor's students and soon joined the team as one of his postdocs."
    },
    "status": "verified",
-   "grader_reason": "页面确实包含逐字原句，且支持 Bengio—[师承]—Courville 的关系与方向。原句明确将 Bengio 称为 Courville 的 mentor（\"his mentor's students\"），并说明 Courville \"soon joined the team as one of his postdocs\"（加入 Bengio 团队任博士后），这与\"师承\"关系类型（Bengio 为师、Courville 为徒）方向一致。事实陈述\"库维尔主动联系本吉奥，随后加入其团队担任博士后\"亦被原句直接支持（\"He approached Bengio... soon joined the team as one of his postdocs\"）。文章另有旁证\"It was Bengio who... recruited Courville to the university\"。原句与页面文字仅可能有空白/标点的细微差异，核心措辞完全一致。"
+   "grader_reason": "页面确实包含逐字原句，且支持 Bengio—[师承]—Courville 的关系与方向。原句明确将 Bengio 称为 Courville 的 mentor（\"his mentor's students\"），并说明 Courville \"soon joined the team as one of his postdocs\"（加入 Bengio 团队任博士后），这与\"师承\"关系类型（Bengio 为师、Courville 为徒）方向一致。事实陈述\"库维尔主动联系本吉奥，随后加入其团队担任博士后\"亦被原句直接支持（\"He approached Bengio... soon joined the team as one of his postdocs\"）。文章另有旁证\"It was Bengio who... recruited Courville to the university\"。原句与页面文字仅可能有空白/标点的细微差异，核心措辞完全一致。",
+   "fact_en": "Aaron Courville reached out to Yoshua Bengio and subsequently joined his group as a postdoctoral researcher."
   },
   {
    "person_a": "Yoshua Bengio",
@@ -1949,7 +2095,8 @@
     "verbatim_quote": "His doctoral research was conducted under the supervision of Turing Award laureate Yoshua Bengio."
    },
    "status": "verified",
-   "grader_reason": "两次独立 WebFetch 均成功抓取该页面，并确认 Education 部分逐字存在声称的原句：「His doctoral research was conducted under the supervision of Turing Award laureate Yoshua Bengio.」此外 infobox 的 \"Doctoral advisor\" 字段也列出 Yoshua Bengio。该句明确表明 Bengio 指导了 Larochelle 的博士研究，方向正确（Bengio 为师、Larochelle 为生），与「师承」关系类型一致，可查证。"
+   "grader_reason": "两次独立 WebFetch 均成功抓取该页面，并确认 Education 部分逐字存在声称的原句：「His doctoral research was conducted under the supervision of Turing Award laureate Yoshua Bengio.」此外 infobox 的 \"Doctoral advisor\" 字段也列出 Yoshua Bengio。该句明确表明 Bengio 指导了 Larochelle 的博士研究，方向正确（Bengio 为师、Larochelle 为生），与「师承」关系类型一致，可查证。",
+   "fact_en": "Hugo Larochelle's doctoral research was advised by Turing Award laureate Yoshua Bengio."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -1965,7 +2112,8 @@
     "verbatim_quote": "From 2009 to 2011, Larochelle completed postdoctoral research at the University of Toronto under the supervision of Geoffrey Hinton."
    },
    "status": "verified",
-   "grader_reason": "The exact sentence is present on the page (confirmed via raw curl, not just the WebFetch summary). It states that from 2009 to 2011 Larochelle did postdoctoral research at the University of Toronto under Geoffrey Hinton's supervision, which directly supports the 师承 (mentorship) relationship Hinton → Larochelle. The claim is further corroborated by a footnote citing \"Geoffrey Hinton's postdocs\" from cs.toronto.edu. Direction and type are correct: Hinton supervised Larochelle (postdoc advisor), so Hinton is the mentor and Larochelle the mentee."
+   "grader_reason": "The exact sentence is present on the page (confirmed via raw curl, not just the WebFetch summary). It states that from 2009 to 2011 Larochelle did postdoctoral research at the University of Toronto under Geoffrey Hinton's supervision, which directly supports the 师承 (mentorship) relationship Hinton → Larochelle. The claim is further corroborated by a footnote citing \"Geoffrey Hinton's postdocs\" from cs.toronto.edu. Direction and type are correct: Hinton supervised Larochelle (postdoc advisor), so Hinton is the mentor and Larochelle the mentee.",
+   "fact_en": "Hugo Larochelle did postdoctoral research under Geoffrey Hinton at the University of Toronto from 2009 to 2011."
   },
   {
    "person_a": "Yoshua Bengio",
@@ -1981,7 +2129,8 @@
     "verbatim_quote": "He then was a postdoctoral fellow at the Université de Montréal, where he studied under Yoshua Bengio until the summer of 2015."
    },
    "status": "verified",
-   "grader_reason": "页面 Biography 部分确实存在声称的逐字原句，与事实陈述完全一致。该句明确说明赵京贤（Kyunghyun Cho）在蒙特利尔大学（Université de Montréal）做博士后期间师从 Yoshua Bengio，直至 2015 年夏。这支持了 Bengio —[师承]— Cho 的师承关系（Bengio 为导师，Cho 为受指导的博士后），方向与类型均正确。"
+   "grader_reason": "页面 Biography 部分确实存在声称的逐字原句，与事实陈述完全一致。该句明确说明赵京贤（Kyunghyun Cho）在蒙特利尔大学（Université de Montréal）做博士后期间师从 Yoshua Bengio，直至 2015 年夏。这支持了 Bengio —[师承]— Cho 的师承关系（Bengio 为导师，Cho 为受指导的博士后），方向与类型均正确。",
+   "fact_en": "Kyunghyun Cho was a postdoc under Yoshua Bengio at the University of Montreal until the summer of 2015."
   },
   {
    "person_a": "Yoshua Bengio",
@@ -1997,7 +2146,8 @@
     "verbatim_quote": "His brother Yoshua is a Turing Award winner."
    },
    "status": "verified",
-   "grader_reason": "页面 \"Personal life\" 章节确实存在声称的原句「His brother Yoshua is a Turing Award winner.」，逐字一致。该句明确说明 Yoshua Bengio 是 Samy Bengio 的兄弟（\"His brother Yoshua\"），且 Yoshua 是图灵奖得主，支持二人之间的兄弟（其他）关系及关系方向。注：原句只说 \"brother\"，未逐字证明 Samy 是\"弟弟\"（younger），但核心的兄弟关系与图灵奖事实均被原句直接支持。"
+   "grader_reason": "页面 \"Personal life\" 章节确实存在声称的原句「His brother Yoshua is a Turing Award winner.」，逐字一致。该句明确说明 Yoshua Bengio 是 Samy Bengio 的兄弟（\"His brother Yoshua\"），且 Yoshua 是图灵奖得主，支持二人之间的兄弟（其他）关系及关系方向。注：原句只说 \"brother\"，未逐字证明 Samy 是\"弟弟\"（younger），但核心的兄弟关系与图灵奖事实均被原句直接支持。",
+   "fact_en": "Samy Bengio is the younger brother of Turing Award laureate Yoshua Bengio."
   },
   {
    "person_a": "Andrew Ng",
@@ -2013,7 +2163,8 @@
     "verbatim_quote": "Goodfellow obtained his BSc and MSc in computer science from Stanford University under the supervision of Andrew Ng"
    },
    "status": "verified",
-   "grader_reason": "页面上确实存在该逐字原句，与声称完全一致：\"Goodfellow obtained his BSc and MSc in computer science from Stanford University under the supervision of Andrew Ng\"。该句明确说明 Goodfellow 在斯坦福读 BSc/MSc 期间由 Andrew Ng 指导（under the supervision of），方向正确（Ng 是导师/supervisor，Goodfellow 是学生），支持\"Andrew Ng —[师承]— Ian Goodfellow\"这条师承关系。"
+   "grader_reason": "页面上确实存在该逐字原句，与声称完全一致：\"Goodfellow obtained his BSc and MSc in computer science from Stanford University under the supervision of Andrew Ng\"。该句明确说明 Goodfellow 在斯坦福读 BSc/MSc 期间由 Andrew Ng 指导（under the supervision of），方向正确（Ng 是导师/supervisor，Goodfellow 是学生），支持\"Andrew Ng —[师承]— Ian Goodfellow\"这条师承关系。",
+   "fact_en": "Andrew Ng was Ian Goodfellow's advisor during his time at Stanford."
   },
   {
    "person_a": "Ian Goodfellow",
@@ -2029,7 +2180,8 @@
     "verbatim_quote": "Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 arXiv 页面确认：论文标题为 \"Intriguing properties of neural networks\"（即对抗样本论文），作者列表为 Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus。Ian Goodfellow 与 Ilya Sutskever 同列其中，同为该论文共同作者，支持\"同事/共同作者\"关系。声称的逐字原句与页面实际作者行完全一致。"
+   "grader_reason": "WebFetch 抓取 arXiv 页面确认：论文标题为 \"Intriguing properties of neural networks\"（即对抗样本论文），作者列表为 Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus。Ian Goodfellow 与 Ilya Sutskever 同列其中，同为该论文共同作者，支持\"同事/共同作者\"关系。声称的逐字原句与页面实际作者行完全一致。",
+   "fact_en": "Ian Goodfellow and Ilya Sutskever were co-authors of the adversarial examples paper."
   },
   {
    "person_a": "Ian Goodfellow",
@@ -2045,7 +2197,8 @@
     "verbatim_quote": "Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio"
    },
    "status": "verified",
-   "grader_reason": "arxiv.org/abs/1406.2661 (\"Generative Adversarial Networks\") 的作者栏逐字列出 \"Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio\"，与声称原句完全一致。Goodfellow 与 Pouget-Abadie 同为该 2014 GAN 论文的共同作者，事实陈述与「同事」关系类型成立，且为对称关系无方向问题。"
+   "grader_reason": "arxiv.org/abs/1406.2661 (\"Generative Adversarial Networks\") 的作者栏逐字列出 \"Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio\"，与声称原句完全一致。Goodfellow 与 Pouget-Abadie 同为该 2014 GAN 论文的共同作者，事实陈述与「同事」关系类型成立，且为对称关系无方向问题。",
+   "fact_en": "Ian Goodfellow and Jean Pouget-Abadie were both authors of the 2014 GAN paper."
   },
   {
    "person_a": "Ian Goodfellow",
@@ -2061,7 +2214,8 @@
     "verbatim_quote": "Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 arXiv:1406.2661 页面，作者署名逐字为「Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio」，与声称原句完全一致。Ian Goodfellow（第一作者）与 Mehdi Mirza（第三作者）同列为这篇 2014 GAN 论文的共同作者，事实陈述成立，\"同事\"（共同作者）关系类型成立，方向对称无误。"
+   "grader_reason": "WebFetch 抓取 arXiv:1406.2661 页面，作者署名逐字为「Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio」，与声称原句完全一致。Ian Goodfellow（第一作者）与 Mehdi Mirza（第三作者）同列为这篇 2014 GAN 论文的共同作者，事实陈述成立，\"同事\"（共同作者）关系类型成立，方向对称无误。",
+   "fact_en": "Ian Goodfellow and Mehdi Mirza were both authors of the 2014 GAN paper."
   },
   {
    "person_a": "Ian Goodfellow",
@@ -2077,7 +2231,8 @@
     "verbatim_quote": "Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 arXiv:1406.2661 页面，作者列表逐字为「Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio」。Ian J. Goodfellow 列第一位、David Warde-Farley 列第五位，二人确为这篇 2014 GAN 论文的共同作者，支持「同事/共同作者」这条关系，方向与类型一致。原句与页面完全吻合。"
+   "grader_reason": "WebFetch 抓取 arXiv:1406.2661 页面，作者列表逐字为「Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio」。Ian J. Goodfellow 列第一位、David Warde-Farley 列第五位，二人确为这篇 2014 GAN 论文的共同作者，支持「同事/共同作者」这条关系，方向与类型一致。原句与页面完全吻合。",
+   "fact_en": "Ian Goodfellow and David Warde-Farley were both authors of the 2014 GAN paper."
   },
   {
    "person_a": "Ian Goodfellow",
@@ -2093,7 +2248,8 @@
     "verbatim_quote": "Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio"
    },
    "status": "verified",
-   "grader_reason": "arxiv.org/abs/1406.2661 是 2014 年 GAN 论文《Generative Adversarial Networks》。页面作者列表(按序)为 Ian J. Goodfellow、Jean Pouget-Abadie、Mehdi Mirza、Bing Xu、David Warde-Farley、Sherjil Ozair、Aaron Courville、Yoshua Bengio。Ian Goodfellow(第一作者)与 Sherjil Ozair(第六作者)同列为该论文共同作者,确实支持\"同事/共同作者\"这一关系与类型。声称的逐字原句与页面作者列表完全一致。"
+   "grader_reason": "arxiv.org/abs/1406.2661 是 2014 年 GAN 论文《Generative Adversarial Networks》。页面作者列表(按序)为 Ian J. Goodfellow、Jean Pouget-Abadie、Mehdi Mirza、Bing Xu、David Warde-Farley、Sherjil Ozair、Aaron Courville、Yoshua Bengio。Ian Goodfellow(第一作者)与 Sherjil Ozair(第六作者)同列为该论文共同作者,确实支持\"同事/共同作者\"这一关系与类型。声称的逐字原句与页面作者列表完全一致。",
+   "fact_en": "Ian Goodfellow and Sherjil Ozair were both authors of the 2014 GAN paper."
   },
   {
    "person_a": "Pietro Perona",
@@ -2109,7 +2265,8 @@
     "verbatim_quote": "Li completed her dissertation, 'Visual Recognition: Computational Models and Human Psychophysics', under the primary supervision of Pietro Perona and secondary supervision of Christof Koch."
    },
    "status": "verified",
-   "grader_reason": "页面上存在与声称完全一致的原句，明确说明 Pietro Perona 是李飞飞博士论文的主要指导导师（primary supervision），Christof Koch 为副导师。这直接支持「Pietro Perona —[师承]— Fei-Fei Li」的关系与方向（Perona 为导师/师，Fei-Fei Li 为学生）。关系、类型、方向均成立。"
+   "grader_reason": "页面上存在与声称完全一致的原句，明确说明 Pietro Perona 是李飞飞博士论文的主要指导导师（primary supervision），Christof Koch 为副导师。这直接支持「Pietro Perona —[师承]— Fei-Fei Li」的关系与方向（Perona 为导师/师，Fei-Fei Li 为学生）。关系、类型、方向均成立。",
+   "fact_en": "Fei-Fei Li's doctoral dissertation was completed under Pietro Perona as her principal advisor."
   },
   {
    "person_a": "Christof Koch",
@@ -2125,7 +2282,8 @@
     "verbatim_quote": "Li completed her dissertation, 'Visual Recognition: Computational Models and Human Psychophysics', under the primary supervision of Pietro Perona and secondary supervision of Christof Koch."
    },
    "status": "verified",
-   "grader_reason": "Wikipedia 页面确实存在该原句，且明确陈述 Christof Koch 是李飞飞博士论文的第二（secondary）导师，Pietro Perona 为主导师。这直接支持「Christof Koch —[师承]— Fei-Fei Li」这一师承关系（Koch 作为导师指导 Li），方向与类型均一致。"
+   "grader_reason": "Wikipedia 页面确实存在该原句，且明确陈述 Christof Koch 是李飞飞博士论文的第二（secondary）导师，Pietro Perona 为主导师。这直接支持「Christof Koch —[师承]— Fei-Fei Li」这一师承关系（Koch 作为导师指导 Li），方向与类型均一致。",
+   "fact_en": "Christof Koch served as the secondary advisor for Fei-Fei Li's doctoral dissertation."
   },
   {
    "person_a": "Fei-Fei Li",
@@ -2141,7 +2299,8 @@
     "verbatim_quote": "Karpathy received a PhD from Stanford University in 2015 under the supervision of Fei-Fei Li"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取页面后找到与声称原句完全一致的文字：\"Karpathy received a PhD from Stanford University in 2015 under the supervision of Fei-Fei Li\"。该句明确说明 Karpathy 在 Fei-Fei Li 的指导下完成斯坦福博士学业，且页面 infobox 中 \"Doctoral advisor\" 一栏列出 Fei-Fei Li，进一步佐证。关系方向正确（Fei-Fei Li 为导师，Karpathy 为学生），类型为师承，与事实陈述一致。"
+   "grader_reason": "WebFetch 抓取页面后找到与声称原句完全一致的文字：\"Karpathy received a PhD from Stanford University in 2015 under the supervision of Fei-Fei Li\"。该句明确说明 Karpathy 在 Fei-Fei Li 的指导下完成斯坦福博士学业，且页面 infobox 中 \"Doctoral advisor\" 一栏列出 Fei-Fei Li，进一步佐证。关系方向正确（Fei-Fei Li 为导师，Karpathy 为学生），类型为师承，与事实陈述一致。",
+   "fact_en": "Andrej Karpathy completed his Stanford PhD under the advising of Fei-Fei Li."
   },
   {
    "person_a": "Fei-Fei Li",
@@ -2157,7 +2316,8 @@
     "verbatim_quote": "Russakovsky eventually completed her PhD in computer vision in 2015, during which she worked with Fei-Fei Li on image classification."
    },
    "status": "verified",
-   "grader_reason": "页面上确实逐字存在声称的原句，且该句及页面其他内容共同支持\"师承\"关系与方向（李飞飞是鲁萨科夫斯基的博士导师）。具体证据：(1) 正文逐字句\"Russakovsky eventually completed her PhD in computer vision in 2015, during which she worked with Fei-Fei Li on image classification.\"；(2) 信息框明确标注\"Doctoral advisor: Fei-Fei Li\"，直接证实师承方向（Li 指导 Russakovsky）；(3) \"Together with Fei-Fei Li, Russakovsky developed ImageNet...\" 支持事实陈述中\"共同开发 ImageNet\"部分。关系类型（师承）、方向（李飞飞→鲁萨科夫斯基）、事实陈述（在李飞飞指导下完成博士并共同开发 ImageNet）三者均被页面证据支持。"
+   "grader_reason": "页面上确实逐字存在声称的原句，且该句及页面其他内容共同支持\"师承\"关系与方向（李飞飞是鲁萨科夫斯基的博士导师）。具体证据：(1) 正文逐字句\"Russakovsky eventually completed her PhD in computer vision in 2015, during which she worked with Fei-Fei Li on image classification.\"；(2) 信息框明确标注\"Doctoral advisor: Fei-Fei Li\"，直接证实师承方向（Li 指导 Russakovsky）；(3) \"Together with Fei-Fei Li, Russakovsky developed ImageNet...\" 支持事实陈述中\"共同开发 ImageNet\"部分。关系类型（师承）、方向（李飞飞→鲁萨科夫斯基）、事实陈述（在李飞飞指导下完成博士并共同开发 ImageNet）三者均被页面证据支持。",
+   "fact_en": "Olga Russakovsky completed her PhD under Fei-Fei Li and co-developed ImageNet."
   },
   {
    "person_a": "Fei-Fei Li",
@@ -2173,7 +2333,8 @@
     "verbatim_quote": "Gebru was advised during her PhD program by Fei-Fei Li."
    },
    "status": "verified",
-   "grader_reason": "Wikipedia 页面确实包含逐字原句「Gebru was advised during her PhD program by Fei-Fei Li.」，两次独立 fetch 均一致确认。此外信息框 (infobox) 的 \"Doctoral advisor\" 字段也明确列出 Fei-Fei Li，正文另有\"In 2013, Gebru joined Fei-Fei Li's lab at Stanford\"佐证。该句直接支持「李飞飞在格布鲁博士期间担任其导师」这一师承关系，关系类型与方向(李飞飞为导师/上位，Gebru 为学生)均正确无误。"
+   "grader_reason": "Wikipedia 页面确实包含逐字原句「Gebru was advised during her PhD program by Fei-Fei Li.」，两次独立 fetch 均一致确认。此外信息框 (infobox) 的 \"Doctoral advisor\" 字段也明确列出 Fei-Fei Li，正文另有\"In 2013, Gebru joined Fei-Fei Li's lab at Stanford\"佐证。该句直接支持「李飞飞在格布鲁博士期间担任其导师」这一师承关系，关系类型与方向(李飞飞为导师/上位，Gebru 为学生)均正确无误。",
+   "fact_en": "Timnit Gebru was advised by Fei-Fei Li during her PhD."
   },
   {
    "person_a": "Fei-Fei Li",
@@ -2190,7 +2351,8 @@
    },
    "status": "verified",
    "grader_reason": "页面上确实存在该原句，明确将 Fei-Fei Li 与 Justin Johnson、Christoph Lassner、Ben Mildenhall 并列为 World Labs 的共同创始人。原句直接支持\"Fei-Fei Li —[联创]— Justin Johnson\"这一关系与类型：两人同为 World Labs 的联合创始人，符合\"联创\"关系，方向对称无误。",
-   "org": "World Labs"
+   "org": "World Labs",
+   "fact_en": "Fei-Fei Li co-founded World Labs with three colleagues, including Justin Johnson."
   },
   {
    "person_a": "Fei-Fei Li",
@@ -2206,7 +2368,8 @@
     "verbatim_quote": "The ImageNet dataset, which became central to AlexNet's success, was created by Fei-Fei Li and her collaborators beginning in 2007."
    },
    "status": "verified",
-   "grader_reason": "两次独立 WebFetch 抓取 https://en.wikipedia.org/wiki/AlexNet 均确认页面 \"Computer vision\" 段落逐字包含声称的原句，无标点/空白差异。该句明确陈述：ImageNet 数据集由 Fei-Fei Li 及其合作者创建，且该数据集对 AlexNet 的成功至关重要（\"became central to AlexNet's success\"）。结合页面上下文（AlexNet 为 Krizhevsky 等人的工作），此句支持 Fei-Fei Li 与 Alex Krizhevsky 之间经由 ImageNet 建立的间接关联，符合\"其他\"这一宽泛关系类型。原句与事实陈述方向一致（李创建/发起 ImageNet → Krizhevsky 的 AlexNet 在此基础上成功）。"
+   "grader_reason": "两次独立 WebFetch 抓取 https://en.wikipedia.org/wiki/AlexNet 均确认页面 \"Computer vision\" 段落逐字包含声称的原句，无标点/空白差异。该句明确陈述：ImageNet 数据集由 Fei-Fei Li 及其合作者创建，且该数据集对 AlexNet 的成功至关重要（\"became central to AlexNet's success\"）。结合页面上下文（AlexNet 为 Krizhevsky 等人的工作），此句支持 Fei-Fei Li 与 Alex Krizhevsky 之间经由 ImageNet 建立的间接关联，符合\"其他\"这一宽泛关系类型。原句与事实陈述方向一致（李创建/发起 ImageNet → Krizhevsky 的 AlexNet 在此基础上成功）。",
+   "fact_en": "Krizhevsky's AlexNet won the ImageNet competition launched by Fei-Fei Li, igniting the deep learning revolution."
   },
   {
    "person_a": "Fei-Fei Li",
@@ -2222,7 +2385,8 @@
     "verbatim_quote": "The ImageNet dataset, which became central to AlexNet's success, was created by Fei-Fei Li and her collaborators beginning in 2007."
    },
    "status": "verified",
-   "grader_reason": "声称的逐字原句在页面上完整存在，措辞完全一致。该句明确指出 Fei-Fei Li 及其合作者于 2007 年起创建了 ImageNet 数据集，并指明该数据集是 AlexNet 成功的核心。页面其他部分进一步证实 Geoffrey Hinton 是 AlexNet 团队（SuperVision）的 Ph.D. 导师/principal investigator，团队提交的 AlexNet 在 2012 年 ImageNet 竞赛中以 15.3% 的 top-5 错误率夺冠。因此该句确实将李飞飞（ImageNet 创建者）与 Hinton（夺冠团队的导师/PI）通过 ImageNet/AlexNet 这一历史节点联系起来，支持「其他」类型的关联关系，方向与陈述一致。"
+   "grader_reason": "声称的逐字原句在页面上完整存在，措辞完全一致。该句明确指出 Fei-Fei Li 及其合作者于 2007 年起创建了 ImageNet 数据集，并指明该数据集是 AlexNet 成功的核心。页面其他部分进一步证实 Geoffrey Hinton 是 AlexNet 团队（SuperVision）的 Ph.D. 导师/principal investigator，团队提交的 AlexNet 在 2012 年 ImageNet 竞赛中以 15.3% 的 top-5 错误率夺冠。因此该句确实将李飞飞（ImageNet 创建者）与 Hinton（夺冠团队的导师/PI）通过 ImageNet/AlexNet 这一历史节点联系起来，支持「其他」类型的关联关系，方向与陈述一致。",
+   "fact_en": "Hinton's team won Fei-Fei Li's ImageNet competition with AlexNet, marking a shared historical milestone for both in the rise of deep learning."
   },
   {
    "person_a": "Fei-Fei Li",
@@ -2238,7 +2402,8 @@
     "verbatim_quote": "The program was created in collaboration with Melinda French Gates and Jensen Huang."
    },
    "status": "verified",
-   "grader_reason": "页面在 AI4ALL 段落中确实存在该逐字原句。Wikipedia 原文：「Li is also known for her non-profit work as the co-founder and chairperson of nonprofit organization AI4ALL... The program was created in collaboration with Melinda French Gates and Jensen Huang.」该句明确表明李飞飞作为 AI4ALL 联合创始人，与黄仁勋、梅琳达·盖茨合作创建该项目。三人共同创建并运营同一个非营利组织，李飞飞与黄仁勋构成合作/共事关系，支持「同事」类型的关系判定。事实陈述、原句、关系方向均一致。"
+   "grader_reason": "页面在 AI4ALL 段落中确实存在该逐字原句。Wikipedia 原文：「Li is also known for her non-profit work as the co-founder and chairperson of nonprofit organization AI4ALL... The program was created in collaboration with Melinda French Gates and Jensen Huang.」该句明确表明李飞飞作为 AI4ALL 联合创始人，与黄仁勋、梅琳达·盖茨合作创建该项目。三人共同创建并运营同一个非营利组织，李飞飞与黄仁勋构成合作/共事关系，支持「同事」类型的关系判定。事实陈述、原句、关系方向均一致。",
+   "fact_en": "The AI4ALL initiative was created by Fei-Fei Li in collaboration with Jensen Huang and Melinda Gates."
   },
   {
    "person_a": "Fei-Fei Li",
@@ -2255,7 +2420,8 @@
    },
    "status": "verified",
    "grader_reason": "页面上确实存在声称的原句，且逐字一致：李飞飞成为斯坦福人本AI研究院(HAI)的创始联合主任，与联合主任John Etchemendy（前斯坦福教务长）共同担任。该句直接支持「Fei-Fei Li —[联创]— John Etchemendy」这一关系与类型——两人同为HAI创始联合主任，符合联合创办/共同主导的关系语义。事实陈述与原句完全吻合。",
-   "org": "Stanford HAI"
+   "org": "Stanford HAI",
+   "fact_en": "Fei-Fei Li and former Stanford provost John Etchemendy serve as founding co-directors of HAI."
   },
   {
    "person_a": "Michiel van de Panne",
@@ -2271,7 +2437,8 @@
     "verbatim_quote": "his master's degree at University of British Columbia in 2011, where he worked on physically simulated figures (for example, a simulated runner or a simulated person in a crowd) with his adviser Michiel van de Panne."
    },
    "status": "verified",
-   "grader_reason": "页面上确实存在该原句，且逐字与声称的原句一致。原句明确指出 Karpathy 2011 年在 UBC 攻读硕士期间，其导师（adviser）是 Michiel van de Panne，研究方向为物理仿真人物。这直接、准确地支持「Michiel van de Panne 是 Karpathy 的硕士导师」这一师承关系，方向正确（van de Panne 为师，Karpathy 为生）。"
+   "grader_reason": "页面上确实存在该原句，且逐字与声称的原句一致。原句明确指出 Karpathy 2011 年在 UBC 攻读硕士期间，其导师（adviser）是 Michiel van de Panne，研究方向为物理仿真人物。这直接、准确地支持「Michiel van de Panne 是 Karpathy 的硕士导师」这一师承关系，方向正确（van de Panne 为师，Karpathy 为生）。",
+   "fact_en": "Andrej Karpathy's master's advisor at UBC was Michiel van de Panne."
   },
   {
    "person_a": "Justin Johnson",
@@ -2287,7 +2454,8 @@
     "verbatim_quote": "I spent a lot of time with Fei-Fei and Justin during my PhD, which I look back on very fondly - Fei-Fei was my advisor and our fearless leader, Justin and I wrote papers together and the three of us built the first version of CS231n."
    },
    "status": "verified",
-   "grader_reason": "通过 Twitter 官方 syndication API (cdn.syndication.twimg.com) 抓取到该推文（直接 x.com 抓取返回 402，属正常的未认证拦截）。页面原句逐字命中声称内容：\"I spent a lot of time with Fei-Fei and Justin during my PhD, which I look back on very fondly - Fei-Fei was my advisor and our fearless leader, Justin and I wrote papers together and the three of us built the first version of CS231n.\"（前面仅多一句无关上下文 \"Very excited for the launch of @theworldlabs!\"，关键承载句完全一致）。该句明确支持 Justin Johnson 与 Andrej Karpathy 的\"同事\"关系：博士期间合写论文（\"Justin and I wrote papers together\"）、共建 CS231n 第一版（\"the three of us built the first version of CS231n\"），与事实陈述及关系类型、方向均吻合。"
+   "grader_reason": "通过 Twitter 官方 syndication API (cdn.syndication.twimg.com) 抓取到该推文（直接 x.com 抓取返回 402，属正常的未认证拦截）。页面原句逐字命中声称内容：\"I spent a lot of time with Fei-Fei and Justin during my PhD, which I look back on very fondly - Fei-Fei was my advisor and our fearless leader, Justin and I wrote papers together and the three of us built the first version of CS231n.\"（前面仅多一句无关上下文 \"Very excited for the launch of @theworldlabs!\"，关键承载句完全一致）。该句明确支持 Justin Johnson 与 Andrej Karpathy 的\"同事\"关系：博士期间合写论文（\"Justin and I wrote papers together\"）、共建 CS231n 第一版（\"the three of us built the first version of CS231n\"），与事实陈述及关系类型、方向均吻合。",
+   "fact_en": "Andrej Karpathy and Justin Johnson co-authored papers and built the first version of CS231n together during their PhDs at Stanford."
   },
   {
    "person_a": "Andrej Karpathy",
@@ -2304,7 +2472,8 @@
    },
    "status": "verified",
    "grader_reason": "页面确实存在该原句，且明确将 Andrej Karpathy 与 Ilya Sutskever 并列列为 2015 年 12 月 OpenAI 的创始成员，支持二人\"同为 OpenAI 创始成员/联合创始人\"的关系。原句与声称的逐字原句一致（仅核对到列出创始人名单的部分，含 co-chairs 表述）。",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Andrej Karpathy and Ilya Sutskever were both founding members of OpenAI."
   },
   {
    "person_a": "Andrej Karpathy",
@@ -2321,7 +2490,8 @@
    },
    "status": "verified",
    "grader_reason": "页面上确实存在该原句，逐字列出了 OpenAI 在 2015 年 12 月的创始成员，其中同时包含 Andrej Karpathy 和 Sam Altman。该句支持\"二人同为 OpenAI 创始成员\"这一关系。关系类型为\"联创/共同创始成员\"，方向对称，与事实陈述一致。注：原句中明确以联合主席（co-chairs）身份列出的是 Elon Musk 和 Sam Altman，而 Karpathy 是普通创始成员之一，但二人同属创始成员这一关系成立。",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Andrej Karpathy and Sam Altman were both founding members of OpenAI."
   },
   {
    "person_a": "Andrej Karpathy",
@@ -2338,7 +2508,8 @@
    },
    "status": "verified",
    "grader_reason": "页面上确实存在该原句。维基百科 OpenAI 条目记载 2015 年 12 月 OpenAI 创立时的创始成员名单同时包含 Greg Brockman 和 Andrej Karpathy，二人同为 OpenAI 创始成员，支持「联创/同为创始成员」这条关系。",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Andrej Karpathy and Greg Brockman were both founding members of OpenAI."
   },
   {
    "person_a": "Andrej Karpathy",
@@ -2355,7 +2526,8 @@
    },
    "status": "verified",
    "grader_reason": "页面确认了声称的原句。Wikipedia OpenAI 条目明确写明 OpenAI 于 2015 年 12 月创立，创始成员名单中同时包含 Elon Musk 和 Andrej Karpathy（\"by Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, and Wojciech Zaremba\"）。二人同为同一机构 OpenAI 的创始成员，这支持 Karpathy —[联创]— Musk 的关系类型（同一实体的共同创始人）。原句与声称的逐字原句一致，方向与类型均成立。",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Andrej Karpathy and Elon Musk were both founding members of OpenAI."
   },
   {
    "person_a": "Demis Hassabis",
@@ -2372,7 +2544,8 @@
    },
    "status": "verified",
    "grader_reason": "页面上确实存在声称的原句，且逐字一致：「Hassabis is the CEO and co-founder of DeepMind, a machine learning AI startup, founded in London in 2010 with Shane Legg and Mustafa Suleyman.」该句明确说明 Hassabis 与 Shane Legg（及 Mustafa Suleyman）于 2010 年在伦敦共同创立 DeepMind，直接支持 Demis Hassabis —[联创]— Shane Legg 这条关系及其类型（联合创始人）。关系方向与类型均吻合。",
-   "org": "DeepMind"
+   "org": "DeepMind",
+   "fact_en": "Demis Hassabis and Shane Legg co-founded DeepMind."
   },
   {
    "person_a": "Demis Hassabis",
@@ -2389,7 +2562,8 @@
    },
    "status": "verified",
    "grader_reason": "页面上确实存在所声称的逐字原句，且该句明确指出 Hassabis 是 DeepMind 的 CEO 兼联合创始人，公司于 2010 年在伦敦由 Shane Legg 和 Mustafa Suleyman 共同创立。这直接支持「Demis Hassabis —[联创]— Mustafa Suleyman」这条关系及其类型（共同创立 DeepMind）。",
-   "org": "DeepMind"
+   "org": "DeepMind",
+   "fact_en": "Demis Hassabis and Mustafa Suleyman co-founded DeepMind."
   },
   {
    "person_a": "Shane Legg",
@@ -2406,7 +2580,8 @@
    },
    "status": "verified",
    "grader_reason": "页面在 Career 部分的 DeepMind 子节中确实存在声称的原句，逐字一致。该句明确指出 Legg 与 Demis Hassabis 和 Mustafa Suleyman 一起共同创立了 DeepMind Technologies，直接支持 Shane Legg —[联创]— Mustafa Suleyman 这条关系及其类型（共同创立 / cofounder）。",
-   "org": "DeepMind"
+   "org": "DeepMind",
+   "fact_en": "Shane Legg co-founded DeepMind together with Mustafa Suleyman and Demis Hassabis."
   },
   {
    "person_a": "Demis Hassabis",
@@ -2422,7 +2597,8 @@
     "verbatim_quote": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin A. Riedmiller, Andreas Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, Demis Hassabis"
    },
    "status": "verified",
-   "grader_reason": "DBLP 页面确认该论文标题为《Human-level control through deep reinforcement learning》，作者列表中 Volodymyr Mnih 为第一作者、Demis Hassabis 为末位作者，两人共同署名，与事实陈述「共同署名」及关系类型「同事」相符。逐字原句的作者顺序与页面完全一致。"
+   "grader_reason": "DBLP 页面确认该论文标题为《Human-level control through deep reinforcement learning》，作者列表中 Volodymyr Mnih 为第一作者、Demis Hassabis 为末位作者，两人共同署名，与事实陈述「共同署名」及关系类型「同事」相符。逐字原句的作者顺序与页面完全一致。",
+   "fact_en": "Demis Hassabis and Volodymyr Mnih co-authored \"Human-level control through deep reinforcement learning.\""
   },
   {
    "person_a": "Demis Hassabis",
@@ -2438,7 +2614,8 @@
     "verbatim_quote": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin A. Riedmiller, Andreas Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, Demis Hassabis"
    },
    "status": "verified",
-   "grader_reason": "DBLP 页面确认该论文《Human-level control through deep reinforcement learning》的完整作者列表中同时包含 Alex Graves（第 7 位）与 Demis Hassabis（第 19 位，末位），两人共同署名同一篇论文。这支持\"同事\"关系——二人均为 DeepMind 成员并合作发表该 Nature 论文。声称的逐字原句与页面实际作者列表完全一致。"
+   "grader_reason": "DBLP 页面确认该论文《Human-level control through deep reinforcement learning》的完整作者列表中同时包含 Alex Graves（第 7 位）与 Demis Hassabis（第 19 位，末位），两人共同署名同一篇论文。这支持\"同事\"关系——二人均为 DeepMind 成员并合作发表该 Nature 论文。声称的逐字原句与页面实际作者列表完全一致。",
+   "fact_en": "Demis Hassabis and Alex Graves co-authored \"Human-level control through deep reinforcement learning.\""
   },
   {
    "person_a": "Demis Hassabis",
@@ -2454,7 +2631,8 @@
     "verbatim_quote": "Oriol Vinyals, Igor Babuschkin, Wojciech M Czarnecki, Michaël Mathieu, Andrew Dudzik, Junyoung Chung, David H Choi, Richard Powell, Timo Ewalds, Petko Georgiev, Junhyuk Oh, Dan Horgan, Manuel Kroiss, Ivo Danihelka, Aja Huang, Laurent Sifre, Trevor Cai, John P Agapiou, Max Jaderberg, Alexander S Vezhnevets, Rémi Leblond, Tobias Pohlen, Valentin Dalibard, David Budden, Yury Sulsky, James Molloy, Tom L Paine, Caglar Gulcehre, Ziyu Wang, Tobias Pfaff, Yuhuai Wu, Roman Ring, Dani Yogatama, Dario Wünsch, Katrina McKinney, Oliver Smith, Tom Schaul, Timothy Lillicrap, Koray Kavukcuoglu, Demis Hassabis, Chris Apps, David Silver"
    },
    "status": "verified",
-   "grader_reason": "PubMed 页面 31666705 标题为《Grandmaster level in StarCraft II using multi-agent reinforcement learning》，作者列表逐字包含 Oriol Vinyals（第一作者）与 Demis Hassabis（接近末尾），与声称的原句完全一致。二人共同署名同一篇论文，支持\"同事\"关系（均为 DeepMind 研究人员，共同作者）。"
+   "grader_reason": "PubMed 页面 31666705 标题为《Grandmaster level in StarCraft II using multi-agent reinforcement learning》，作者列表逐字包含 Oriol Vinyals（第一作者）与 Demis Hassabis（接近末尾），与声称的原句完全一致。二人共同署名同一篇论文，支持\"同事\"关系（均为 DeepMind 研究人员，共同作者）。",
+   "fact_en": "Demis Hassabis and Oriol Vinyals co-authored \"Grandmaster level in StarCraft II using multi-agent reinforcement learning.\""
   },
   {
    "person_a": "Marcus Hutter",
@@ -2470,7 +2648,8 @@
     "verbatim_quote": "Doctoral students: Shane Legg, Jan Leike and Tor Lattimore"
    },
    "status": "verified",
-   "grader_reason": "维基百科页面 https://en.wikipedia.org/wiki/Marcus_Hutter 的信息框确实列出 \"Doctoral students: Shane Legg, Jan Leike and Tor Lattimore\"，与声称的逐字原句一致。此外正文 Research 部分明确写道 2005 年 Hutter 与 \"his doctoral student Shane Legg\" 共同发表智力测试，进一步确认 Shane Legg 是 Marcus Hutter 的博士生。方向正确：Hutter 是导师，Legg 是博士生，支持\"师承\"关系类型。"
+   "grader_reason": "维基百科页面 https://en.wikipedia.org/wiki/Marcus_Hutter 的信息框确实列出 \"Doctoral students: Shane Legg, Jan Leike and Tor Lattimore\"，与声称的逐字原句一致。此外正文 Research 部分明确写道 2005 年 Hutter 与 \"his doctoral student Shane Legg\" 共同发表智力测试，进一步确认 Shane Legg 是 Marcus Hutter 的博士生。方向正确：Hutter 是导师，Legg 是博士生，支持\"师承\"关系类型。",
+   "fact_en": "Marcus Hutter was the doctoral advisor of Shane Legg, who was his PhD student."
   },
   {
    "person_a": "Peter Dayan",
@@ -2486,7 +2665,8 @@
     "verbatim_quote": "He earned a Henry Wellcome postdoctoral research fellowship to the Gatsby Computational Neuroscience Unit at UCL in 2009 working with Peter Dayan."
    },
    "status": "verified",
-   "grader_reason": "页面在 \"Neuroscience research\" 章节确实存在该逐字原句，与声称的原句完全一致（无标点/空白差异）。原句明确说明 Hassabis 于 2009 年获得 Henry Wellcome 博士后研究奖学金前往 UCL 的 Gatsby Computational Neuroscience Unit，期间 \"working with Peter Dayan\"（与 Peter Dayan 共事）。Dayan 是该研究所的资深研究者，Hassabis 当时为博士后，\"博士后期间与 Dayan 共事\" 支持 Dayan→Hassabis 方向的师承/指导关系，与事实陈述一致。方向、类型、关系均得到支持。"
+   "grader_reason": "页面在 \"Neuroscience research\" 章节确实存在该逐字原句，与声称的原句完全一致（无标点/空白差异）。原句明确说明 Hassabis 于 2009 年获得 Henry Wellcome 博士后研究奖学金前往 UCL 的 Gatsby Computational Neuroscience Unit，期间 \"working with Peter Dayan\"（与 Peter Dayan 共事）。Dayan 是该研究所的资深研究者，Hassabis 当时为博士后，\"博士后期间与 Dayan 共事\" 支持 Dayan→Hassabis 方向的师承/指导关系，与事实陈述一致。方向、类型、关系均得到支持。",
+   "fact_en": "Demis Hassabis worked under Peter Dayan during his postdoc at the Gatsby Computational Neuroscience Unit."
   },
   {
    "person_a": "Demis Hassabis",
@@ -2502,7 +2682,8 @@
     "verbatim_quote": "As a senior researcher at DeepMind, he studies the mathematical foundations of artificial general intelligence."
    },
    "status": "verified",
-   "grader_reason": "页面上确实存在声称的逐字原句:「As a senior researcher at DeepMind, he studies the mathematical foundations of artificial general intelligence.」该句明确表明 Marcus Hutter 作为资深研究员(senior researcher)任职于 DeepMind,与事实陈述「Hutter 作为资深研究员任职于 DeepMind」完全一致。Hassabis 作为 DeepMind 的联合创始人兼 CEO 是公认事实,两人同在 DeepMind 任职,因此「同事」关系成立,该来源原句支持这条关系。"
+   "grader_reason": "页面上确实存在声称的逐字原句:「As a senior researcher at DeepMind, he studies the mathematical foundations of artificial general intelligence.」该句明确表明 Marcus Hutter 作为资深研究员(senior researcher)任职于 DeepMind,与事实陈述「Hutter 作为资深研究员任职于 DeepMind」完全一致。Hassabis 作为 DeepMind 的联合创始人兼 CEO 是公认事实,两人同在 DeepMind 任职,因此「同事」关系成立,该来源原句支持这条关系。",
+   "fact_en": "Marcus Hutter worked as a senior researcher at DeepMind, where Hassabis is CEO."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -2518,7 +2699,8 @@
     "verbatim_quote": "After his PhD, Dayan held postdoctoral research positions with Terry Sejnowski at the Salk Institute and Geoffrey Hinton at the University of Toronto."
    },
    "status": "verified",
-   "grader_reason": "页面 \"Career and research\" 部分确实存在与声称完全一致的原句，逐字匹配：\"After his PhD, Dayan held postdoctoral research positions with Terry Sejnowski at the Salk Institute and Geoffrey Hinton at the University of Toronto.\"。该句明确说明 Dayan 在多伦多大学 Hinton 处担任博士后研究职位，Hinton 为资深导师、Dayan 为博士后，方向正确，构成师承关系，与事实陈述及关系类型一致。"
+   "grader_reason": "页面 \"Career and research\" 部分确实存在与声称完全一致的原句，逐字匹配：\"After his PhD, Dayan held postdoctoral research positions with Terry Sejnowski at the Salk Institute and Geoffrey Hinton at the University of Toronto.\"。该句明确说明 Dayan 在多伦多大学 Hinton 处担任博士后研究职位，Hinton 为资深导师、Dayan 为博士后，方向正确，构成师承关系，与事实陈述及关系类型一致。",
+   "fact_en": "Peter Dayan held a postdoctoral research position under Geoffrey Hinton at the University of Toronto."
   },
   {
    "person_a": "Marcus Hutter",
@@ -2534,7 +2716,8 @@
     "verbatim_quote": "In 2000, he joined Jürgen Schmidhuber's group at the Dalle Molle Institute for Artificial Intelligence Research in Manno, Switzerland."
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 https://en.wikipedia.org/wiki/Marcus_Hutter 后，页面确实存在该逐字原句，与声称的原句完全一致（标点、措辞均吻合）。该句明确陈述 2000 年 Hutter 加入 Jürgen Schmidhuber 在 IDSIA（Dalle Molle Institute for Artificial Intelligence Research, Manno, Switzerland）的研究组，直接支持两人「同事」关系及事实陈述「2000 年胡特加入施密德胡贝尔在 IDSIA 的研究组」。关系类型、方向均与原句一致。"
+   "grader_reason": "WebFetch 抓取 https://en.wikipedia.org/wiki/Marcus_Hutter 后，页面确实存在该逐字原句，与声称的原句完全一致（标点、措辞均吻合）。该句明确陈述 2000 年 Hutter 加入 Jürgen Schmidhuber 在 IDSIA（Dalle Molle Institute for Artificial Intelligence Research, Manno, Switzerland）的研究组，直接支持两人「同事」关系及事实陈述「2000 年胡特加入施密德胡贝尔在 IDSIA 的研究组」。关系类型、方向均与原句一致。",
+   "fact_en": "In 2000, Marcus Hutter joined Jürgen Schmidhuber's research group at IDSIA."
   },
   {
    "person_a": "Shane Legg",
@@ -2550,7 +2733,8 @@
     "verbatim_quote": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin A. Riedmiller, Andreas Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, and Demis Hassabis."
    },
    "status": "verified",
-   "grader_reason": "DBLP 页面确认该论文标题为 \"Human-level control through deep reinforcement learning\"，年份 2015。作者列表中 Volodymyr Mnih（第一作者）与 Shane Legg（倒数第二位）同时出现，两人确为同一篇 2015 年 Nature 论文的共同作者。这支持「同事」关系——两人同属 DeepMind 并合作发表该论文。事实陈述（莱格与 Mnih 同为该论文作者）与逐字原句的作者列表均与页面一致（仅末尾 \"and\" 等连接词差异，属可接受范围）。"
+   "grader_reason": "DBLP 页面确认该论文标题为 \"Human-level control through deep reinforcement learning\"，年份 2015。作者列表中 Volodymyr Mnih（第一作者）与 Shane Legg（倒数第二位）同时出现，两人确为同一篇 2015 年 Nature 论文的共同作者。这支持「同事」关系——两人同属 DeepMind 并合作发表该论文。事实陈述（莱格与 Mnih 同为该论文作者）与逐字原句的作者列表均与页面一致（仅末尾 \"and\" 等连接词差异，属可接受范围）。",
+   "fact_en": "Shane Legg and Volodymyr Mnih were both authors of the 2015 paper \"Human-level control through deep reinforcement learning.\""
   },
   {
    "person_a": "Shane Legg",
@@ -2566,7 +2750,8 @@
     "verbatim_quote": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin A. Riedmiller, Andreas Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, and Demis Hassabis."
    },
    "status": "verified",
-   "grader_reason": "DBLP 页面确认该论文为 Volodymyr Mnih 等人的 \"Human-level control through deep reinforcement learning\"，发表于 Nature 518(7540), 2015 年。完整作者列表中第 7 位为 Alex Graves，第 18 位为 Shane Legg，二人同为该 2015 年 Nature DQN 论文的合著者。这支持「同事」关系（同为 DeepMind 团队成员并共同署名同一篇论文），事实陈述准确，逐字原句与页面作者列表一致。"
+   "grader_reason": "DBLP 页面确认该论文为 Volodymyr Mnih 等人的 \"Human-level control through deep reinforcement learning\"，发表于 Nature 518(7540), 2015 年。完整作者列表中第 7 位为 Alex Graves，第 18 位为 Shane Legg，二人同为该 2015 年 Nature DQN 论文的合著者。这支持「同事」关系（同为 DeepMind 团队成员并共同署名同一篇论文），事实陈述准确，逐字原句与页面作者列表一致。",
+   "fact_en": "Shane Legg and Alex Graves were both authors of the 2015 Nature DQN paper."
   },
   {
    "person_a": "Shane Legg",
@@ -2582,7 +2767,8 @@
     "verbatim_quote": "Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin A. Riedmiller, Andreas Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, and Demis Hassabis."
    },
    "status": "verified",
-   "grader_reason": "DBLP 页面确认该论文为 2015 年 Nature DQN 论文 \"Human-level control through deep reinforcement learning\"（Nature 518:7540, 2015）。作者列表中 David Silver 为第 3 作者、Shane Legg 为第 18 作者，二人确实同为该论文共同作者，支持「同事」关系。逐字作者顺序与声称原句完全一致。"
+   "grader_reason": "DBLP 页面确认该论文为 2015 年 Nature DQN 论文 \"Human-level control through deep reinforcement learning\"（Nature 518:7540, 2015）。作者列表中 David Silver 为第 3 作者、Shane Legg 为第 18 作者，二人确实同为该论文共同作者，支持「同事」关系。逐字作者顺序与声称原句完全一致。",
+   "fact_en": "Shane Legg and David Silver were both authors of the 2015 Nature DQN paper."
   },
   {
    "person_a": "Shane Legg",
@@ -2598,7 +2784,8 @@
     "verbatim_quote": "Grégoire Delétang, Anian Ruoss, Jordi Grau-Moya, Tim Genewein, Li Kevin Wenliang, Elliot Catt, Chris Cundy, Marcus Hutter, Shane Legg, Joel Veness, Pedro A. Ortega"
    },
    "status": "verified",
-   "grader_reason": "arxiv 页面的作者列表逐字包含 \"Shane Legg\" 和 \"Joel Veness\"（以及 Marcus Hutter/胡特），与声称原句一致。两人同为该论文 (arXiv:2207.02098) 的共同作者，支持\"同事\"这一关系类型。声称原句与页面作者行除超链接格式外完全吻合。"
+   "grader_reason": "arxiv 页面的作者列表逐字包含 \"Shane Legg\" 和 \"Joel Veness\"（以及 Marcus Hutter/胡特），与声称原句一致。两人同为该论文 (arXiv:2207.02098) 的共同作者，支持\"同事\"这一关系类型。声称原句与页面作者行除超链接格式外完全吻合。",
+   "fact_en": "Shane Legg, Joel Veness, and Marcus Hutter were all authors of the paper."
   },
   {
    "person_a": "Shane Legg",
@@ -2614,7 +2801,8 @@
     "verbatim_quote": "Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, Dario Amodei"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 arxiv.org/abs/1706.03741（论文 \"Deep reinforcement learning from human preferences\"，即 RLHF 奠基论文）确认作者列表为 Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, Dario Amodei，Jan Leike 与 Shane Legg 同为该论文作者。声称的逐字原句与页面一致，且共同署名同一篇论文支持二人\"同事\"关系，事实陈述准确。"
+   "grader_reason": "WebFetch 抓取 arxiv.org/abs/1706.03741（论文 \"Deep reinforcement learning from human preferences\"，即 RLHF 奠基论文）确认作者列表为 Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, Dario Amodei，Jan Leike 与 Shane Legg 同为该论文作者。声称的逐字原句与页面一致，且共同署名同一篇论文支持二人\"同事\"关系，事实陈述准确。",
+   "fact_en": "Shane Legg and Jan Leike were both authors of the foundational RLHF paper."
   },
   {
    "person_a": "Shane Legg",
@@ -2630,7 +2818,8 @@
     "verbatim_quote": "Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, Dario Amodei"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 arXiv 1706.03741（\"Deep reinforcement learning from human preferences\"，即著名的 RLHF 奠基论文）成功，页面作者列表逐字为 \"Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, Dario Amodei\"。Shane Legg 与 Dario Amodei 同时出现在同一篇论文的作者列表中，与声称的逐字原句完全吻合。两人共同署名同一篇论文，构成「同事/合作者」关系，关系类型与方向（对称的共同作者关系）成立。事实陈述（莱格与 Dario Amodei、Paul Christiano 同为该 RLHF 奠基论文作者）也得到页面支持。"
+   "grader_reason": "WebFetch 抓取 arXiv 1706.03741（\"Deep reinforcement learning from human preferences\"，即著名的 RLHF 奠基论文）成功，页面作者列表逐字为 \"Paul Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, Dario Amodei\"。Shane Legg 与 Dario Amodei 同时出现在同一篇论文的作者列表中，与声称的逐字原句完全吻合。两人共同署名同一篇论文，构成「同事/合作者」关系，关系类型与方向（对称的共同作者关系）成立。事实陈述（莱格与 Dario Amodei、Paul Christiano 同为该 RLHF 奠基论文作者）也得到页面支持。",
+   "fact_en": "Shane Legg, Dario Amodei, and Paul Christiano were all authors of the foundational RLHF paper."
   },
   {
    "person_a": "Mustafa Suleyman",
@@ -2647,7 +2836,8 @@
    },
    "status": "verified",
    "grader_reason": "页面 History 部分确实存在该原句，与声称的逐字原句一致：「The company was founded by entrepreneurs Reid Hoffman, Mustafa Suleyman and Karén Simonyan in 2022.」该句明确指出 Mustafa Suleyman 与 Karén Simonyan（即 Karen Simonyan）于 2022 年共同创立 Inflection AI，两人同列为创始人，直接支持「联创」这一关系类型与方向。事实陈述（2022 年共同创立 Inflection AI）成立。",
-   "org": "Inflection AI"
+   "org": "Inflection AI",
+   "fact_en": "Mustafa Suleyman and Karén Simonyan co-founded Inflection AI in 2022."
   },
   {
    "person_a": "Karen Simonyan",
@@ -2663,7 +2853,8 @@
     "verbatim_quote": "Vision Factory was acquired by Google DeepMind in October 2014"
    },
    "status": "verified",
-   "grader_reason": "页面上确实存在声称的逐字原句，与原文完全一致（仅引用标记 [3] 差异）。原文全句为：\"Vision Factory was acquired by Google DeepMind in October 2014 [3].\" 页面同时确认 Simonyan \"was one of the founders of Vision Factory, an Oxford University spin-off\"，且其本人是 \"a researcher at Google DeepMind\"。Demis Hassabis 在同页作为 DeepMind 多篇论文（AlphaGo Zero、AlphaZero、MuZero）的共同作者出现，并明确署名 \"Demis Hassabis, DeepMind\"。两人因此均被记录为同在 Google DeepMind，支持「同事」这一关系与方向。注意：页面并未明确写 Hassabis \"领导\" DeepMind，也未写 Simonyan 头衔为 \"research scientist\"（原文用 \"researcher\"）——这两处属事实陈述的轻微外推，但被核验的关系（同事）与逐字原句本身均可在页面查证，故判定 verified。"
+   "grader_reason": "页面上确实存在声称的逐字原句，与原文完全一致（仅引用标记 [3] 差异）。原文全句为：\"Vision Factory was acquired by Google DeepMind in October 2014 [3].\" 页面同时确认 Simonyan \"was one of the founders of Vision Factory, an Oxford University spin-off\"，且其本人是 \"a researcher at Google DeepMind\"。Demis Hassabis 在同页作为 DeepMind 多篇论文（AlphaGo Zero、AlphaZero、MuZero）的共同作者出现，并明确署名 \"Demis Hassabis, DeepMind\"。两人因此均被记录为同在 Google DeepMind，支持「同事」这一关系与方向。注意：页面并未明确写 Hassabis \"领导\" DeepMind，也未写 Simonyan 头衔为 \"research scientist\"（原文用 \"researcher\"）——这两处属事实陈述的轻微外推，但被核验的关系（同事）与逐字原句本身均可在页面查证，故判定 verified。",
+   "fact_en": "Simonyan's startup Vision Factory was acquired by Google DeepMind in 2014, after which he became a research scientist at DeepMind, led by Hassabis."
   },
   {
    "person_a": "Michael I. Jordan",
@@ -2679,7 +2870,8 @@
     "verbatim_quote": "In 2002, he received his Doctor of Philosophy (Ph.D.) in Computer Science from the University of California, Berkeley, under the supervision of Michael I. Jordan."
    },
    "status": "verified",
-   "grader_reason": "页面上确实存在该逐字原句，明确说明 Andrew Ng 于 2002 年在 UC Berkeley 获得计算机科学博士学位，导师为 Michael I. Jordan。这直接支持\"Michael I. Jordan —[师承]— Andrew Ng\"的师承关系，且方向正确（Jordan 是导师，Ng 是博士生）。"
+   "grader_reason": "页面上确实存在该逐字原句，明确说明 Andrew Ng 于 2002 年在 UC Berkeley 获得计算机科学博士学位，导师为 Michael I. Jordan。这直接支持\"Michael I. Jordan —[师承]— Andrew Ng\"的师承关系，且方向正确（Jordan 是导师，Ng 是博士生）。",
+   "fact_en": "Michael I. Jordan was the doctoral advisor of Andrew Ng."
   },
   {
    "person_a": "Andrew Ng",
@@ -2695,7 +2887,8 @@
     "verbatim_quote": "In 2007, Le moved to the United States to pursue graduate studies in computer science at Stanford University, where his PhD advisor was Andrew Ng."
    },
    "status": "verified",
-   "grader_reason": "页面确实存在声称的逐字原句，与提供的原句完全一致。该句明确说明 Quoc Le 2007 年赴斯坦福攻读计算机科学研究生，其博士导师（PhD advisor）是 Andrew Ng。这直接支持\"Andrew Ng —[师承]— Quoc Le\"的关系：Andrew Ng 作为博士生导师，Quoc Le 为其学生，关系类型（师承）与方向均成立。"
+   "grader_reason": "页面确实存在声称的逐字原句，与提供的原句完全一致。该句明确说明 Quoc Le 2007 年赴斯坦福攻读计算机科学研究生，其博士导师（PhD advisor）是 Andrew Ng。这直接支持\"Andrew Ng —[师承]— Quoc Le\"的关系：Andrew Ng 作为博士生导师，Quoc Le 为其学生，关系类型（师承）与方向均成立。",
+   "fact_en": "Andrew Ng was the doctoral advisor of Quoc V. Le at Stanford."
   },
   {
    "person_a": "Andrew Ng",
@@ -2712,7 +2905,8 @@
    },
    "status": "verified",
    "grader_reason": "页面\"Industry\"章节确实存在该原句，与声称的逐字原句完全一致（仅 Wikipedia 渲染带有内链标记，文字内容一致）。原句表述 Andrew Ng \"founded and directed the Google Brain Deep Learning Project with Jeff Dean, Greg Corrado, and Rajat Monga\"，即 Andrew Ng 与 Jeff Dean（及另两人）共同创立 Google Brain，\"with Jeff Dean\" 直接支持二人之间的\"联创\"关系，方向与类型均成立。",
-   "org": "Google Brain"
+   "org": "Google Brain",
+   "fact_en": "Andrew Ng and Jeff Dean co-founded Google Brain."
   },
   {
    "person_a": "Andrew Ng",
@@ -2729,7 +2923,8 @@
    },
    "status": "verified",
    "grader_reason": "页面上确实存在该逐字原句，且该句明确支持\"联创\"关系。原句为 \"From 2011 to 2012, he worked at Google, where he founded and directed the Google Brain Deep Learning Project with Jeff Dean, Greg Corrado, and Rajat Monga.\" 句中 \"founded ... the Google Brain Deep Learning Project with ... Greg Corrado\" 表明 Andrew Ng 与 Greg Corrado（及 Jeff Dean、Rajat Monga）共同创立了 Google Brain，方向与类型均成立，支撑事实陈述\"Andrew Ng 与 Greg Corrado 共同创立 Google Brain\"。",
-   "org": "Google Brain"
+   "org": "Google Brain",
+   "fact_en": "Andrew Ng and Greg Corrado co-founded Google Brain."
   },
   {
    "person_a": "Andrew Ng",
@@ -2746,7 +2941,8 @@
    },
    "status": "verified",
    "grader_reason": "在 https://en.wikipedia.org/wiki/Andrew_Ng 页面上确实找到了与声称几乎逐字一致的原句，位于 Career 下的 \"Academia and teaching\" 小节。原句明确指出 Andrew Ng 在 2012 年与斯坦福计算机科学家 Daphne Koller 共同创立（cofounded）Coursera 并担任 CEO，完全支持「Andrew Ng —[联创]— Daphne Koller」这一关系及其类型与方向，与事实陈述「Andrew Ng 与 Daphne Koller 共同创立 Coursera 并任 CEO」吻合。",
-   "org": "Coursera"
+   "org": "Coursera",
+   "fact_en": "Andrew Ng co-founded Coursera with Daphne Koller and served as its CEO."
   },
   {
    "person_a": "Andrew Ng",
@@ -2762,7 +2958,8 @@
     "verbatim_quote": "He was the first PhD student of AI Professor Andrew Ng, who was a first-year professor at Stanford at the time."
    },
    "status": "verified",
-   "grader_reason": "页面正文存在与声称完全一致的原句，且信息框 \"Doctoral advisor\" 字段列出 Andrew Ng，双重确认 Andrew Ng 是 Pieter Abbeel 的博士生导师（其首位博士生）。关系方向（Ng 师承指导 Abbeel）与类型（博士导师/师承）均被原文支持。"
+   "grader_reason": "页面正文存在与声称完全一致的原句，且信息框 \"Doctoral advisor\" 字段列出 Andrew Ng，双重确认 Andrew Ng 是 Pieter Abbeel 的博士生导师（其首位博士生）。关系方向（Ng 师承指导 Abbeel）与类型（博士导师/师承）均被原文支持。",
+   "fact_en": "Andrew Ng was the doctoral advisor of Pieter Abbeel (his first PhD student)."
   },
   {
    "person_a": "Quoc Le",
@@ -2779,7 +2976,8 @@
    },
    "status": "verified",
    "grader_reason": "页面上确实存在该原句的逐字内容：\"In 2011, Le became a founding member of Google Brain along with his then advisor Andrew Ng, Google Fellow Jeff Dean, and researcher Greg Corrado.\" 该句明确说明 Quoc Le 于 2011 年成为 Google Brain 的创始成员，且 Jeff Dean（Google Fellow）同为创始成员之一。这直接支持\"Quoc Le 与 Jeff Dean 同为 Google Brain 创始成员\"的关系，且关系类型（联创/同为创始成员）与方向均成立。",
-   "org": "Google Brain"
+   "org": "Google Brain",
+   "fact_en": "Quoc V. Le and Jeff Dean were both founding members of Google Brain."
   },
   {
    "person_a": "Quoc Le",
@@ -2795,7 +2993,8 @@
     "verbatim_quote": "A Neural Conversational Model ... Oriol Vinyals, Quoc Le"
    },
    "status": "verified",
-   "grader_reason": "arXiv 页面确认该论文标题为 \"A Neural Conversational Model\"，作者列为 Oriol Vinyals 和 Quoc Le 两人。两人共同署名同一篇神经对话模型论文，支持「Quoc Le 与 Oriol Vinyals 合著神经对话模型论文」这一事实，从而支持「同事/合作者」关系。该关系无方向性，双向成立，类型匹配。"
+   "grader_reason": "arXiv 页面确认该论文标题为 \"A Neural Conversational Model\"，作者列为 Oriol Vinyals 和 Quoc Le 两人。两人共同署名同一篇神经对话模型论文，支持「Quoc Le 与 Oriol Vinyals 合著神经对话模型论文」这一事实，从而支持「同事/合作者」关系。该关系无方向性，双向成立，类型匹配。",
+   "fact_en": "Quoc V. Le co-authored the Neural Conversational Model paper with Oriol Vinyals."
   },
   {
    "person_a": "Quoc Le",
@@ -2811,7 +3010,8 @@
     "verbatim_quote": "Quoc V. Le, Navdeep Jaitly, Geoffrey E. Hinton"
    },
    "status": "verified",
-   "grader_reason": "arXiv 页面 1504.00941（论文《A Simple Way to Initialize Recurrent Networks of Rectified Linear Units》，即 IRNN 初始化论文）的作者行逐字为 \"Quoc V. Le, Navdeep Jaitly, Geoffrey E. Hinton\"，与声称原句一致（仅 V./E. 中间名缩写细节，属正常）。Quoc Le 与 Geoffrey Hinton 共同署名同一篇论文，直接支持二者的「同事/合著者」关系，事实陈述准确。"
+   "grader_reason": "arXiv 页面 1504.00941（论文《A Simple Way to Initialize Recurrent Networks of Rectified Linear Units》，即 IRNN 初始化论文）的作者行逐字为 \"Quoc V. Le, Navdeep Jaitly, Geoffrey E. Hinton\"，与声称原句一致（仅 V./E. 中间名缩写细节，属正常）。Quoc Le 与 Geoffrey Hinton 共同署名同一篇论文，直接支持二者的「同事/合著者」关系，事实陈述准确。",
+   "fact_en": "Quoc V. Le co-authored the IRNN initialization paper with Geoffrey Hinton and Navdeep Jaitly."
   },
   {
    "person_a": "Quoc Le",
@@ -2827,7 +3027,8 @@
     "verbatim_quote": "Quoc V. Le, Navdeep Jaitly, Geoffrey E. Hinton"
    },
    "status": "verified",
-   "grader_reason": "arXiv 页面 1504.00941 标题为「A Simple Way to Initialize Recurrent Networks of Rectified Linear Units」(即 IRNN 初始化论文)，作者行逐字为「Quoc V. Le, Navdeep Jaitly, Geoffrey E. Hinton」，与声称原句完全一致。Quoc Le 与 Navdeep Jaitly 同为该论文合著者，合著关系支持「同事/合作者」类型的关系，方向对称无误。"
+   "grader_reason": "arXiv 页面 1504.00941 标题为「A Simple Way to Initialize Recurrent Networks of Rectified Linear Units」(即 IRNN 初始化论文)，作者行逐字为「Quoc V. Le, Navdeep Jaitly, Geoffrey E. Hinton」，与声称原句完全一致。Quoc Le 与 Navdeep Jaitly 同为该论文合著者，合著关系支持「同事/合作者」类型的关系，方向对称无误。",
+   "fact_en": "Quoc V. Le co-authored the IRNN initialization paper with Navdeep Jaitly and Geoffrey Hinton."
   },
   {
    "person_a": "Dario Amodei",
@@ -2844,7 +3045,8 @@
    },
    "status": "verified",
    "grader_reason": "WebFetch 抓取 https://en.wikipedia.org/wiki/Dario_Amodei 成功，页面开头段落中存在与声称原句一致的文字：「In 2021, he and his sister Daniela Amodei co-founded Anthropic, the company behind the large language model series Claude.」该句明确指出 Dario 与其妹妹 Daniela Amodei 于 2021 年共同创立 Anthropic，直接支持「Dario Amodei —[联创]— Daniela Amodei」这一关系与类型（联合创始人），方向正确。声称的逐字原句「In 2021, he and his sister Daniela Amodei co-founded Anthropic」是页面句子的前半部分，完全吻合（仅页面句子在其后附带了对 Anthropic 的补充说明）。",
-   "org": "Anthropic"
+   "org": "Anthropic",
+   "fact_en": "Dario Amodei co-founded Anthropic with his sister Daniela Amodei."
   },
   {
    "person_a": "Dario Amodei",
@@ -2860,7 +3062,8 @@
     "verbatim_quote": "Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei"
    },
    "status": "verified",
-   "grader_reason": "arxiv abstract 页面 (2005.14165, GPT-3 论文 \"Language Models are Few-Shot Learners\") 的作者列表末尾确实按声称的顺序列出 \"Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei\"，两人同列为该论文(OpenAI 出品)的共同作者。这支持「同事」关系类型——两人在 OpenAI 共同署名同一篇论文，关系无方向性，类型与方向均成立。原句逐字匹配(仅有 arxiv 链接标记的细微差异，姓名文字完全一致)。"
+   "grader_reason": "arxiv abstract 页面 (2005.14165, GPT-3 论文 \"Language Models are Few-Shot Learners\") 的作者列表末尾确实按声称的顺序列出 \"Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei\"，两人同列为该论文(OpenAI 出品)的共同作者。这支持「同事」关系类型——两人在 OpenAI 共同署名同一篇论文，关系无方向性，类型与方向均成立。原句逐字匹配(仅有 arxiv 链接标记的细微差异，姓名文字完全一致)。",
+   "fact_en": "Dario Amodei and Ilya Sutskever were both listed as authors of the GPT-3 paper and worked together at OpenAI."
   },
   {
    "person_a": "Dario Amodei",
@@ -2876,7 +3079,8 @@
     "verbatim_quote": "When you don't share the same vision and don't trust someone, there is little value in continuing the argument"
    },
    "status": "verified",
-   "grader_reason": "页面可正常打开，逐字原句在文中确实存在，归于 Dario Amodei（出自其与 Bloomberg 的 Emily Chang 的访谈）。文章明确说他因愿景与信任的分歧而无法继续与 OpenAI 领导层共事，并指出这些言论被\"广泛视为针对 OpenAI CEO Sam Altman\"（widely seen as directed at OpenAI CEO Sam Altman）。这与事实陈述\"Dario 称因不再认同也不信任对方而离开 OpenAI，言论被广泛视为针对 Sam Altman\"完全吻合，也支持\"决裂/分歧\"这一关系类型与方向（Dario → Sam）。文章本身注明原句未点名 Altman，而事实陈述也准确表述为\"被广泛视为针对\"，措辞一致、无过度断言。"
+   "grader_reason": "页面可正常打开，逐字原句在文中确实存在，归于 Dario Amodei（出自其与 Bloomberg 的 Emily Chang 的访谈）。文章明确说他因愿景与信任的分歧而无法继续与 OpenAI 领导层共事，并指出这些言论被\"广泛视为针对 OpenAI CEO Sam Altman\"（widely seen as directed at OpenAI CEO Sam Altman）。这与事实陈述\"Dario 称因不再认同也不信任对方而离开 OpenAI，言论被广泛视为针对 Sam Altman\"完全吻合，也支持\"决裂/分歧\"这一关系类型与方向（Dario → Sam）。文章本身注明原句未点名 Altman，而事实陈述也准确表述为\"被广泛视为针对\"，措辞一致、无过度断言。",
+   "fact_en": "Dario Amodei said he left OpenAI because he no longer shared its vision or trusted its leadership — remarks widely seen as directed at Sam Altman."
   },
   {
    "person_a": "Dario Amodei",
@@ -2893,7 +3097,8 @@
    },
    "status": "verified",
    "grader_reason": "页面确为 GPT-3 论文《Language Models are Few-Shot Learners》(arxiv 2005.14165)，作者列表中确实逐字包含声称的原句「Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish」，且 Dario Amodei 同列其后。该原句支持\"Jack Clark 与 Dario 同列 GPT-3 论文作者\"这一可由本 URL 直接验证的事实部分。Jack Clark 与 Dario Amodei 同为 Anthropic 联合创始人是公认的公开事实，与该关系类型(联创)一致，方向对称无误。原句逐字匹配、关系成立，故 verified。",
-   "org": "Anthropic"
+   "org": "Anthropic",
+   "fact_en": "Jack Clark is a co-founder of Anthropic and was listed alongside Dario Amodei as an author of the GPT-3 paper."
   },
   {
    "person_a": "Dario Amodei",
@@ -2909,7 +3114,8 @@
     "verbatim_quote": "Jacob Steinhardt\nStanford University   Paul Christiano\nUC Berkeley   John Schulman\nOpenAI"
    },
    "status": "verified",
-   "grader_reason": "页面标题为 \"Concrete Problems in AI Safety\"（arXiv:1606.06565），是公认的 AI 安全奠基论文。作者列表中 Dario Amodei (Google Brain) 与 Paul Christiano (UC Berkeley) 均为共同作者，二人共著该论文，支持\"同事\"这一关系类型。声称的逐字原句 \"Jacob Steinhardt Stanford University Paul Christiano UC Berkeley John Schulman OpenAI\" 确实出现在作者署名块中（仅有空白/排版标记的细微差异）。事实陈述（共著 AI 安全奠基论文）与关系/类型均成立。"
+   "grader_reason": "页面标题为 \"Concrete Problems in AI Safety\"（arXiv:1606.06565），是公认的 AI 安全奠基论文。作者列表中 Dario Amodei (Google Brain) 与 Paul Christiano (UC Berkeley) 均为共同作者，二人共著该论文，支持\"同事\"这一关系类型。声称的逐字原句 \"Jacob Steinhardt Stanford University Paul Christiano UC Berkeley John Schulman OpenAI\" 确实出现在作者署名块中（仅有空白/排版标记的细微差异）。事实陈述（共著 AI 安全奠基论文）与关系/类型均成立。",
+   "fact_en": "Dario Amodei co-authored a foundational AI safety paper with Paul Christiano."
   },
   {
    "person_a": "Dario Amodei",
@@ -2925,7 +3131,8 @@
     "verbatim_quote": "Paul Christiano\nUC Berkeley   John Schulman\nOpenAI   Dan Mané\nGoogle Brain"
    },
    "status": "verified",
-   "grader_reason": "URL 成功打开，页面是论文《Concrete Problems in AI Safety》(arXiv:1606.06565)。作者块逐字包含「Paul Christiano / UC Berkeley / John Schulman / OpenAI / Dan Mané / Google Brain」（仅换行/空白差异），且页面同时列出 Dario Amodei (Google Brain, 共同第一作者) 与 John Schulman (OpenAI)。两人确为这篇 AI 安全奠基论文的共同作者，事实陈述「共著 AI 安全奠基论文」得到原句支持，支撑两人之间的协作/同事关系。注意：此论文发表时 Dario 在 Google Brain、Schulman 在 OpenAI，属跨机构合著者，并非同一雇主下的同事；但作为概念图谱中以「共著奠基论文」为依据的协作关系，证据成立。"
+   "grader_reason": "URL 成功打开，页面是论文《Concrete Problems in AI Safety》(arXiv:1606.06565)。作者块逐字包含「Paul Christiano / UC Berkeley / John Schulman / OpenAI / Dan Mané / Google Brain」（仅换行/空白差异），且页面同时列出 Dario Amodei (Google Brain, 共同第一作者) 与 John Schulman (OpenAI)。两人确为这篇 AI 安全奠基论文的共同作者，事实陈述「共著 AI 安全奠基论文」得到原句支持，支撑两人之间的协作/同事关系。注意：此论文发表时 Dario 在 Google Brain、Schulman 在 OpenAI，属跨机构合著者，并非同一雇主下的同事；但作为概念图谱中以「共著奠基论文」为依据的协作关系，证据成立。",
+   "fact_en": "Dario Amodei co-authored a foundational AI safety paper with John Schulman."
   },
   {
    "person_a": "Pieter Abbeel",
@@ -2941,7 +3148,8 @@
     "verbatim_quote": "He has a PhD in electrical engineering and computer sciences from the University of California, Berkeley, where he was advised by Pieter Abbeel."
    },
    "status": "verified",
-   "grader_reason": "页面 \"Early life and education\" 部分包含与声称完全一致的原句，明确指出 John Schulman 在 UC Berkeley 攻读博士期间由 Pieter Abbeel 指导（advised by）。这直接支持 \"Pieter Abbeel 是 John Schulman 的博士导师\" 这一师承关系，方向正确（Abbeel 为导师，Schulman 为学生）。"
+   "grader_reason": "页面 \"Early life and education\" 部分包含与声称完全一致的原句，明确指出 John Schulman 在 UC Berkeley 攻读博士期间由 Pieter Abbeel 指导（advised by）。这直接支持 \"Pieter Abbeel 是 John Schulman 的博士导师\" 这一师承关系，方向正确（Abbeel 为导师，Schulman 为学生）。",
+   "fact_en": "Pieter Abbeel was the doctoral advisor of John Schulman."
   },
   {
    "person_a": "John Schulman",
@@ -2957,7 +3165,8 @@
     "verbatim_quote": "John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel"
    },
    "status": "verified",
-   "grader_reason": "页面为 arXiv:1502.05477「Trust Region Policy Optimization」(TRPO) 论文。其完整作者列表为 John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel。John Schulman 与 Philipp Moritz 同列为该论文共同作者，证实两人共同撰写 TRPO 论文，支持「同事/合作者」关系。声称的逐字原句与页面实际作者列表一致。"
+   "grader_reason": "页面为 arXiv:1502.05477「Trust Region Policy Optimization」(TRPO) 论文。其完整作者列表为 John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel。John Schulman 与 Philipp Moritz 同列为该论文共同作者，证实两人共同撰写 TRPO 论文，支持「同事/合作者」关系。声称的逐字原句与页面实际作者列表一致。",
+   "fact_en": "John Schulman co-authored the TRPO paper with Philipp Moritz."
   },
   {
    "person_a": "John Schulman",
@@ -2973,7 +3182,8 @@
     "verbatim_quote": "John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 arXiv 1502.05477 页面，论文标题为「Trust Region Policy Optimization」(TRPO)，作者列表完整逐字为「John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel」。John Schulman 与 Michael I. Jordan 均在同一篇论文的作者列表中，共同撰写了该论文，支持「同事」关系。声称的逐字原句与页面实际内容完全一致。"
+   "grader_reason": "WebFetch 抓取 arXiv 1502.05477 页面，论文标题为「Trust Region Policy Optimization」(TRPO)，作者列表完整逐字为「John Schulman, Sergey Levine, Philipp Moritz, Michael I. Jordan, Pieter Abbeel」。John Schulman 与 Michael I. Jordan 均在同一篇论文的作者列表中，共同撰写了该论文，支持「同事」关系。声称的逐字原句与页面实际内容完全一致。",
+   "fact_en": "John Schulman co-authored the TRPO paper with Michael I. Jordan."
   },
   {
    "person_a": "John Schulman",
@@ -2989,7 +3199,8 @@
     "verbatim_quote": "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 arXiv:1707.06347（Proximal Policy Optimization Algorithms，即 PPO 论文）页面，作者署名行逐字为「John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov」，与声称原句完全一致。John Schulman 与 Alec Radford 同列为该论文共同作者，证实二人共同撰写 PPO 论文，支持「同事」关系（共同署名/同机构 OpenAI 合作者）。"
+   "grader_reason": "WebFetch 抓取 arXiv:1707.06347（Proximal Policy Optimization Algorithms，即 PPO 论文）页面，作者署名行逐字为「John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov」，与声称原句完全一致。John Schulman 与 Alec Radford 同列为该论文共同作者，证实二人共同撰写 PPO 论文，支持「同事」关系（共同署名/同机构 OpenAI 合作者）。",
+   "fact_en": "John Schulman co-authored the PPO paper with Alec Radford."
   },
   {
    "person_a": "John Schulman",
@@ -3005,7 +3216,8 @@
     "verbatim_quote": "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 arXiv:1707.06347（\"Proximal Policy Optimization Algorithms\"，即 PPO 论文）确认作者署名行为 \"John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov\"，与声称的逐字原句完全一致。John Schulman 与 Prafulla Dhariwal 同为该论文共同作者，支持「同事」关系，且事实陈述（二人共撰 PPO 论文）属实。"
+   "grader_reason": "WebFetch 抓取 arXiv:1707.06347（\"Proximal Policy Optimization Algorithms\"，即 PPO 论文）确认作者署名行为 \"John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov\"，与声称的逐字原句完全一致。John Schulman 与 Prafulla Dhariwal 同为该论文共同作者，支持「同事」关系，且事实陈述（二人共撰 PPO 论文）属实。",
+   "fact_en": "John Schulman co-authored the PPO paper with Prafulla Dhariwal."
   },
   {
    "person_a": "Yann LeCun",
@@ -3021,7 +3233,8 @@
     "verbatim_quote": "He then began his PhD at New York University (NYU) in deep learning under the supervision of Yann LeCun and Rob Fergus."
    },
    "status": "verified",
-   "grader_reason": "页面上存在与声称完全一致的原句，且明确支持该「师承」关系与方向。原句写明 Zaremba 在纽约大学（NYU）攻读博士期间，由 Yann LeCun 和 Rob Fergus 共同指导（supervision），LeCun 是导师方、Zaremba 是学生方。此外页面 infobox 的「Doctoral advisor」字段也独立列出 Yann LeCun，二次确认。关系类型（师承/博士导师）、方向（LeCun→Zaremba）均与事实陈述一致。"
+   "grader_reason": "页面上存在与声称完全一致的原句，且明确支持该「师承」关系与方向。原句写明 Zaremba 在纽约大学（NYU）攻读博士期间，由 Yann LeCun 和 Rob Fergus 共同指导（supervision），LeCun 是导师方、Zaremba 是学生方。此外页面 infobox 的「Doctoral advisor」字段也独立列出 Yann LeCun，二次确认。关系类型（师承/博士导师）、方向（LeCun→Zaremba）均与事实陈述一致。",
+   "fact_en": "Yann LeCun was one of Wojciech Zaremba's doctoral advisors at NYU."
   },
   {
    "person_a": "Rob Fergus",
@@ -3037,7 +3250,8 @@
     "verbatim_quote": "He then began his PhD at New York University (NYU) in deep learning under the supervision of Yann LeCun and Rob Fergus."
    },
    "status": "verified",
-   "grader_reason": "页面 \"Early life and education\" 章节确有逐字原句，且语义直接支持该关系：句中明确 Wojciech Zaremba 在 NYU 攻读博士期间，导师为 Yann LeCun 和 Rob Fergus，因此 Rob Fergus 是 Zaremba 博士导师之一，方向正确（Fergus 指导 Zaremba），属于\"师承\"关系。"
+   "grader_reason": "页面 \"Early life and education\" 章节确有逐字原句，且语义直接支持该关系：句中明确 Wojciech Zaremba 在 NYU 攻读博士期间，导师为 Yann LeCun 和 Rob Fergus，因此 Rob Fergus 是 Zaremba 博士导师之一，方向正确（Fergus 指导 Zaremba），属于\"师承\"关系。",
+   "fact_en": "Rob Fergus was one of Wojciech Zaremba's doctoral advisors at NYU."
   },
   {
    "person_a": "Wojciech Zaremba",
@@ -3054,7 +3268,8 @@
    },
    "status": "verified",
    "grader_reason": "页面确实存在该原句，且明确将 Sam Altman 和 Wojciech Zaremba 同列为 2015 年 12 月 OpenAI 的创始成员，支持「两人同为 OpenAI 联合创始人」这一对称的[联创]关系。关系方向与类型均成立。",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Wojciech Zaremba and Sam Altman were both co-founders of OpenAI."
   },
   {
    "person_a": "Wojciech Zaremba",
@@ -3071,7 +3286,8 @@
    },
    "status": "verified",
    "grader_reason": "页面包含 OpenAI 创立的逐字原句，明确将 Greg Brockman 和 Wojciech Zaremba 同列为 2015 年 12 月创立 OpenAI, Inc. 的创始人成员。该句直接支持\"联创\"这一对称关系——两人同为 OpenAI 联合创始人，与事实陈述一致。原句与声称的逐字原句完全吻合（仅核对到联合主席部分之前，创始人名单一字不差）。",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Wojciech Zaremba and Greg Brockman were both co-founders of OpenAI."
   },
   {
    "person_a": "Wojciech Zaremba",
@@ -3088,7 +3304,8 @@
    },
    "status": "verified",
    "grader_reason": "页面包含与声称完全一致的原句，明确将 Ilya Sutskever 与 Wojciech Zaremba 共同列为 OpenAI 在 2015 年 12 月成立时的创始人。该句直接支持\"两人同为 OpenAI 联合创始人\"这一对称的[联创]关系，方向与类型均成立。",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Wojciech Zaremba and Ilya Sutskever were both co-founders of OpenAI."
   },
   {
    "person_a": "Wojciech Zaremba",
@@ -3105,7 +3322,8 @@
    },
    "status": "verified",
    "grader_reason": "WebFetch 抓取 https://en.wikipedia.org/wiki/OpenAI 后，页面确实存在声称的逐字原句，且与提供的原句一字不差。该句明确将 Andrej Karpathy 与 Wojciech Zaremba 同列为 2015 年 12 月创立 OpenAI（非营利组织 OpenAI, Inc.）的创始人之一，直接支持「联创」这一关系与方向。事实陈述成立。",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Wojciech Zaremba and Andrej Karpathy were both co-founders of OpenAI."
   },
   {
    "person_a": "Wojciech Zaremba",
@@ -3122,7 +3340,8 @@
    },
    "status": "verified",
    "grader_reason": "页面确实存在该原句，与声称的逐字原句一致。句中明确将 John Schulman 与 Wojciech Zaremba 并列列为 2015 年 12 月 OpenAI 的创始人之一，支持「同为 OpenAI 联合创始人」这一[联创]关系，方向对称、类型正确。",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "Wojciech Zaremba and John Schulman were both co-founders of OpenAI."
   },
   {
    "person_a": "Wojciech Zaremba",
@@ -3138,7 +3357,8 @@
     "verbatim_quote": "Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus"
    },
    "status": "verified",
-   "grader_reason": "arXiv 页面 1312.6199《Intriguing properties of neural networks》的作者列表确实包含 Wojciech Zaremba（第二作者）和 Ian Goodfellow（第六作者）。两人共同署名同一篇论文，支持\"同事/共同作者\"关系，且声称的逐字原句与页面作者列表一致。"
+   "grader_reason": "arXiv 页面 1312.6199《Intriguing properties of neural networks》的作者列表确实包含 Wojciech Zaremba（第二作者）和 Ian Goodfellow（第六作者）。两人共同署名同一篇论文，支持\"同事/共同作者\"关系，且声称的逐字原句与页面作者列表一致。",
+   "fact_en": "Wojciech Zaremba and Ian Goodfellow co-authored the paper 'Intriguing properties of neural networks'."
   },
   {
    "person_a": "Wojciech Zaremba",
@@ -3154,7 +3374,8 @@
     "verbatim_quote": "Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 https://arxiv.org/abs/1312.6199 成功，页面标题确为《Intriguing properties of neural networks》，作者列表逐字为「Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus」，与声称的原句完全一致。Christian Szegedy 与 Wojciech Zaremba 同为该论文共同署名作者，构成\"同事/合作者\"关系，方向与类型均成立。"
+   "grader_reason": "WebFetch 抓取 https://arxiv.org/abs/1312.6199 成功，页面标题确为《Intriguing properties of neural networks》，作者列表逐字为「Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus」，与声称的原句完全一致。Christian Szegedy 与 Wojciech Zaremba 同为该论文共同署名作者，构成\"同事/合作者\"关系，方向与类型均成立。",
+   "fact_en": "Wojciech Zaremba and Christian Szegedy co-authored the paper 'Intriguing properties of neural networks'."
   },
   {
    "person_a": "Rob Fergus",
@@ -3170,7 +3391,8 @@
     "verbatim_quote": "Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus"
    },
    "status": "verified",
-   "grader_reason": "WebFetch 抓取 arxiv.org/abs/1312.6199 成功。页面标题为《Intriguing properties of neural networks》，作者列表逐字为：Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus。Ian Goodfellow（第6位）与 Rob Fergus（第7位）均为该论文共同署名作者，与声称的原句完全一致，支持二者「同事/共同署名」关系。"
+   "grader_reason": "WebFetch 抓取 arxiv.org/abs/1312.6199 成功。页面标题为《Intriguing properties of neural networks》，作者列表逐字为：Christian Szegedy, Wojciech Zaremba, Ilya Sutskever, Joan Bruna, Dumitru Erhan, Ian Goodfellow, Rob Fergus。Ian Goodfellow（第6位）与 Rob Fergus（第7位）均为该论文共同署名作者，与声称的原句完全一致，支持二者「同事/共同署名」关系。",
+   "fact_en": "Rob Fergus and Ian Goodfellow co-authored the paper 'Intriguing properties of neural networks'."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -3186,7 +3408,8 @@
     "verbatim_quote": "I completed PhD under the supervision of Geoffrey Hinton."
    },
    "status": "verified",
-   "grader_reason": "WebFetch of https://jimmylba.github.io/ returns the bio sentence \"I completed PhD under the supervision of Geoffrey Hinton.\" This directly supports the 师承 relation with Hinton as advisor (有向 a=导师) and Jimmy Ba as student."
+   "grader_reason": "WebFetch of https://jimmylba.github.io/ returns the bio sentence \"I completed PhD under the supervision of Geoffrey Hinton.\" This directly supports the 师承 relation with Hinton as advisor (有向 a=导师) and Jimmy Ba as student.",
+   "fact_en": "Jimmy Ba's PhD at the University of Toronto was advised by Geoffrey Hinton."
   },
   {
    "person_a": "Jimmy Ba",
@@ -3202,7 +3425,8 @@
     "verbatim_quote": "The company's founding team of AI researchers were Jimmy Ba, Zihang Dai, Kyle Kosic, Manuel Kroiss, Ross Nordeen, Toby Pohlen, Christian Szegedy, Yuhuai Wu, Greg Yang, and Guodong Zhang, led by chief engineer Igor Babuschkin, formerly associated with Google DeepMind."
    },
    "status": "verified",
-   "grader_reason": "原句仅称其为 xAI『founding team of AI researchers / chief engineer』(研究员/首席工程师,非逐字 co-founder),据防胡编降级为同事(创始团队成员);Musk 创立 xAI 见其人物简介。"
+   "grader_reason": "原句仅称其为 xAI『founding team of AI researchers / chief engineer』(研究员/首席工程师,非逐字 co-founder),据防胡编降级为同事(创始团队成员);Musk 创立 xAI 见其人物简介。",
+   "fact_en": "Jimmy Ba was a member of the founding AI research team of xAI, which Elon Musk founded in 2023."
   },
   {
    "person_a": "Elon Musk",
@@ -3218,7 +3442,8 @@
     "verbatim_quote": "Elon Musk founded xAI on March 9, 2023. ... The company's founding team of AI researchers were Jimmy Ba, Zihang Dai, Kyle Kosic, Manuel Kroiss, Ross Nordeen, Toby Pohlen, Christian Szegedy, Yuhuai Wu, Greg Yang, and Guodong Zhang, led by chief engineer Igor Babuschkin, formerly associated with Google DeepMind."
    },
    "status": "verified",
-   "grader_reason": "原句仅称其为 xAI『founding team of AI researchers / chief engineer』(研究员/首席工程师,非逐字 co-founder),据防胡编降级为同事(创始团队成员);Musk 创立 xAI 见其人物简介。"
+   "grader_reason": "原句仅称其为 xAI『founding team of AI researchers / chief engineer』(研究员/首席工程师,非逐字 co-founder),据防胡编降级为同事(创始团队成员);Musk 创立 xAI 见其人物简介。",
+   "fact_en": "Igor Babuschkin was the chief engineer of the founding team of xAI, which Elon Musk founded in 2023."
   },
   {
    "person_a": "Christian Szegedy",
@@ -3234,7 +3459,8 @@
     "verbatim_quote": "Elon Musk founded xAI on March 9, 2023. ... The company's founding team of AI researchers were Jimmy Ba, Zihang Dai, Kyle Kosic, Manuel Kroiss, Ross Nordeen, Toby Pohlen, Christian Szegedy, Yuhuai Wu, Greg Yang, and Guodong Zhang, led by chief engineer Igor Babuschkin, formerly associated with Google DeepMind."
    },
    "status": "verified",
-   "grader_reason": "原句仅称其为 xAI『founding team of AI researchers / chief engineer』(研究员/首席工程师,非逐字 co-founder),据防胡编降级为同事(创始团队成员);Musk 创立 xAI 见其人物简介。"
+   "grader_reason": "原句仅称其为 xAI『founding team of AI researchers / chief engineer』(研究员/首席工程师,非逐字 co-founder),据防胡编降级为同事(创始团队成员);Musk 创立 xAI 见其人物简介。",
+   "fact_en": "Christian Szegedy was a member of the founding AI research team of xAI, which Elon Musk founded in 2023."
   },
   {
    "person_a": "Mira Murati",
@@ -3250,7 +3476,8 @@
     "verbatim_quote": "She had collaborated with Ilya Sutskever, whose 52-page memo outlining concerns about Altman relied heavily on screenshots and information she provided, which contributed to the board's decision to oust him."
    },
    "status": "verified",
-   "grader_reason": "WebFetch of the Wikipedia \"Mira Murati\" page returned the exact claimed sentence verbatim, located in the OpenAI section of her biography. It states she \"had collaborated with Ilya Sutskever, whose 52-page memo outlining concerns about Altman relied heavily on screenshots and information she provided.\" \"Collaborated with\" directly supports the 同事 relation between Murati (OpenAI CTO) and Sutskever, and confirms the cited fact about her supplying information for his memo during the Nov 2023 Altman ouster."
+   "grader_reason": "WebFetch of the Wikipedia \"Mira Murati\" page returned the exact claimed sentence verbatim, located in the OpenAI section of her biography. It states she \"had collaborated with Ilya Sutskever, whose 52-page memo outlining concerns about Altman relied heavily on screenshots and information she provided.\" \"Collaborated with\" directly supports the 同事 relation between Murati (OpenAI CTO) and Sutskever, and confirms the cited fact about her supplying information for his memo during the Nov 2023 Altman ouster.",
+   "fact_en": "As OpenAI's CTO, Mira Murati worked and collaborated with Ilya Sutskever; during the November 2023 ouster of Sam Altman, she provided extensive screenshots and information that underpinned Sutskever's 52-page memo outlining concerns about Altman."
   },
   {
    "person_a": "Satya Nadella",
@@ -3267,7 +3494,8 @@
    },
    "status": "verified",
    "grader_reason": "微软官方稿导语逐字含「an investment of $1 billion from Microsoft」,且点名 Satya Nadella(CEO)与 OpenAI/Sam Altman,支持投资关系(2019,10亿美元)。原 fact 的2023追加该源未覆盖,已删。",
-   "org": "OpenAI"
+   "org": "OpenAI",
+   "fact_en": "In July 2019, Microsoft CEO Satya Nadella led Microsoft's $1 billion investment in Sam Altman's OpenAI, establishing an exclusive computing partnership."
   },
   {
    "person_a": "Elon Musk",
@@ -3284,7 +3512,8 @@
     "verbatim_quote": "In December 2015, OpenAI was founded as the nonprofit organization OpenAI, Inc., by Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, and Wojciech Zaremba, with Elon Musk and Sam Altman as the co-chairs."
    },
    "status": "verified",
-   "grader_reason": "复用已核 OpenAI 创始人名单原句(同 Sutskever↔Altman 边来源):该句逐字列出 Elon Musk、Sam Altman、Ilya Sutskever、Greg Brockman 同为 OpenAI 2015 创始人,支持二人联创关系。"
+   "grader_reason": "复用已核 OpenAI 创始人名单原句(同 Sutskever↔Altman 边来源):该句逐字列出 Elon Musk、Sam Altman、Ilya Sutskever、Greg Brockman 同为 OpenAI 2015 创始人,支持二人联创关系。",
+   "fact_en": "Elon Musk and Sam Altman were both members of OpenAI's founding team (established December 2015)."
   },
   {
    "person_a": "Elon Musk",
@@ -3301,7 +3530,8 @@
     "verbatim_quote": "In December 2015, OpenAI was founded as the nonprofit organization OpenAI, Inc., by Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, and Wojciech Zaremba, with Elon Musk and Sam Altman as the co-chairs."
    },
    "status": "verified",
-   "grader_reason": "复用已核 OpenAI 创始人名单原句(同 Sutskever↔Altman 边来源):该句逐字列出 Elon Musk、Sam Altman、Ilya Sutskever、Greg Brockman 同为 OpenAI 2015 创始人,支持二人联创关系。"
+   "grader_reason": "复用已核 OpenAI 创始人名单原句(同 Sutskever↔Altman 边来源):该句逐字列出 Elon Musk、Sam Altman、Ilya Sutskever、Greg Brockman 同为 OpenAI 2015 创始人,支持二人联创关系。",
+   "fact_en": "Elon Musk and Greg Brockman were both members of OpenAI's founding team (established December 2015)."
   },
   {
    "person_a": "Elon Musk",
@@ -3318,7 +3548,8 @@
     "verbatim_quote": "In December 2015, OpenAI was founded as the nonprofit organization OpenAI, Inc., by Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, and Wojciech Zaremba, with Elon Musk and Sam Altman as the co-chairs."
    },
    "status": "verified",
-   "grader_reason": "复用已核 OpenAI 创始人名单原句(同 Sutskever↔Altman 边来源):该句逐字列出 Elon Musk、Sam Altman、Ilya Sutskever、Greg Brockman 同为 OpenAI 2015 创始人,支持二人联创关系。"
+   "grader_reason": "复用已核 OpenAI 创始人名单原句(同 Sutskever↔Altman 边来源):该句逐字列出 Elon Musk、Sam Altman、Ilya Sutskever、Greg Brockman 同为 OpenAI 2015 创始人,支持二人联创关系。",
+   "fact_en": "Elon Musk and Ilya Sutskever were both members of OpenAI's founding team (established December 2015)."
   },
   {
    "person_a": "Ashish Vaswani",
@@ -3334,7 +3565,8 @@
     "verbatim_quote": "Ashish Vaswani Google Brain avaswani@google.com ... Noam Shazeer Google Brain noam@google.com"
    },
    "status": "verified",
-   "grader_reason": "独立 WebFetch 打开 arxiv.org/html/1706.03762v7（《Attention Is All You Need》原文，primary source，可信）。署名块逐字确认两位作者均在 Google Brain 名下：「Ashish Vaswani Google Brain avaswani@google.com」与「Noam Shazeer Google Brain noam@google.com」均逐字出现。verbatim_quote 中的「...」是两段作者条目之间的省略桥接（HTML 渲染里以 & 分隔，非连续字符串），但两段子串各自逐字存在，故 quote_found=true。relation_type 为「同事」(无向)：二人同列 Google Brain、共同署名同一篇论文，完全支持——属于同事/共同作者级别，未夸大为联创或投资，通过从严核查。"
+   "grader_reason": "独立 WebFetch 打开 arxiv.org/html/1706.03762v7（《Attention Is All You Need》原文，primary source，可信）。署名块逐字确认两位作者均在 Google Brain 名下：「Ashish Vaswani Google Brain avaswani@google.com」与「Noam Shazeer Google Brain noam@google.com」均逐字出现。verbatim_quote 中的「...」是两段作者条目之间的省略桥接（HTML 渲染里以 & 分隔，非连续字符串），但两段子串各自逐字存在，故 quote_found=true。relation_type 为「同事」(无向)：二人同列 Google Brain、共同署名同一篇论文，完全支持——属于同事/共同作者级别，未夸大为联创或投资，通过从严核查。",
+   "fact_en": "Ashish Vaswani worked with Noam Shazeer at Google Brain as colleagues and co-authored the foundational Transformer paper."
   },
   {
    "person_a": "Ashish Vaswani",
@@ -3351,7 +3583,8 @@
    },
    "status": "verified",
    "grader_reason": "独立 WebFetch 打开 en.wikipedia.org/wiki/Ashish_Vaswani，页面逐字出现 \"He later co-founded Essential AI with Niki Parmar.\"，并补充 \"As of 2025, he was chief executive officer of Essential AI.\"（与 context 中 Vaswani 任 CEO 一致）。该句明确将 Vaswani 与 Niki Parmar 描述为 Essential AI 的共同创办人，直接支持 relation_type=联创（无向）。Adept AI 部分页面写 \"After Google, Vaswani co-founded Adept AI\" 但未点名 Niki Parmar 为联创——不过所声称的核心关系（联创 Essential AI）已被原句明确支持。Wikipedia 为可信来源。判定 verified。",
-   "org": "Essential AI"
+   "org": "Essential AI",
+   "fact_en": "Ashish Vaswani and Niki Parmar successively co-founded Adept AI (2022) and Essential AI (2023), with Vaswani serving as CEO of Essential AI."
   },
   {
    "person_a": "Ashish Vaswani",
@@ -3368,7 +3601,8 @@
    },
    "status": "verified",
    "grader_reason": "研究员提供的 verbatim_quote「Adept's co-founders, CEO David Luan, CTO Niki Parmar and chief scientist Ashish Vaswani」经两次独立 WebFetch 均未在页面逐字出现，属不精确/编造串，故 quote_found=false。但页面（The Register，可信科技媒体）在实质上支持该联创关系：①明确称 David Luan 为「Co-founder and CEO」；②正文出现复数「The co-founders have a deep knowledge of transformer-based systems」；③开篇称 Adept「founded by ex-Googlers who helped invent the popular transformer architecture」（Vaswani 是 Transformer 论文主作者）；④把 Niki Parmar、Ashish Vaswani 与 Luan 并列列出各自职务（CTO / chief scientist）。综合可认定 2022 年 Vaswani 与 Luan 共同联创 Adept AI，supports_relation=true，source_credible=true → verdict=verified。仅引用串需替换为页面真实逐字句（见 corrected_quote）。",
-   "org": "Adept AI"
+   "org": "Adept AI",
+   "fact_en": "Ashish Vaswani co-founded Adept AI with David Luan."
   },
   {
    "person_a": "Noam Shazeer",
@@ -3384,7 +3618,8 @@
     "verbatim_quote": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"
    },
    "status": "verified",
-   "grader_reason": "独立 WebFetch arxiv.org/abs/1701.06538 确认：标题逐字为 \"Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer\"，与 verbatim_quote 完全一致（quote_found=true）。完整作者顺序逐字匹配 fact 所述：Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, Jeff Dean —— Noam Shazeer 与 Quoc Le 均为合著者。声称的 relation_type 为「同事」(undirected)，属弱关系，而非「联创」；两人共同署名同一篇 Google Brain 论文（2017 投稿，与 time_start=2017 吻合）足以支持「同事」关系（supports_relation=true）。arxiv.org 为论文权威一手来源（source_credible=true）。注意：grader 戒律「合著论文 ≠ 联创」在此不构成阻断，因为声称的正是「同事」这一恰当的弱关系，未越级声称联创。"
+   "grader_reason": "独立 WebFetch arxiv.org/abs/1701.06538 确认：标题逐字为 \"Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer\"，与 verbatim_quote 完全一致（quote_found=true）。完整作者顺序逐字匹配 fact 所述：Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, Jeff Dean —— Noam Shazeer 与 Quoc Le 均为合著者。声称的 relation_type 为「同事」(undirected)，属弱关系，而非「联创」；两人共同署名同一篇 Google Brain 论文（2017 投稿，与 time_start=2017 吻合）足以支持「同事」关系（supports_relation=true）。arxiv.org 为论文权威一手来源（source_credible=true）。注意：grader 戒律「合著论文 ≠ 联创」在此不构成阻断，因为声称的正是「同事」这一恰当的弱关系，未越级声称联创。",
+   "fact_en": "Noam Shazeer and Quoc V. Le were both co-authors of the MoE paper (author order: Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, Jeff Dean), both Google Brain researchers."
   },
   {
    "person_a": "Noam Shazeer",
@@ -3400,7 +3635,8 @@
     "verbatim_quote": "Shazeer was appointed as technical lead on Gemini, along with Jeff Dean and Oriol Vinyals."
    },
    "status": "verified",
-   "grader_reason": "独立 fetch 英文维基 Noam Shazeer 词条，原句 \"Shazeer was appointed as technical lead on Gemini, along with Jeff Dean and Oriol Vinyals.\" 逐字出现（citation [8]）。上下文：2024年8月 Shazeer 返回 Google，与 Jeff Dean、Oriol Vinyals 同任 Gemini 技术负责人——两人在同一项目、同一公司任 co-lead，足以支持\"同事\"(colleague, 无向)关系，门槛适配（非联创/投资）。来源为英文维基，可信。注意：声称里附带的\"共同署名2017 MoE 论文\"在本页未得到证实（页面仅将 Shazeer 关联到 Attention Is All You Need，未列 Jeff Dean），但本次核验的单条 relation_type 是\"同事\"，2024 Gemini 共同技术负责人这一事实已独立充分支持该关系。"
+   "grader_reason": "独立 fetch 英文维基 Noam Shazeer 词条，原句 \"Shazeer was appointed as technical lead on Gemini, along with Jeff Dean and Oriol Vinyals.\" 逐字出现（citation [8]）。上下文：2024年8月 Shazeer 返回 Google，与 Jeff Dean、Oriol Vinyals 同任 Gemini 技术负责人——两人在同一项目、同一公司任 co-lead，足以支持\"同事\"(colleague, 无向)关系，门槛适配（非联创/投资）。来源为英文维基，可信。注意：声称里附带的\"共同署名2017 MoE 论文\"在本页未得到证实（页面仅将 Shazeer 关联到 Attention Is All You Need，未列 Jeff Dean），但本次核验的单条 relation_type 是\"同事\"，2024 Gemini 共同技术负责人这一事实已独立充分支持该关系。",
+   "fact_en": "Noam Shazeer and Jeff Dean co-authored the MoE paper (Jeff Dean is among the authors), and later both served as technical leads on Gemini."
   },
   {
    "person_a": "Noam Shazeer",
@@ -3416,7 +3652,8 @@
     "verbatim_quote": "Shazeer was appointed as technical lead on Gemini, along with Jeff Dean and Oriol Vinyals."
    },
    "status": "verified",
-   "grader_reason": "独立 WebFetch 打开 https://en.wikipedia.org/wiki/Noam_Shazeer，逐字句 \"Shazeer was appointed as technical lead on Gemini, along with Jeff Dean and Oriol Vinyals.\" 原文存在，无空白/标点差异。上下文段落：\"In August 2024, it was reported that Shazeer would be returning to Google to co-lead the Gemini AI project. Shazeer was appointed as technical lead on Gemini, along with Jeff Dean and Oriol Vinyals.\" 明确显示 2024 年 8 月 Shazeer 返回 Google 后与 Oriol Vinyals 同任 Gemini 技术负责人（technical lead），\"along with\" 表明二人为同列共事关系，直接支持声称的「同事」(undirected, 无方向) 关系，时间起点 2024 一致。Wikipedia 为可信来源。relation_type 仅为「同事」这一弱断言，不涉及联创/投资等强断言，证据充分支持。"
+   "grader_reason": "独立 WebFetch 打开 https://en.wikipedia.org/wiki/Noam_Shazeer，逐字句 \"Shazeer was appointed as technical lead on Gemini, along with Jeff Dean and Oriol Vinyals.\" 原文存在，无空白/标点差异。上下文段落：\"In August 2024, it was reported that Shazeer would be returning to Google to co-lead the Gemini AI project. Shazeer was appointed as technical lead on Gemini, along with Jeff Dean and Oriol Vinyals.\" 明确显示 2024 年 8 月 Shazeer 返回 Google 后与 Oriol Vinyals 同任 Gemini 技术负责人（technical lead），\"along with\" 表明二人为同列共事关系，直接支持声称的「同事」(undirected, 无方向) 关系，时间起点 2024 一致。Wikipedia 为可信来源。relation_type 仅为「同事」这一弱断言，不涉及联创/投资等强断言，证据充分支持。",
+   "fact_en": "Noam Shazeer was appointed technical lead on Gemini, working alongside Jeff Dean and Oriol Vinyals."
   },
   {
    "person_a": "Noam Shazeer",
@@ -3432,7 +3669,8 @@
     "verbatim_quote": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"
    },
    "status": "verified",
-   "grader_reason": "独立 WebFetch 打开 arxiv.org/abs/1701.06538，页面标题逐字为 \"Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer\"（与 verbatim_quote 完全一致，quote_found=true）。作者署名顺序为：1. Noam Shazeer，2. Azalia Mirhoseini，3. Krzysztof Maziarz，4. Andy Davis，5. Quoc Le，6. Geoffrey Hinton，7. Jeff Dean——Noam Shazeer（第1作者）与 Geoffrey Hinton（第6作者）确为同一篇 2017 论文的合著者，二人当时均在 Google。relation_type 为无向\"同事\"（合著者关系），页面明确支持该 fact。arxiv 为可信一手来源。注意：verbatim_quote 本身仅为论文标题、不直接含两人姓名，但同一 arxiv 摘要页的作者 byline 与标题共同确立合著关系，按规则 quote_found=true 且 supports_relation=true。"
+   "grader_reason": "独立 WebFetch 打开 arxiv.org/abs/1701.06538，页面标题逐字为 \"Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer\"（与 verbatim_quote 完全一致，quote_found=true）。作者署名顺序为：1. Noam Shazeer，2. Azalia Mirhoseini，3. Krzysztof Maziarz，4. Andy Davis，5. Quoc Le，6. Geoffrey Hinton，7. Jeff Dean——Noam Shazeer（第1作者）与 Geoffrey Hinton（第6作者）确为同一篇 2017 论文的合著者，二人当时均在 Google。relation_type 为无向\"同事\"（合著者关系），页面明确支持该 fact。arxiv 为可信一手来源。注意：verbatim_quote 本身仅为论文标题、不直接含两人姓名，但同一 arxiv 摘要页的作者 byline 与标题共同确立合著关系，按规则 quote_found=true 且 supports_relation=true。",
+   "fact_en": "Noam Shazeer and Geoffrey Hinton were both co-authors of the MoE paper (Geoffrey Hinton is among the authors)."
   },
   {
    "person_a": "Noam Shazeer",
@@ -3449,7 +3687,8 @@
    },
    "status": "verified",
    "grader_reason": "独立 fetch en.wikipedia.org/wiki/Noam_Shazeer，Career 段逐字含 \"Shazeer and Freitas left the company in 2021 to found Character.AI.\"，上下文为 \"At Google, Shazeer and his colleague Daniel de Freitas built a chatbot named Meena. Following the refusal of Google to release the chatbot to the public, Shazeer and Freitas left the company in 2021 to found Character.AI.\"。原句明确支持两人 2021 年离开 Google 共同创立 Character.AI 的联创关系（\"colleague\" + \"to found Character.AI\" 主语为两人），与所声称 relation_type=联创、time_start=2021 完全一致。Wikipedia 为可核验来源。",
-   "org": "Character.AI"
+   "org": "Character.AI",
+   "fact_en": "Noam Shazeer co-founded Character.AI with Daniel De Freitas after leaving Google in 2021; both returned to Google with their team in 2024."
   },
   {
    "person_a": "Niki Parmar",
@@ -3466,7 +3705,8 @@
    },
    "status": "verified",
    "grader_reason": "独立 WebFetch 打开 TechCrunch 原文，逐字句\"Adept's co-founders, CEO David Luan, CTO Niki Parmar and chief scientist Ashish Vaswani, boil their ambition down to perfecting an 'overlay' within computers that works using the same tools people do.\" 确实出现（仅 'overlay' 引号直/弯微差，属允许范围）。该句明确将 David Luan 与 Niki Parmar 并列为 Adept 的 co-founders（CEO + CTO），直接支持二人「联创」关系。文中另证 Luan 曾在 OpenAI 领导工程（GPT-2/GPT-3 规模化）、后在 Google Brain 主导大模型项目，与 context 一致。来源 TechCrunch 为可信科技媒体。判定 verified。",
-   "org": "Adept AI"
+   "org": "Adept AI",
+   "fact_en": "Niki Parmar co-founded Adept AI with David Luan (former head of engineering at OpenAI)."
   },
   {
    "person_a": "David Ha",
@@ -3483,7 +3723,8 @@
    },
    "status": "verified",
    "grader_reason": "独立 WebFetch 打开官方站 sakana.ai/company-info/，逐字命中原句 \"Sakana AI is a Tokyo-based Frontier AI R&D company founded by David Ha (CEO), Ren Ito (Chairman), and Llion Jones (CTO) in 2023.\"。该句明确将 David Ha 与 Llion Jones 并列为 2023 年于东京创办 Sakana AI 的 founders，且页面另列二人头衔为 \"Co-Founder & CEO\" / \"Co-Founder & CTO\"，直接支持二人「联创」（无向）关系，CEO/CTO 分工与 context 一致。第三位联创 Ren Ito（Chairman）未在关系中提及，但不影响 Ha–Jones 联创成立。来源为公司官网第一方，权威可信。三项条件齐备，判定 verified。",
-   "org": "Sakana AI"
+   "org": "Sakana AI",
+   "fact_en": "Llion Jones co-founded Sakana AI (Tokyo) with David Ha in 2023, with Ha as co-founder and CEO and Jones as co-founder and CTO."
   },
   {
    "person_a": "Llion Jones",
@@ -3499,7 +3740,8 @@
     "verbatim_quote": "The authors of the paper are Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Łukasz Kaiser, and Illia Polosukhin."
    },
    "status": "verified",
-   "grader_reason": "独立 WebFetch 打开 Wikipedia 页面确认：verbatim_quote 逐字出现在 Background 段——\"The authors of the paper are Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Łukasz Kaiser, and Illia Polosukhin.\"。Llion Jones 与 Noam Shazeer 同列八位作者之一。页面另述八人均为 \"scientists and engineers working at Google\"，且 \"each of the authors left the company to join other companies or to found startups\"，完整支持二人为 Google 同事(同为该论文合著者)的无向\"同事\"关系。该关系仅声称同事(非联创/非投资)，是最保守口径，证据充分。来源为维基百科，对这一广为记录的事实可信。"
+   "grader_reason": "独立 WebFetch 打开 Wikipedia 页面确认：verbatim_quote 逐字出现在 Background 段——\"The authors of the paper are Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan Gomez, Łukasz Kaiser, and Illia Polosukhin.\"。Llion Jones 与 Noam Shazeer 同列八位作者之一。页面另述八人均为 \"scientists and engineers working at Google\"，且 \"each of the authors left the company to join other companies or to found startups\"，完整支持二人为 Google 同事(同为该论文合著者)的无向\"同事\"关系。该关系仅声称同事(非联创/非投资)，是最保守口径，证据充分。来源为维基百科，对这一广为记录的事实可信。",
+   "fact_en": "Llion Jones and Noam Shazeer were both among the eight authors of 'Attention Is All You Need'; both worked at Google and each left after the paper was published."
   },
   {
    "person_a": "Jeff Dean",
@@ -3515,7 +3757,8 @@
     "verbatim_quote": "I was a student researcher at Google Brain, working with Jakob Uszkoreit and Jeff Dean."
    },
    "status": "verified",
-   "grader_reason": "独立 WebFetch 打开 https://aidangomez.ca/，页面逐字包含原句 \"I was a student researcher at Google Brain, working with Jakob Uszkoreit and Jeff Dean.\"（quote_found=true）。该 URL 是 Aidan Gomez 本人个人主页，作为一手自述来源可信（source_credible=true）。所声称关系为 person_a=Jeff Dean、person_b=Aidan Gomez、relation_type=同事（无向、同组织）。原句明确表述 Gomez 作为 Google Brain 学生研究员 \"working with ... Jeff Dean\"，即同一组织共事——恰好支持\"同事\"这一克制的关系类型，未越级声称联创/投资/导师等更强关系（supports_relation=true）。time_start=2017 与 Transformer 研究时期一致，context 合理。三项条件齐备，verdict=verified。"
+   "grader_reason": "独立 WebFetch 打开 https://aidangomez.ca/，页面逐字包含原句 \"I was a student researcher at Google Brain, working with Jakob Uszkoreit and Jeff Dean.\"（quote_found=true）。该 URL 是 Aidan Gomez 本人个人主页，作为一手自述来源可信（source_credible=true）。所声称关系为 person_a=Jeff Dean、person_b=Aidan Gomez、relation_type=同事（无向、同组织）。原句明确表述 Gomez 作为 Google Brain 学生研究员 \"working with ... Jeff Dean\"，即同一组织共事——恰好支持\"同事\"这一克制的关系类型，未越级声称联创/投资/导师等更强关系（supports_relation=true）。time_start=2017 与 Transformer 研究时期一致，context 合理。三项条件齐备，verdict=verified。",
+   "fact_en": "Aidan Gomez worked with Jeff Dean and Jakob Uszkoreit at Google Brain as colleagues in the same organization."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -3531,7 +3774,8 @@
     "verbatim_quote": "I was an intern of Łukasz Kaiser and Geoffrey Hinton at Google Brain."
    },
    "status": "verified",
-   "grader_reason": "独立 WebFetch aidangomez.ca 成功，逐字句 \"I was an intern of Łukasz Kaiser and Geoffrey Hinton at Google Brain.\" 原样出现在页面（含 Łukasz 重音字符）。该句为 Aidan Gomez 本人主页的自述，是自传性事实的一手来源，可信度高。relation_type 为「师承」（Hinton→Gomez 有向），\"intern of Geoffrey Hinton\" 正是被指导者本人指名 Hinton 为其带教人的师承表述，真实支持该有向关系。time_start=2017 属内部时间线判断，原句本身未标注年份，但不影响关系成立。注：context 中称 Hinton 为多伦多大学本科带教教授不严谨——页面显示其多伦多本科导师实为 Roger Grosse，Hinton 的师承体现在 Google Brain 实习；但被核验的核心关系（Hinton 通过 Google Brain 实习带教 Gomez）被原句完全支持。"
+   "grader_reason": "独立 WebFetch aidangomez.ca 成功，逐字句 \"I was an intern of Łukasz Kaiser and Geoffrey Hinton at Google Brain.\" 原样出现在页面（含 Łukasz 重音字符）。该句为 Aidan Gomez 本人主页的自述，是自传性事实的一手来源，可信度高。relation_type 为「师承」（Hinton→Gomez 有向），\"intern of Geoffrey Hinton\" 正是被指导者本人指名 Hinton 为其带教人的师承表述，真实支持该有向关系。time_start=2017 属内部时间线判断，原句本身未标注年份，但不影响关系成立。注：context 中称 Hinton 为多伦多大学本科带教教授不严谨——页面显示其多伦多本科导师实为 Roger Grosse，Hinton 的师承体现在 Google Brain 实习；但被核验的核心关系（Hinton 通过 Google Brain 实习带教 Gomez）被原句完全支持。",
+   "fact_en": "Aidan Gomez described himself as an intern of Łukasz Kaiser and Geoffrey Hinton at Google Brain, with Hinton as a mentor."
   },
   {
    "person_a": "Geoffrey Hinton",
@@ -3548,7 +3792,8 @@
    },
    "status": "verified",
    "grader_reason": "独立 fetch 英文维基 Cohere 页面，verbatim_quote \"The round also included Radical Ventures, Section 32, and AI-experts Geoffrey Hinton, Fei-Fei Li, Pieter Abbeel, and Raquel Urtasun.\" 逐字出现在 Series A 段落中。页面同时确认 Cohere 由 Aidan Gomez、Ivan Zhang、Nick Frosst 于 2019 创立，且该 $40M Series A（2021-09-07，Index Ventures 领投）中 Geoffrey Hinton 作为 AI 专家个人参投。因此 Hinton→（Aidan Gomez 联创的）Cohere 的「投资」有向关系成立，relation_type=投资 与 context（A 轮个人参投）均被原句及上下文支持。来源为维基百科，对此类事实可信。三项条件（quote_found + supports_relation + source_credible）全满足。",
-   "org": "Cohere"
+   "org": "Cohere",
+   "fact_en": "Geoffrey Hinton, as an AI expert, personally invested in Cohere (Series A), co-founded by Aidan Gomez."
   },
   {
    "person_a": "Aidan Gomez",
@@ -3565,7 +3810,8 @@
    },
    "status": "verified",
    "grader_reason": "独立 WebFetch 打开 en.wikipedia.org/wiki/Cohere，逐字句完整命中：\"In 2019, Aidan Gomez, one of its co-authors, along with Nick Frosst, another researcher at Google Brain, founded Cohere with Ivan Zhang, with whom Gomez had done research at FOR.ai.\"（含 FOR.ai 结尾，与研究员所给完全一致）。该句明确说明 Gomez 与 Frosst（及 Ivan Zhang）共同 founded Cohere，Frosst 在 infobox Founders 中列为联创，故真支持 person_a 与 person_b 之间的\"联创\"关系，时间 2019 也吻合。Wikipedia 为可信来源。verdict=verified。",
-   "org": "Cohere"
+   "org": "Cohere",
+   "fact_en": "Aidan Gomez co-founded Cohere in 2019 with Nick Frosst, another Google Brain researcher."
   },
   {
    "person_a": "Lukasz Kaiser",
@@ -3581,7 +3827,8 @@
     "verbatim_quote": "Noam Shazeer∗\nGoogle Brain\nnoam@google.com ... Łukasz Kaiser∗\nGoogle Brain\nlukaszkaiser@google.com"
    },
    "status": "verified",
-   "grader_reason": "独立 fetch arxiv.org/pdf/1706.03762（v7，论文权威主源），读取首页作者署名网格确认：Noam Shazeer* — Google Brain — noam@google.com，Łukasz Kaiser* — Google Brain — lukaszkaiser@google.com，两人均为「Attention Is All You Need」(NIPS 2017) 合著者且同标 Google Brain。relation_type「同事」(无向) 完全成立，time_start 2017 与论文发表年一致。verbatim_quote 的每个子块（姓名/Google Brain/email）逐字出现；原句用「...」桥接了中间夹着的 Niki Parmar、Jakob Uszkoreit、Llion Jones、Aidan Gomez 等作者（多列网格布局，两块非字面相邻），但在允许「...」省略的前提下视为命中。来源为论文 arXiv 官方 PDF，高度可信。"
+   "grader_reason": "独立 fetch arxiv.org/pdf/1706.03762（v7，论文权威主源），读取首页作者署名网格确认：Noam Shazeer* — Google Brain — noam@google.com，Łukasz Kaiser* — Google Brain — lukaszkaiser@google.com，两人均为「Attention Is All You Need」(NIPS 2017) 合著者且同标 Google Brain。relation_type「同事」(无向) 完全成立，time_start 2017 与论文发表年一致。verbatim_quote 的每个子块（姓名/Google Brain/email）逐字出现；原句用「...」桥接了中间夹着的 Niki Parmar、Jakob Uszkoreit、Llion Jones、Aidan Gomez 等作者（多列网格布局，两块非字面相邻），但在允许「...」省略的前提下视为命中。来源为论文 arXiv 官方 PDF，高度可信。",
+   "fact_en": "Łukasz Kaiser and Noam Shazeer were both Google Brain researchers and co-authored the Transformer paper 'Attention Is All You Need' (2017)."
   },
   {
    "person_a": "Lukasz Kaiser",
@@ -3597,7 +3844,8 @@
     "verbatim_quote": "Authors:Łukasz Kaiser, Ilya Sutskever"
    },
    "status": "verified",
-   "grader_reason": "独立 WebFetch arxiv.org/abs/1511.08228 确认论文标题为「Neural GPUs Learn Algorithms」，作者栏恰好两人：Łukasz Kaiser 与 Ilya Sutskever。arXiv 页面以 markdown 链接形式渲染为 \"Authors:[Łukasz Kaiser], [Ilya Sutskever]\"，剥离链接标记后与 verbatim_quote \"Authors:Łukasz Kaiser, Ilya Sutskever\" 逐字一致（仅链接/标点微差，在容差内），故 quote_found=true。两人共同署名该 2015 论文、当时同在 Google Brain，支持「同事」这一保守 relation_type（未夸大为联创/投资）。来源为 arXiv 一手论文页，可信。verdict=verified。"
+   "grader_reason": "独立 WebFetch arxiv.org/abs/1511.08228 确认论文标题为「Neural GPUs Learn Algorithms」，作者栏恰好两人：Łukasz Kaiser 与 Ilya Sutskever。arXiv 页面以 markdown 链接形式渲染为 \"Authors:[Łukasz Kaiser], [Ilya Sutskever]\"，剥离链接标记后与 verbatim_quote \"Authors:Łukasz Kaiser, Ilya Sutskever\" 逐字一致（仅链接/标点微差，在容差内），故 quote_found=true。两人共同署名该 2015 论文、当时同在 Google Brain，支持「同事」这一保守 relation_type（未夸大为联创/投资）。来源为 arXiv 一手论文页，可信。verdict=verified。",
+   "fact_en": "Łukasz Kaiser and Ilya Sutskever co-authored the paper 'Neural GPUs Learn Algorithms' (arXiv:1511.08228), both at Google Brain at the time."
   },
   {
    "person_a": "Lukasz Kaiser",
@@ -3613,7 +3861,8 @@
     "verbatim_quote": "Authors:Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, Łukasz Kaiser"
    },
    "status": "verified",
-   "grader_reason": "独立 WebFetch 打开 arXiv:1807.03819「Universal Transformers」官方页面，作者列表逐字为 Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, Łukasz Kaiser，verbatim_quote 中的人名序列与页面一致（仅 markdown 渲染加了链接括号/URL 噪声，文本串本身匹配）。该原句明确支持 person_a(Łukasz Kaiser) 与 person_b(Oriol Vinyals) 共同署名同一篇论文，足以支撑「同事」这一较弱的无向关系——合著确实证明二人共事（2018 年均在 Google Brain）。注意：此处只主张「同事」，并未夸大为「联创」，符合从严标准。arXiv 为权威一手来源，source_credible=true。"
+   "grader_reason": "独立 WebFetch 打开 arXiv:1807.03819「Universal Transformers」官方页面，作者列表逐字为 Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, Łukasz Kaiser，verbatim_quote 中的人名序列与页面一致（仅 markdown 渲染加了链接括号/URL 噪声，文本串本身匹配）。该原句明确支持 person_a(Łukasz Kaiser) 与 person_b(Oriol Vinyals) 共同署名同一篇论文，足以支撑「同事」这一较弱的无向关系——合著确实证明二人共事（2018 年均在 Google Brain）。注意：此处只主张「同事」，并未夸大为「联创」，符合从严标准。arXiv 为权威一手来源，source_credible=true。",
+   "fact_en": "Łukasz Kaiser and Oriol Vinyals co-authored the paper 'Universal Transformers' (arXiv:1807.03819)."
   },
   {
    "person_a": "Jakob Uszkoreit",
@@ -3629,7 +3878,8 @@
     "verbatim_quote": "Jakob Uszkoreit Google Research usz@google.com"
    },
    "status": "verified",
-   "grader_reason": "现场 WebFetch arxiv 全文版署名块,逐字确认 Jakob Uszkoreit 署名 Google Research;与同篇论文 Google Brain 作者 Vaswani 构成 Google 同事(同事级,未越级)。"
+   "grader_reason": "现场 WebFetch arxiv 全文版署名块,逐字确认 Jakob Uszkoreit 署名 Google Research;与同篇论文 Google Brain 作者 Vaswani 构成 Google 同事(同事级,未越级)。",
+   "fact_en": "Jakob Uszkoreit (Google Research) and Ashish Vaswani (Google Brain) were both authors of the foundational Transformer paper and Google colleagues."
   },
   {
    "person_a": "Illia Polosukhin",
@@ -3645,7 +3895,8 @@
     "verbatim_quote": "Polosukhin was a former engineering manager at Google Research, where he co-authored the seminal 2017 paper \"Attention Is All You Need,\" which introduced the transformer architecture."
    },
    "status": "verified",
-   "grader_reason": "现场 WebFetch 英文维基 Polosukhin 词条,逐字确认其曾任 Google Research 工程经理并在该处合著 Attention Is All You Need;支持与同篇作者 Vaswani 的 Google 同事关系。"
+   "grader_reason": "现场 WebFetch 英文维基 Polosukhin 词条,逐字确认其曾任 Google Research 工程经理并在该处合著 Attention Is All You Need;支持与同篇作者 Vaswani 的 Google 同事关系。",
+   "fact_en": "Illia Polosukhin (former engineering manager at Google Research) and Ashish Vaswani were both co-authors of 'Attention Is All You Need' and Google colleagues."
   }
  ],
  "generated_at": "2026-06-18"
