@@ -12,8 +12,6 @@ I ran a multi-agent pipeline to verify the source of every single relationship: 
   <a href="https://ryanyunweiyan.github.io/ai-bloodline/"><img src="docs/media/hero.png" alt="AI Bloodline" width="860"></a>
 </p>
 
-<video src="https://github.com/RyanYunweiYan/ai-bloodline/raw/main/docs/media/demo.mp4" controls muted width="860"></video>
-
 **▶ Live demo: https://ryanyunweiyan.github.io/ai-bloodline/** (best on desktop — drag to orbit, scroll to zoom, click a node for details. There's an EN / 中 toggle in the top-right.)
 
 ---

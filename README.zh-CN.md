@@ -12,8 +12,6 @@
   <a href="https://ryanyunweiyan.github.io/ai-bloodline/"><img src="docs/media/hero.png" alt="AI 思想血脉家谱" width="860"></a>
 </p>
 
-<video src="https://github.com/RyanYunweiYan/ai-bloodline/raw/main/docs/media/demo.mp4" controls muted width="860"></video>
-
 **▶ 在线体验：https://ryanyunweiyan.github.io/ai-bloodline/**（建议桌面端访问，支持拖拽环绕、滚轮缩放、点击节点查看详细关系；右上角可切换 中/EN。）
 
 ---
